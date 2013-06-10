@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/command/_Command",["dojo/_base/declare","dojo/Stateful","epi/shell/_StatefulGetterSetterMixin"],function(_1,_2,_3){return _1([_2,_3],{label:null,tooltip:null,iconClass:null,category:null,order:null,model:null,canExecute:false,isAvailable:true,postscript:function(){this.inherited(arguments);this.watch("model",this._onModelChange);if(this.model){this._onModelChange();}},execute:function(){if(this.isAvailable&&this.canExecute){return this._execute();}},_execute:function(){},_onModelChange:function(){}});});

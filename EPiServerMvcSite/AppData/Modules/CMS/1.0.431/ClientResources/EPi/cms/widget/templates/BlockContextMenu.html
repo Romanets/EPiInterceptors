@@ -1,0 +1,16 @@
+<div data-dojo-type="dijit.Menu" class="epi-blockContextMenu">
+    <!--
+    <div class="epi-publishInfoPane">
+        <div><strong data-dojo-attach-point="blockName"></strong></div>
+        <div data-dojo-attach-point="referenceText"></div>
+        <div data-dojo-attach-point="publishInfoText"></div>
+    </div>
+    -->
+
+    <div data-dojo-type="dijit.MenuItem" data-dojo-attach-point="editMenuItem" data-dojo-attach-event="onClick: _onEdit" iconClass="epi-iconPen">${actionResources.edit}</div>
+    <div data-dojo-type="dijit.MenuSeparator"></div>
+    <div data-dojo-type="dijit.MenuItem" data-dojo-attach-point="moveUpMenuItem" data-dojo-attach-event="onClick: _onMoveUp" iconClass="epi-iconUp">${actionResources.moveup}</div>
+    <div data-dojo-type="dijit.MenuItem" data-dojo-attach-point="moveDownMenuItem" data-dojo-attach-event="onClick: _onMoveDown" iconClass="epi-iconDown">${actionResources.movedown}</div>
+    <div data-dojo-type="dijit.MenuSeparator"></div>
+    <div data-dojo-type="dijit.MenuItem" data-dojo-attach-point="removeMenuItem" data-dojo-attach-event="onClick: _onRemove" iconClass="epi-iconTrash">${actionResources.remove}</div>
+</div>

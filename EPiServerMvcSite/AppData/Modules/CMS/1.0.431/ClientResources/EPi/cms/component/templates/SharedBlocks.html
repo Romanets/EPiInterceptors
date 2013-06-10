@@ -1,0 +1,13 @@
+<div>
+    <div class="epi-gadgetInnerToolbar" data-dojo-attach-point="searchBoxContainer">
+        <div data-dojo-type="epi.cms.widget.SearchBox" data-dojo-attach-point="searchBox" ></div>
+    </div>
+    <div data-dojo-attach-point="container" data-dojo-type="dijit.layout.BorderContainer" class="epi-sharedBlockContainer">
+        <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="splitter:false, region:'center'" class="epi-widgetResizeContent epi-secondaryGadgetContainer epi-gadgetTopContainer" data-dojo-attach-point="folderContainerNode">
+            <div data-dojo-attach-point="folderList" data-dojo-type="epi.cms.widget.FolderList"></div>
+        </div>
+        <div data-dojo-type="dijit.layout.ContentPane" class="epi-blockContainer" data-dojo-props="region:'bottom', splitter:true">
+            <div data-dojo-attach-point="blockList" data-dojo-type="epi.cms.widget.BlockList" ></div>
+        </div>
+    </div>
+</div>

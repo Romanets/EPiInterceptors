@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/command/BlockMoveUp",["dojo/_base/declare","epi","epi/shell/command/_Command"],function(_1,_2,_3){return _1("epi.cms.contentediting.command.BlockMoveUp",[_3],{name:"moveup",label:_2.resources.action.moveup,tooltip:_2.resources.action.moveup,iconClass:"epi-iconUp",postscript:function(){this.inherited(arguments);},_execute:function(){this.model.moveUp();return this.inherited(arguments);},_onModelChange:function(){this.set("canExecute",this.model&&!this.model.get("isTop"));}});});

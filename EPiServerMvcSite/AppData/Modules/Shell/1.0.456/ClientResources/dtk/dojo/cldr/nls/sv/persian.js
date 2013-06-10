@@ -1,0 +1,2 @@
+//>>built
+define("dojo/cldr/nls/sv/persian",{"months-format-abbr":["farvardin","ordibehesht","khordād","tir","mordād","shahrivar","mehr","ābān","āzar","dey","bahman","esfand"],"months-format-wide":["farvardin","ordibehesht","khordād","tir","mordād","shahrivar","mehr","ābān","āzar","dey","bahman","esfand"],"months-standAlone-abbr":["farvardin","ordibehesht","khordād","tir","mordād","shahrivar","mehr","ābān","āzar","dey","bahman","esfand"],"months-standAlone-wide":["farvardin","ordibehesht","khordād","tir","mordād","shahrivar","mehr","ābān","āzar","dey","bahman","esfand"]});

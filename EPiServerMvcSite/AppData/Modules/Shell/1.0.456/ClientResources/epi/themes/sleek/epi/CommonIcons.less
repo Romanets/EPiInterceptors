@@ -1,0 +1,129 @@
+﻿// Set up
+@icon_size-small: 16;
+@icon_size-medium: 24;
+@icon_size-large: 32;
+
+.commonIcons(@iconSize, @y: 1, @x: 0) {
+    @posY: (@iconSize * @y);
+    @posX: (@iconSize * @x);
+    
+    background: url('images/icons/commonIcons@{iconSize}x@{iconSize}.png') -@posX + 0px -@posY + 0px no-repeat;
+    height: @iconSize + 0px;
+    width: @iconSize + 0px;
+}
+
+.icons_list-small(@x) {
+    .epi-iconClock             { .commonIcons(@icon_size-small, 1, @x); }
+	.epi-iconCheckmark         { .commonIcons(@icon_size-small, 2, @x); }
+	.epi-iconStop              { .commonIcons(@icon_size-small, 3, @x); }
+	.epi-iconVersions          { .commonIcons(@icon_size-small, 4, @x); }
+	.epi-iconRevert            { .commonIcons(@icon_size-small, 5, @x); }
+	.epi-iconUndo              { .commonIcons(@icon_size-small, 6, @x); }
+	.epi-iconRedo              { .commonIcons(@icon_size-small, 7, @x); }
+	.epi-iconPen               { .commonIcons(@icon_size-small, 8, @x); }
+	.epi-iconPenDisabled       { .commonIcons(@icon_size-small, 9, @x); }
+	.epi-iconDuplicatePage     { .commonIcons(@icon_size-small, 10, @x); }
+	.epi-iconPrimary           { .commonIcons(@icon_size-small, 11, @x); }
+	.epi-iconTrash             { .commonIcons(@icon_size-small, 12, @x); }
+	.epi-iconUsers             { .commonIcons(@icon_size-small, 13, @x); }
+	.epi-iconSearch            { .commonIcons(@icon_size-small, 14, @x); }
+	.epi-iconPlus              { .commonIcons(@icon_size-small, 15, @x); }
+	.epi-iconMinus             { .commonIcons(@icon_size-small, 16, @x); }
+	.epi-iconStar              { .commonIcons(@icon_size-small, 17, @x); }
+	.epi-iconSettings          { .commonIcons(@icon_size-small, 18, @x); }
+	.epi-iconLock              { .commonIcons(@icon_size-small, 19, @x); }
+	.epi-iconPin               { .commonIcons(@icon_size-small, 20, @x); }
+	.epi-iconPage              { .commonIcons(@icon_size-small, 21, @x); }
+	.epi-iconClose             { .commonIcons(@icon_size-small, 22, @x); }
+	.epi-iconFolder            { .commonIcons(@icon_size-small, 23, @x); }
+	.epi-iconSharedBlock       { .commonIcons(@icon_size-small, 24, @x); }
+	.epi-iconUp                { .commonIcons(@icon_size-small, 25, @x); }
+	.epi-iconDown              { .commonIcons(@icon_size-small, 26, @x); }
+	.epi-iconReload            { .commonIcons(@icon_size-small, 27, @x); }
+	.epi-iconShare             { .commonIcons(@icon_size-small, 28, @x); }
+	.epi-iconDownload          { .commonIcons(@icon_size-small, 29, @x); }
+	.epi-iconDnD               { .commonIcons(@icon_size-small, 30, @x); }
+	.epi-iconContextMenu       { .commonIcons(@icon_size-small, 31, @x); }
+	.epi-iconRename            { .commonIcons(@icon_size-small, 32, @x); }
+	.epi-iconLeft              { .commonIcons(@icon_size-small, 33, @x); }
+	.epi-iconRight             { .commonIcons(@icon_size-small, 34, @x); }
+	.epi-iconUser              { .commonIcons(@icon_size-small, 35, @x); }
+	.epi-iconHidden            { .commonIcons(@icon_size-small, 36, @x); }
+	.epi-iconNewWindow         { .commonIcons(@icon_size-small, 37, @x); }
+}
+.icons_list-medium(@x) {
+    .epi-iconTree              { .commonIcons(@icon_size-medium, 1, @x); }
+    .epi-iconFolder            { .commonIcons(@icon_size-medium, 2, @x); }
+    .epi-iconUsers             { .commonIcons(@icon_size-medium, 3, @x); }
+    .epi-iconDevice            { .commonIcons(@icon_size-medium, 4, @x); }
+    .epi-iconGuides            { .commonIcons(@icon_size-medium, 5, @x); }
+    .epi-iconEye               { .commonIcons(@icon_size-medium, 6, @x); }
+    .epi-iconForms             { .commonIcons(@icon_size-medium, 7, @x); }
+    .epi-iconSettings          { .commonIcons(@icon_size-medium, 8, @x); }
+    .epi-iconSettingsMenu      { .commonIcons(@icon_size-medium, 9, @x); }
+    .epi-iconContextMenu       { .commonIcons(@icon_size-medium, 10, @x); }
+    .epi-iconPlus              { .commonIcons(@icon_size-medium, 11, @x); }
+	.epi-iconPreview           { .commonIcons(@icon_size-medium, 12, @x); }
+}
+
+
+
+// Usage
+.Sleek {
+    &,
+    .dgrid-selected,
+	.dijitTreeRowSelected,
+	.dijitMenuItemSelected,
+	.dijitMenu .dijitMenuItemHover,
+    .dijitMenu .epi-menuInverted,
+    .dijitMenu .epi-menuInverted .dijitMenuItemSelected,
+	.dijitMenu .epi-menuInverted .dijitMenuItemHover {
+        .icons_list-small(0); 
+    }
+    .epi-mediumButton {
+        .icons_list-medium(0);
+    }
+    .dijitMenuItem,
+    .dijitMenuItemDisabled,
+    .dijitMenuItemDisabled.dijitMenuItemSelected,
+    .dijitMenuItemDisabled.dijitMenuItemHover {
+        .icons_list-small(1);
+    }
+    
+    // Checked
+    .dijitChecked {
+        .icons_list-small(2);
+        
+        &.epi-mediumButton,
+        & .epi-mediumButton {
+            .icons_list-medium(2);
+        }
+    }
+    .dijitTab.dijitTabChecked {
+        .icons_list-small(1);
+        
+        &.epi-mediumButton,
+        & .epi-mediumButton {
+            .icons_list-medium(1);
+        }
+    }
+    .epi-leadingToggleButton,
+    .epi-trailingToggleButton {
+        .icons_list-medium(1);
+    }
+    
+    
+// Specials (Avoid as far as possible)
+    .epi-overlayControls {
+        .icons_list-small(1);
+        
+        &.epi-mediumButton {
+            .icons_list-medium(1);
+        }
+    }
+    .epi-componentToolbar .epi-mediumButton .epi-iconPlus {
+           .commonIcons(@icon_size-small, 15, 0);
+           margin-top: 3px;
+    }
+
+}

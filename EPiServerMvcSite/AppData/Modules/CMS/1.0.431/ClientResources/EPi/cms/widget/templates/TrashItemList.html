@@ -1,0 +1,14 @@
+<div>
+    <div class="epi-trashHeader clearfix">
+        <div class="epi-gadgetInnerToolbar" data-dojo-attach-point="searchBoxContainer">
+            <div data-dojo-type="epi.shell.widget.SearchBox" data-dojo-attach-point="searchBox"></div>
+        </div>
+        <span class="epi-removedByContainer">
+            <label for="removedBy_${id}">${resources.removedby}</label>
+            <select data-dojo-type="dijit.form.Select" data-dojo-attach-point="removedBy" id="removedBy_${id}" data-dojo-attach-event='onChange: _onDeletedByChange'>
+                <option value="">${resources.any}</option>
+            </select>
+        </span>
+    </div>
+    <div data-dojo-attach-point="gridContainerNode"></div>
+</div>

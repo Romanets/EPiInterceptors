@@ -1,0 +1,141 @@
+﻿@import "variables.less";
+
+.Sleek {
+    
+    // Drop Zone in File Manager
+    .epi-filesUploadDropZone {
+        border: 2px #dce2e5 solid;
+        bottom: 0;
+        color: @text-color-soft;
+        left: 0px;
+        position: absolute;
+        text-align: center;
+        .text-shadow-specific(0, 1px, 255, 255, 255, 0, 0.15);
+        
+        > div {
+            background: #dde3e6 url('images/filesUploadDnd.png') no-repeat center 0;
+            border-top: #c8c8c8;
+            cursor: pointer;
+            height: auto;
+            width: 136px;
+           
+            > span {
+                display: inline-block;
+                margin: 68px 6px 6px 6px;
+            }
+        }
+    }
+
+    .epi-filesUploadDropZone.epi-dragStart {
+        border: 2px #b3c800 dashed;
+    }
+
+    .epi-filesUploadDropZone.epi-dragOver {
+        border: 2px #b3c800 solid;
+
+        > div {
+            background: #dde3e6 url('images/filesUploadDnd.png') no-repeat center -200px;
+            .box-shadow-specific-inset (0, 0, 1px, 1px, 255, 255, 255, 1);
+        } 
+    }
+}
+
+.Sleek {
+
+    // Layout
+    .epi-multiFileUpload {
+        
+        .epi-breadCrumbs,
+        .dijitProgressBar,
+        .epi-toolbar-unwrapped {
+            margin-bottom: 10px;
+            position: relative;
+            
+            // To make dojo flash uploader got fullsize to clickable in IE
+            > span {
+                display: inline-block;
+                width: 26px;
+                height: 24px;
+                
+                .dijitButton {
+                    margin: 0;
+                }
+                
+                > span {
+                    width: 26px;
+                    height: 24px;
+                }
+                
+                // Show cursor as hand in Chrome and Firefox
+                input[type = file] {
+                    cursor: pointer;
+                }
+            }
+            
+            .epi-uploadToolbarOverlay {
+                position: absolute;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                /* For IE */
+                background: #FFF;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    // Upload List/Grid
+    .epi-multiFileUpload-list {
+        
+        .dgrid {
+            /* Auto height of dgrid */ 
+            height: auto;
+            
+            .dgrid-scroller {
+                position: relative;
+                max-height: 300px;
+                overflow: hidden;
+                overflow-y: auto;
+            }
+
+            /* Width 100 percent of row */
+            .ui-widget-content, 
+            .dgrid-header-row {
+                width: 100%;
+            }
+
+            .dgrid-header {
+                .dgrid-column-fileName {
+                    border-left: 1px solid @border-color;
+                }
+                .dgrid-column-status {
+                    border-right: 1px solid @border-color;
+                }
+            }
+            
+            .dgrid-header-scroll {
+                display: none;
+            }
+            
+            .dgrid-column-fileName {
+                width: 430px;
+                word-wrap: break-word;
+            }
+
+            .dgrid-column-size {
+                width: 120px;
+            }
+
+            .dgrid-column-status {
+                width: 119px;
+            }
+            
+            th .field-fileName {
+                border-left: 1px solid red;
+            }
+        }
+        .epi-failedStatus {
+            color: #e3201c; // TODO: Change the name of the class. Change to a proper color variable when we have a plan for global error handling.
+        }
+    }
+}

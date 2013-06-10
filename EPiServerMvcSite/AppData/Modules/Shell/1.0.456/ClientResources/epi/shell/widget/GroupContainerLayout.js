@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/widget/GroupContainerLayout",["epi","dojo","epi/shell/widget/ContainerLayout"],function(_1,_2,_3){return _2.declare("epi.shell.widget.GroupContainerLayout",[_3],{_titleRendered:false,layout:function(){if(!this._titleRendered){if(this.label){var h3=_2.create("h3",{innerHTML:this.label});_2.place(h3,this.containerNode,"first");}this._titleRendered=true;}this.inherited(arguments);}});});

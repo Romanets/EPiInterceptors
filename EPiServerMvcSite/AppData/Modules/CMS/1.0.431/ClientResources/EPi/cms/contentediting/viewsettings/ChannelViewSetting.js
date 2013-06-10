@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/viewsettings/ChannelViewSetting",["dojo/_base/declare","dojo/_base/lang","epi/cms/contentediting/_ViewSetting"],function(_1,_2,_3){return _1([_3],{key:"epichannel",usedForRendering:true,isTagItem:true,beforePreviewLoad:function(_4,_5){this.inherited(arguments);var _6=_5?this._getPreviewChannel():null;_2.mixin(_4,{epichannel:_6});},_getPreviewChannel:function(){return this.value;}});});

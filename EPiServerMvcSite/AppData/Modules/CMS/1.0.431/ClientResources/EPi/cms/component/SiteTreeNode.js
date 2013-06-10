@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/component/SiteTreeNode",["dojo","dijit/Tree","dojo/dom-class","epi/dependency"],function(_1,_2,_3,_4){return _1.declare("epi.cms.component.SiteTreeNode",[_2._TreeNode],{_updateItemClasses:function(_5){this.inherited(arguments);if(_5.isLanguageNode&&!_5.isAvailable){_3.add(this.domNode,"epi-st-disabledRow");}if(!_5.isLanguageNode){_3.add(this.iconNode,"epi-iconObjectStart");}}});});

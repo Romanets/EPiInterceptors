@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/command/_ClipboardCommandMixin",["dojo/_base/declare","dojo/_base/lang"],function(_1,_2){return _1(null,{clipboard:null,postscript:function(){this.inherited(arguments);this.clipboard.watch("data",_2.hitch(this,this._onModelChange));}});});

@@ -1,0 +1,19 @@
+<div class="epi-createContent">
+    <div class="epi-listingTopContainer" data-dojo-attach-point="selectTypeNode">
+        <h1 data-dojo-attach-point="titleNode"></h1>
+        <div class="epi-breadCrumb" data-dojo-attach-point="breadcrumbNode" data-dojo-type="epi.cms.widget.Breadcrumb" data-dojo-props="showLastBracket:true"></div>
+        <label data-dojo-attach-point="contentNameLabelNode"></label>
+        <input type="text" size="40" data-dojo-attach-point="contentNameNode" data-dojo-type="dijit.form.TextBox" />
+        <div class="epi-cancelLink">
+            <button data-dojo-type="dijit.form.Button" data-dojo-attach-point="cancelButton" data-dojo-attach-event="onClick: _onCancelClick">${resources.cancel}</button>
+        </div>
+    </div>
+    <div class="epi-listingTopContainer" data-dojo-attach-point="requiredPropertiesNode" style="display:none">
+        <h1 data-dojo-attach-point="selectedTypeTitle"></h1>
+        <div data-dojo-attach-point="breadcrumbRequiredNode" data-dojo-type="epi.cms.widget.Breadcrumb"></div>
+        <span class="epi-contentName" data-dojo-attach-point="contentName"></span>
+    </div>
+    <div data-dojo-attach-point="stackContainer">
+        <h4 data-dojo-attach-point="requiredPropTitleNode" class="epi-formsDescriptionHeader"></h4>
+    </div>
+</div>

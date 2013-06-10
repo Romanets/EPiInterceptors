@@ -1,0 +1,63 @@
+<html>
+<!--
+        Used for logging dojo package loading. 
+        All source files (including dependencies) are written to the html page in the packages.config format.
+    -->
+<head>
+    <title>Copy this output to a package of choise</title>
+    <style>
+        html, body
+        {
+            height: 100%;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var djConfig = {
+            locale: "en",
+            isDebug: true,
+            parseOnLoad: false,
+            modulePaths: {}
+        };
+    </script>
+
+    <script type="text/javascript" src="dojo/dojo.js"></script>
+
+    <!-- including dijit.js specifically (explicitly added to the output) -->
+
+    <script type="text/javascript" src="dijit/dijit.js.uncompressed.js"></script>
+
+    <script type="text/javascript">
+
+        function onLoadUri(uri) {
+            var url = new dojo._Url("..", uri);
+            var path = "dojo/" + url.toString();
+
+            // Exclude localizations and the "fake" root package
+            if (path.indexOf("/nls/") === -1 && path.indexOf("dijitwidgets") === -1) {
+                appendImport(path);
+            }
+        }
+
+        function appendImport(path) {
+            var packageImport = '<import url="' + path + '" />\n';
+            dojo.place(document.createTextNode(packageImport), dojo.byId("logOutput"));
+        }
+
+        dojo.addOnLoad(function() {
+            // Special append of dijit.js, since it's added as a regular script include
+            appendImport("dojo/dijit/dijit.js.uncompressed.js");
+            
+            // Listen to the dojo load event for logging of loaded resources
+            dojo.connect(dojo, "_loadUri", null, onLoadUri);
+            
+            // Load our widgets "package" (excplicitly excluded from the log output)
+            dojo.require("dijitwidgets");
+        });
+    </script>
+
+</head>
+<body>
+    <pre id="logOutput" style="width: 100%; height: 100%"></pre>
+</body>
+</html>

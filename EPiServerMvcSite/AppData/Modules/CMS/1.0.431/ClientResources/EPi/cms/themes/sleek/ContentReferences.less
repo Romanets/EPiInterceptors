@@ -1,0 +1,104 @@
+﻿@import "variables.less";
+
+.Sleek {
+    .epi-contentReferences
+    {
+        .dojoxEllipsis {
+            display: inline-block;
+            max-width: 500px;
+        }
+
+        .epi-verticalScroller {
+            overflow: auto;
+            max-height: 20em;
+        }
+        
+        h1 {
+            padding: 4px 0; 
+            line-height: 22px;
+        }
+
+        h2 {
+            font-size: 1em;
+            font-weight: bold;
+            margin: 0.6em 0 1em 0;
+        }
+
+        .dgrid-no-data {
+            text-align: center;
+            padding: 6px 0;
+        }
+
+        .dgrid {
+            height: auto;
+        }
+       
+        .dgrid-header-scroll {
+            display: none;
+        }
+
+        .dgrid-scroller {
+            margin-top: 0; 
+            position: relative;
+            overflow: hidden;
+        }
+
+        .field-edit a {
+            visibility: hidden;
+        }
+
+        .dgrid-cell {
+            display: inline-block;
+            float: left;
+        }
+
+        .dgrid-column-ownerName {
+            cursor: pointer;
+            width: 200px;
+            margin-right: 4px;
+        }
+
+        .dgrid-column-path {
+            width: 380px;
+        }
+        
+        .dgrid-column-edit {
+            cursor: pointer;
+            width: 55px;
+        }
+
+        .dgrid-column-ownerName,
+        .dgrid-column-edit {
+            a,
+            a:link, 
+            a:visited {              
+                color: @link-color;
+                text-decoration: underline;
+            }
+        }
+
+        .dgrid-selected {
+            .field-edit,
+            .dgrid-column-ownerName {
+                display: block;
+                cursor: pointer;
+
+                a,
+                a:link, 
+                a:visited {                
+                    color: @text-color-white;
+                    text-decoration: underline;
+                }
+            }            
+        }
+
+        .epi-iconPage,
+        .epi-iconObjectSharedBlock {
+            margin: 0 5px 0 0;
+        }
+        .dgrid-row:hover .field-edit a,
+        .dgrid-selected .field-edit a {
+            visibility: visible;
+        }
+    }    
+}

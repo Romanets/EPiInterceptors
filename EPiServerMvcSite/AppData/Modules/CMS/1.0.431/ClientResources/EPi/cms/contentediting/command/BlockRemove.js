@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/command/BlockRemove",["dojo/_base/declare","epi","epi/shell/command/_Command"],function(_1,_2,_3){return _1("epi.cms.contentediting.command.BlockRemove",[_3],{name:"remove",label:_2.resources.action.remove,tooltip:_2.resources.action.remove,iconClass:"epi-iconTrash",postscript:function(){this.inherited(arguments);},_execute:function(){this.model.remove();return this.inherited(arguments);},_onModelChange:function(){this.set("canExecute",this.model?true:false);}});});

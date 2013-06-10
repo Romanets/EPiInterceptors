@@ -1,0 +1,19 @@
+﻿@import "variables.less";
+
+//A bug on _CssStateMixin: It always set baseClass to domNode even if we state the stateNode
+.epiTinyMCEEditor .epiTinyMCEEditor 
+{
+    border: solid 1px @border-color;
+}
+
+.epiTinyMCEEditor .epiTinyMCEEditorFocused
+{
+    border: solid 1px @focused-border-color;
+    box-shadow: 0 0 5px 0 #acd1f4, inset 0 2px 3px 0 #efefef;
+ 	.transition-duration(.1s);
+}
+
+.epiTinyMCEEditor .epiTinyMCEEditorError
+{
+    border: solid 1px @error-border-color;
+}

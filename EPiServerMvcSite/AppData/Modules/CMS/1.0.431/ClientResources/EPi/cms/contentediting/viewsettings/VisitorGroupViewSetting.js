@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/viewsettings/VisitorGroupViewSetting",["dojo/_base/declare","dojo/_base/lang","epi/cms/contentediting/_ViewSetting"],function(_1,_2,_3){return _1([_3],{key:"visitorgroup",usedForRendering:true,isTagItem:false,beforePreviewLoad:function(_4,_5){this.inherited(arguments);_2.mixin(_4,this._getVisitorGroupUrlParam(_5));},_getVisitorGroupUrlParam:function(_6){var _7=_6?this.value:null;return {"visitorgroupsByID":_7||null};}});});

@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/widget/_ContentListKeyMixin",["dojo/_base/declare","dojo/keys"],function(_1,_2){return _1("epi.cms.widget._ContentListKeyMixin",null,{handleKey:function(_3){switch(_3.charOrCode){case _2.DOWN_ARROW:this.selectNextNode();return false;case _2.UP_ARROW:this.selectPreviousNode();return false;case _2.ENTER:case _2.SPACE:if(this.selected&&this.grid.row(this.selected)){this._onSelect(this.grid.row(this.selected).data);}return false;default:return true;}}});});

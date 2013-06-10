@@ -1,0 +1,242 @@
+/* Toolbar 
+ * 
+ * Styling Toolbar means styling the toolbar container and the widget inside toolbar  (dijitToolbar)
+ * 
+ * 1. toolbar (default styling): 
+ * 		.dijitToolbar - styles for outer container
+ *
+ * 2. widget inside toolbar
+ * 		.dijitToolbar .dijitButtonNode   - Button widget
+ * 					  .dijitComboButton  - ComboButton widget
+ * 					  .dijitDropDownButton  - DropDownButton widget
+ * 					  .dijitToggleButton  - ToggleButton widget
+ * 		
+ * 3. hovered widget inside toolbar (ie, mouse hover on the widget inside)
+ * 			.dijitToolbar .dijitButtonNodeHover  - styles for hovered Button widget
+ * 
+ * 4. actived widget inside toolbar (ie, mouse down on the widget inside)
+ * 			.dijitToolbar .dijitButtonNodeActive  - mouse down on Button widget
+ */
+
+@import "variables";
+
+.Sleek .dijitToolbar {
+	padding: 4px 6px;
+    color: #4a4a4a;
+	zoom: 1;
+    overflow: hidden;
+}
+
+.Sleek .dijitToolbar label {
+	padding: 0 3px 0 6px;
+}
+
+.dj_ie6 .Sleek .dijitToolbar {
+	background-image: none;
+}
+
+.Sleek .dijitToolbarSeparator {
+	/* separator icon in the editor sprite */
+	background: url('../../icons/images/editorIconsEnabled.png');
+}
+
+/* Toolbar inside of disabled Editor */
+.Sleek .dijitDisabled .dijitToolbar {
+	background: none;
+	background-color: @disabled-background-color;
+	border-bottom: 1px solid @disabled-border-color;
+}
+
+.Sleek .dijitToolbar .dijitComboBoxDisabled .dijitArrowButtonInner {
+	background-position: 0 50%;
+}
+
+
+
+/*============================*/
+/* EPi */
+/*============================*/
+
+.Sleek .epi-toolbar-unwrapped {
+	background-color: @bar-background-color;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	padding: 4px 6px;
+}
+
+.Sleek {
+    .epi-globalToolbar {
+        .svgBackground(@epi-toolbar-background,0px,-2300px,'images/gradients/GlobalToolbar.svg');
+        padding: 10px 0 8px 0;
+        
+        &:focus {
+            outline: none !important;
+        }
+
+        .epi-toolbarLeading .epi-mediumButton {
+            margin: 0 8px 0 0;
+            
+            &.epi-leadingToggleButton {
+                margin-left: -8px;
+            }
+        }
+        .epi-toolbarTrailing .epi-mediumButton {
+            &.epi-trailingToggleButton {
+                margin-right: -8px;
+            }
+        }
+        .epi-toolbarLeading {
+            width: 70%;
+        }
+        .epi-toolbarCenter {
+            width: 0%;
+        }
+        .epi-toolbarTrailing {
+            width: 30%;
+            
+        }
+    }
+    .epi-localToolbar {
+        .svgBackground(@epi-toolbar-background,0px,-2300px,'images/gradients/LocalToolbar.svg');
+        border-bottom: 1px solid @epi-toolbar-border;
+        height: 42px;
+        padding: 0;
+        position: relative;
+        z-index: 800;
+        
+        
+        &:focus {
+            outline: none !important;
+        }  
+        .epi-toolbarLeading {
+            width: 40%;
+        }
+        .epi-toolbarCenter {
+            width: 20%;
+        }
+        .epi-toolbarTrailing {
+            min-width: 349px;
+            width: 40%;
+        }      
+    } 
+    .epi-toolbarLeading h1 {
+        font-size: 15px;
+        font-weight: bold;
+		line-height: 1.5em;
+        margin: 0;
+		color: @text-color-soft;
+    }
+    
+    .dijitToolbar.epi-toolbarBottom {
+        background: @epi-toolbar-background;
+        border-bottom: none;
+        min-height: 17px;
+    }
+
+    .dijitToolbar .epi-toolbarGroupContainer {
+	    display: table;
+	    width: 100%;
+		table-layout: fixed;
+	    
+	    &:focus {
+            outline: none !important;
+        }
+	
+	    .epi-toolbarGroup {
+            .border-box;
+	        display: table-cell;
+	        vertical-align: top;
+	        
+	        &:focus {
+                outline: none !important;
+            }
+        }
+        .epi-toolbarLeading {
+            padding: 0 0 0 8px;
+            text-align: left;
+        }
+        .epi-toolbarCenter {
+            padding: 0;
+            text-align: center;
+        }
+        .epi-toolbarTrailing {
+            padding: 0 8px 2px 0; // 2px bottom padding is used to fix a negative Zoom bug (#86736) in Chrome
+            text-align: right;
+        }
+    }
+    
+    .epi-globalToolbar.dijitToolbar .epi-toolbarGroupContainer {
+        .epi-toolbarLeading {
+            width: 70%;
+        }
+        .epi-toolbarTrailing {
+            min-width: 30px;
+        }
+    }
+    
+    /* Narrow styles */
+    .epi-editToolbarNarrow.epi-localToolbar {
+        height: auto;
+        overflow: visible;
+        padding-top: 38px;
+        
+        .epi-toolbarLeading,
+        .epi-toolbarCenter,
+        .epi-toolbarTrailing {
+            display: block;
+            height: 38px;
+        }
+        
+        .epi-toolbarLeading {
+            .border-box;
+            padding: 0 8px;
+            text-align: left;
+            width: 100%;
+        }
+        .epi-toolbarCenter {
+            padding: 4px 8px 0;
+            width: auto;
+        }
+        .epi-toolbarTrailing {
+            .border-box;
+            padding: 0 8px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    /* Medium styles */
+    .epi-editToolbarMedium.epi-localToolbar {
+        height: auto;
+        overflow: visible;
+        padding-top: 38px;
+        
+        .epi-toolbarLeading,
+        .epi-toolbarCenter,
+        .epi-toolbarTrailing {
+            height: 38px;
+        }
+        
+        .epi-toolbarLeading {
+            .border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;           
+        }
+        .epi-toolbarCenter {
+            display: block;
+            padding: 4px 8px 0;
+            width: 100%;
+        }
+        .epi-toolbarTrailing {
+            .border-box;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%; 
+            padding-right: 0;
+        }
+    }
+}

@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/widget/ParentContainerLayout",["epi","dojo","epi/shell/widget/ContainerLayout"],function(_1,_2,_3){return _2.declare("epi.shell.widget.ParentContainerLayout",[_3],{_titleRendered:false,layout:function(){if(!this._titleRendered){if(this.label){var h2=_2.create("h2",{innerHTML:"<a href='#' class='epi-groupToggle'></a>"+this.label});_2.place(h2,this.containerNode,"first");}this._titleRendered=true;}this.inherited(arguments);}});});

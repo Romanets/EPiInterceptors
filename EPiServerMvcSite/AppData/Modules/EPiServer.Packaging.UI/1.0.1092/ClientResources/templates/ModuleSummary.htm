@@ -1,0 +1,14 @@
+<div data-dojo-attach-event="ondijitclick:_moreInfoClick">
+    <div class="epi-browserWindow"><div class="epi-browserWindowContent" data-dojo-attach-point="moduleIcon">${emptyIconTemplate}</div></div>
+    <h3 data-dojo-attach-point="nameNode">${module.titleWithVersion}</h3>
+    <p data-dojo-attach-point="updateIndicatorContainer"><span class="epi-newContentNotification">${res.newerversionavailablemessage}</span><span data-dojo-attach-point="updateIndicatorVersion"></span></p>
+    <p data-dojo-attach-point="descriptionNode">${module.description}</p><p><a href="#details" data-dojo-attach-event="ondijitclick:_moreInfoClick">${res.moreinformation}</a></p>
+
+    <p data-dojo-attach-point="dependenciesList"><strong class="label">${res.dependencies} </strong></p>
+    <p data-dojo-attach-point="tagList"><strong class="label">${res.tags} </strong></p>
+    <p data-dojo-attach-point="installInfoBlock"></p>
+    <div data-dojo-attach-point="errorList" data-dojo-type="epi.packaging.StatusMessageList" class="epi-advancedListingError"/></div>
+    <input type="button" data-dojo-type="dijit.form.Button" label="${res.buttonupdatelabel}" title="${res.buttonupdatelabel} ${module.titleWithVersion}" class="moduleActionButton" data-dojo-attach-event="onClick:_updateClick" data-dojo-attach-point="UpdateButton" />
+    <input type="button" data-dojo-type="dijit.form.Button" label="${res.buttonuninstalllabel}" title="${res.buttonuninstalllabel} ${module.titleWithVersion}" class="moduleActionButton" data-dojo-attach-event="onClick:_uninstallClick" data-dojo-attach-point="UninstallButton" />
+    <input type="button" data-dojo-type="dijit.form.Button" label="${res.buttoninstalllabel}" title="${res.buttoninstalllabel} ${module.titleWithVersion}" class="moduleActionButton" data-dojo-attach-event="onClick:_installClick" data-dojo-attach-point="InstallButton" />
+</div>

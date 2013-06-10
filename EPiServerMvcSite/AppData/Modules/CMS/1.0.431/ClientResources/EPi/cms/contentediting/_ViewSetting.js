@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/_ViewSetting",["dojo/_base/declare"],function(_1){return _1("epi.cms.contentediting._ViewSetting",null,{key:null,value:null,beforePreviewLoad:function(_2,_3){},afterPreviewLoad:function(_4,_5){}});});

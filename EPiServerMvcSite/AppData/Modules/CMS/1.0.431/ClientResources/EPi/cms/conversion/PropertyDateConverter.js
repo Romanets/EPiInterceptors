@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/conversion/PropertyDateConverter",["dojo/_base/declare","epi/datetime"],function(_1,_2){return _1(null,{sourceDataType:"epi.cms.propertydate",targetDataType:"runtimeType",registerConverter:function(_3){_3.registerConverter(this.sourceDataType,this.targetDataType,this);},convert:function(_4,_5,_6){if(_6&&_4===this.sourceDataType&&_5===this.targetDataType){return _2.deserialize(_6);}return null;}});});

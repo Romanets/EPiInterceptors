@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/widget/DelayableStandby",["dojo","dojox/widget/Standby"],function(_1,_2){return _1.declare("epi.shell.widget.DelayableStandby",[_2],{delayTime:300,color:"#FFFFFF",_timeoutId:-1,show:function(){var _3=this;var _4=arguments;this._clearTimeout();this._timeoutId=setTimeout(_1.hitch(this,function(){_3.inherited(_4);}),this.delayTime);},hide:function(){this._clearTimeout();this.inherited(arguments);},_clearTimeout:function(){if(this._timeoutId>=0){clearTimeout(this._timeoutId);}}});});

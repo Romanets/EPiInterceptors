@@ -1,0 +1,23 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model EPiServerMvcSite.Models.Pages.StartPage
+
+<h1> Y: @Model.SampleBlock.TestMe </h1>
+
+@Html.PropertyFor(x => x.SampleBlock)
+
+<h2>@Html.PropertyFor(m => m.MainTitle)</h2>
+
+<div>
+    @Html.PropertyFor(m => m.MainBody)
+</div>
+<div>
+    @Html.PropertyFor(m => m.Description)
+</div>
+<div>
+    @Html.PropertyFor(m => m.SampleProperty)
+</div>
+@*<div>
+  @Html.PropertyFor(m => m.ContentArea)
+</div>*@

@@ -1,0 +1,16 @@
+﻿{
+	"name": "epi.packaging",
+	"version":"1.0.0",
+	"main":"main",
+	"dependencies": {
+		"dojo": "current",
+		"dijit": "current",
+		"epi": "current"
+	},
+	"description": "",
+	"licenses": [],
+	"bugs": "",
+	"keywords": [],
+	"homepage": "",
+	"dojoBuild": "packaging.profile.js"
+}

@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/command/_SelectionCommandMixin",["dojo/_base/declare","dojo/_base/lang"],function(_1,_2){return _1(null,{selection:null,postscript:function(){this.inherited(arguments);this.selection.watch("data",_2.hitch(this,this._onModelChange));}});});

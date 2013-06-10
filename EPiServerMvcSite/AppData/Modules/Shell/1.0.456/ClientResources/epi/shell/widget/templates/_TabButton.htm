@@ -1,0 +1,31 @@
+ <div waiRole="presentation" dojoAttachPoint="titleNode" dojoAttachEvent="onclick:onClick"  class="epi-mediumButton epi-chromelessButton">
+    <div waiRole="presentation" class="dijitTabInnerDiv" dojoAttachPoint="innerDiv">
+        <div waiRole="presentation" class="dijitTabContent" dojoAttachPoint="tabContent">
+            <div waiRole="presentation" dojoAttachPoint="focusNode">
+                <img src="${_blankGif}" alt="" class="dijitIcon epi-iconSettingsMenu" dojoAttachPoint="iconNode" style="display:none"/>
+                <span class="tabLabel" dojoAttachPoint="tabName, containerNode"></span>
+                <input type="text" style="display:none;" class="tabLabel" dojoAttachPoint="editBox" dojoAttachEvent="onblur: _editBoxBlur, onkeypress: _editBoxKeyDown" maxlength="50"></span>
+                <span style="display:none;" class="dijitInline dijitTabCloseButton dijitTabCloseIcon" dojoAttachPoint="closeNode" dojoAttachEvent="onclick: onClickCloseButton" waiRole="presentation">
+                        <span dojoAttachPoint="closeText" class="dijitTabCloseText">x</span>
+                </span>
+                <span class="dijitInline" waiRole="presentation">
+                    <div dojoType="dijit.form.DropDownButton" dojoAttachPoint="nodeOptions" showLabel="false" title="" iconClass="epi-iconSettingsMenu" class="epi-mediumButton epi-chromelessButton" style="display: none" dojoAttachEvent="onMouseDown: onMenuButton">
+                        <div dojoType="dijit.Menu" dojoAttachPoint="dropDown">
+                            <div dojoType="dijit.MenuItem" dojoAttachEvent="onClick: onRenameMenuItem">${res.menuitemrename}</div>
+                            <div dojoType="dijit.PopupMenuItem">
+                                <span>${res.menuitemlayout}</span>
+                                <div dojoType="dijit.Menu" dojoAttachPoint="menuLayout">
+                                    <div dojoType="dijit.CheckedMenuItem" checked="false" title="${res.menuitemlayout1}" dojoAttachEvent="onClick: onLayoutClick">${res.menuitemlayout1}</div>
+                                    <div dojoType="dijit.CheckedMenuItem" checked="false" title="${res.menuitemlayout2}" dojoAttachEvent="onClick: onLayoutClick">${res.menuitemlayout2}</div>
+                                    <div dojoType="dijit.CheckedMenuItem" checked="false" title="${res.menuitemlayout3}" dojoAttachEvent="onClick: onLayoutClick">${res.menuitemlayout3}</div>
+                                </div>
+                            </div>
+                            <div dojoType="dijit.MenuSeparator"></div>
+                            <div dojoType="dijit.MenuItem" dojoAttachPoint="closeTabMenuItem" dojoAttachEvent="onClick: onCloseMenuItem">${res.menuitemclose}</div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

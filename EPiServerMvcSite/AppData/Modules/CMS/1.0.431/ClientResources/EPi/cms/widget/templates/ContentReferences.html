@@ -1,0 +1,21 @@
+<div class="epi-contentReferences">
+    <div class="epi-dialog-captionPanel" data-dojo-attach-point="captionPanelNode">
+        <div class="epi-floatRight" data-dojo-type="dijit.Toolbar" dojo-data-attach-point="contentReferenceToolbar">
+            <button data-dojo-type="dijit.form.Button" data-dojo-attach-point="saveListButton" data-dojo-attach-event="onClick:_refreshList"
+                    data-dojo-props="iconClass:'epi-iconReload', 'class':'epi-chromelessButton'">${res.buttons.refresh}</button>
+        </div>
+        <h1>
+            <span class='dijitInline dijitIcon epi-iconObjectSharedBlock'>&nbsp;</span><span class='dijitInline dojoxEllipsis' data-dojo-attach-point="contentReferencesWidgetTitleNode"></span>
+        </h1>
+    </div>
+    <div class="epi-verticalScroller">
+        <div data-dojo-attach-point="pageGridContainer">
+            <h2 data-dojo-attach-point="pageTitleNode"></h2>
+            <div data-dojo-attach-point="pageGrid" ></div>
+        </div>
+        <div data-dojo-attach-point="blockGridContainer">
+            <h2 data-dojo-attach-point="blockTitleNode"></h2>
+            <div data-dojo-attach-point="blockGrid"></div>
+        </div>
+    </div>
+</div>

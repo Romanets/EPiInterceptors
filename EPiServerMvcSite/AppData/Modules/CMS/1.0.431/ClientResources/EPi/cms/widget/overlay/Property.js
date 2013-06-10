@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/widget/overlay/Property",["dojo/_base/declare","dojo/_base/lang","epi/string","epi/shell/widget/overlay/Item"],function(_1,_2,_3,_4){return _1("epi.cms.widget.overlay.Property",[_4],{onValueChange:function(_5){},_getRightProperty:function(){var _6=this.name;if(this.dropTargetChildProperty){_6+=("."+_3.pascalToCamel(this.dropTargetChildProperty));}return _6;},onDrop:function(_7,_8){var _9=_8.data;var _a=_9;var _b=this._getRightProperty();this.onValueChange({propertyName:_b,value:_a});}});});

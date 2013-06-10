@@ -1,0 +1,153 @@
+﻿@import "../variables";
+
+/* The File Manager is wrapped in an iFrame and is NOT subject to any other Sleek-css file than this one. */
+
+.Sleek {
+    /* Left sidebar */
+    .FM-ShortcutCell {
+        background: #fff;
+        border: none;
+        border-right: 1px solid #c8c8c8;
+  
+        .FM-NavigationTreeCell,
+        .FM-NavigationTextCell,
+        .FM-NavigatorHeadingCell {
+            padding-left: 5px;
+        }
+        
+        .FM-NavigatorTopHeadingCell,
+        .FM-NavigatorTopHeadingImageCell,
+        .FM-NavigatorHeadingCell,
+        .FM-NavigatorHeadingImageCell {
+            background: #f8f8f8;
+            border-bottom: 1px solid #d3d5d8;
+            border-top: 1px solid #d3d5d8;
+        }
+        .FM-NavigatorHeadingImageCell .FM-NavigatorHeadingImageCell {
+            background: transparent;
+            border: none;    
+        }
+        
+        .FM-NavigatorTopHeadingCell,
+        .FM-NavigatorTopHeadingImageCell { border-top: none; }
+        
+        .FM-NavigatorTable { background: #fff; min-width: 140px; }
+        
+        .FM-ToolLinkText span { padding-top: 2px; }
+    }
+
+    /* File Browser */
+    td.FM-BrowserCell {
+        border: none !important;   
+    
+        .epi-formArea .epi-size15 { margin: 0.5em; }
+        
+        .epi-contentArea th, table.epi-default th, table.epi-simple th, table.epi-simpleWrapped th {
+            border: 1px solid @epi-grid-header-border;
+            border-right: none;
+	        .svgBackground(#e4e4e4,0px,-2300px,'../images/gradients/grid_header.svg');   
+	        font-weight: normal;
+	        .text-shadow-specific(0,0,0,0,0,0,0);
+        }
+        .FM-ButtonBar {
+            background: #f8f8f8;
+            border-bottom: 1px solid #d3d5d8;
+            border-top: 1px solid #d3d5d8;
+            padding: 4px 6px; 
+        }
+        div.epi-buttonDefault {
+            padding-left: 6px;
+        }
+        .epi-cmsButton,
+        .epi-cmsButtondisabled {
+            .border-radius(@button-border-radius);
+            padding: 2px 4px;
+    
+            /* Default button */
+            border: 1px solid @epi-button-border-color;
+            box-shadow: 0 1px 0 0 rgba(255, 255,255, 0), inset 0 1px 0 rgba(255, 255,255, 0), inset 0 -1px 0 rgba(255, 255,255, 0);
+            color: @epi-button-text-color;
+            .svgBackground(@epi-button-fallback,0px,-2300px,'../form/images/gradients/button_default.svg');   
+        }
+        tr.FM-ItemRow td,
+        tr.FM-ItemRowSelected td { padding: 4px 5px 6px; }
+        
+        tr.FM-ItemRowSelected td {
+            .svgBackground(#c7d500,0px,-2300px,'../images/gradients/selected_item.svg');
+            color: @text-color;
+        }
+    }
+    
+    
+    /* Icons */
+    img[src*="FolderRoot.gif"],
+    img[src*="FolderOpen.gif"],
+    img[src*="FolderColor.gif"],
+    input[src*="Hide.gif"],
+    input[src*="Show.gif"] {
+        .border-box;
+        border: none !important;
+        display: inline-block;
+        padding-left: 20px;
+        overflow: hidden;
+    }
+    
+    img[src*="FolderBack.gif"] {}
+    
+    img[src*="FolderRoot.gif"],
+    img[src*="FolderColor.gif"] {
+        width:16px;
+        height:16px;
+        background:transparent url('images/icons/objectIcons16x16.png') 0 -192px no-repeat;
+        
+        margin: 0px;
+        vertical-align: top;
+    }
+    img[src*="FolderOpen.gif"] {
+        width:16px;
+        height:16px;
+        background:transparent url('images/icons/objectIcons16x16.png') 0 -208px no-repeat;
+        margin: 0 0 0 4px;
+    }
+	img[src*="FolderBack.gif"] {
+        width:16px;
+        height:16px;
+        background:transparent url('images/icons/objectIcons16x16.png') 0 -528px no-repeat;
+        margin: 0 0 0 4px;
+    }
+    input[src*="Hide.gif"] {
+        width:16px;
+        height:16px;
+        background:transparent url('images/gadgetExpandImages.png') 5px 0 no-repeat !important;
+    }
+    input[src*="Show.gif"] {
+        width:16px;
+        height:16px;
+        background:transparent url('images/gadgetExpandImages.png') -28px 0 no-repeat !important;
+    }
+    
+    /* Toolbar Icons */
+    .epi-cmsButton-tools {
+        background: transparent url('images/icons/commonIcons16x16.png');
+        background-repeat: no-repeat;
+    }
+    
+    .epi-cmsButton-FolderUp { background-position: 0 -400px; height: 16px; width: 16px; }
+    .epi-cmsButton-Search { background-position: 0 -224px; height: 16px; width: 16px; }
+    .epi-cmsButton-CreateFolder { background-position: 0 -368px; height: 16px; width: 16px; }
+    .epi-cmsButton-NewFile { background-position: 0 -240px; height: 16px; width: 16px; }
+    .epi-cmsButton-Security { background-position: 0 -304px; height: 16px; width: 16px; }
+    .epi-cmsButton-RenameFolder { background-position: 0 -512px; height: 16px; width: 16px; }
+    .epi-cmsButton-Delete { background-position: 0 -192px; height: 16px; width: 16px; }
+    
+    .epi-cmsButton-Save,
+    .epi-cmsButton-Cancel,
+    .epi-cmsButton-Edit,
+    .epi-cmsButton-text.epi-cmsButton-Search,
+    .epi-cmsButton-AddUserGroup,
+    .epi-cmsButton-text.epi-cmsButton-Delete {
+        background: none;
+        padding-left: 0px;
+        width: auto;
+    }
+}

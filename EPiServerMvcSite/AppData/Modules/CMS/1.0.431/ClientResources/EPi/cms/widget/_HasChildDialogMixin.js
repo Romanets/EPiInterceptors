@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/widget/_HasChildDialogMixin",["dojo"],function(_1){return _1.declare("epi.cms.widget._HasChildDialogMixin",null,{isShowingChildDialog:false,_onBlur:function(){if(this.isShowingChildDialog){return;}this.inherited(arguments);},_onFocus:function(){if(this.isShowingChildDialog){return;}this.inherited(arguments);}});});

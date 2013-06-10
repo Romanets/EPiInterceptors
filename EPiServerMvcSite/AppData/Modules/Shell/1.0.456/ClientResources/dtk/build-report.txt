@@ -1,0 +1,3229 @@
+Build started: Tue Oct 30 2012 18:01:45 GMT+0100 (CET)
+Build application version: 1.7.0dev (23930)
+Messages:
+info(100) Assumed module uses legacy loader API.
+	module: dojox/storage
+	module: dojox/jsonPath
+	module: dojox/widget/DynamicTooltip
+	module: dojox/widget/AnalogGauge
+	module: dojox/widget/Loader
+	module: dojox/storage/AirFileStorageProvider
+	module: dojox/lang/aspect/memoizerGuard
+	module: dojox/widget/gauge/AnalogArrowIndicator
+	module: dojox/widget/rotator/ThumbnailController
+	module: dojox/data/restListener
+	module: dojox/storage/CookieStorageProvider
+	module: dojox/lang/oo/mixin
+	module: dojox/widget/CalendarViews
+	module: dojox/storage/LocalStorageProvider
+	module: dojox/storage/GearsStorageProvider
+	module: dojox/widget/RollingList
+	module: dojox/lang/functional/curry
+	module: dojox/lang/functional/zip
+	module: dojox/widget/rotator/Wipe
+	module: dojox/lang/aspect
+	module: dojox/lang/aspect/cflow
+	module: dojox/lang/oo/aop
+	module: dojox/sql
+	module: dojox/socket/Reconnect
+	module: dojox/storage/AirDBStorageProvider
+	module: dojox/widget/Portlet
+	module: dojox/storage/Provider
+	module: dojox/lang/aspect/counter
+	module: dojox/data/ItemExplorer
+	module: dojox/lang/functional/listcomp
+	module: dojox/data/StoreExplorer
+	module: dojox/widget/AutoRotator
+	module: dojox/lang/async/event
+	module: dojox/widget/Pager
+	module: dojox/widget/BarGauge
+	module: dojox/lang/docs
+	module: dojox/lang/async/timeout
+	module: dojox/widget/gauge/_Gauge
+	module: dojox/lang/functional/util
+	module: dojox/layout/BorderContainer
+	module: dojox/flash/_base
+	module: dojox/lang/oo/Decorator
+	module: dojox/layout/dnd/PlottedDnd
+	module: dojox/widget/rotator/PanFade
+	module: dojox/widget/gauge/AnalogNeedleIndicator
+	module: dojox/storage/BehaviorStorageProvider
+	module: dojox/widget/Iterator
+	module: dojox/widget/SortList
+	module: dojox/lang/functional/tailrec
+	module: dojox/jsonPath/query
+	module: dojox/lang/functional/numrec
+	module: dojox/lang/oo/Filter
+	module: dojox/storage/WhatWGStorageProvider
+	module: dojox/lang/functional/multirec
+	module: dojox/lang/aspect/memoizer
+	module: dojox/widget/rotator/Slide
+	module: dojox/widget/CalendarFx
+	module: dojox/lang/async/topic
+	module: dojox/sql/_base
+	module: dojox/lang/observable
+	module: dojox/widget/FilePicker
+	module: dojox/widget/rotator/Fade
+	module: dojox/lang/async
+	module: dojox/lang/functional/linrec
+	module: dojox/lang/oo/rearrange
+	module: dojox/lang/typed
+	module: dojox/storage/manager
+	module: dojox/widget/Rotator
+	module: dojox/widget/FisheyeList
+	module: dojox/lang/aspect/profiler
+	module: dojox/widget/DataPresentation
+	module: dojox/widget/Calendar
+	module: dojox/lang/oo/general
+	module: dojox/lang/functional/binrec
+	module: dojox/lang/aspect/timer
+	module: dojox/layout/ext-dijit/layout/StackContainer-touch
+	module: dojox/widget/UpgradeBar
+	module: dojox/layout/dnd/Avatar
+	module: dojox/widget/rotator/Pan
+	module: dojox/lang/aspect/tracer
+	module: dojox/widget/FeedPortlet
+	module: dojox/storage/FlashStorageProvider
+	module: dojox/widget/gauge/AnalogArcIndicator
+	module: dojox/flash
+	module: dojox/sql/_crypto
+	module: dojox/widget/rotator/Controller
+	module: dojox/storage/AirEncryptedLocalStorageProvider
+	module: dojox/storage/_common
+	module: dojox/widget/gauge/BarIndicator
+info(102) Optimizing module
+	module: dojox/form/MultiComboBox
+	module: dojox/form/uploader/plugins/IFrame
+	module: dojox/form/manager/_ClassMixin
+	module: dojox/rpc/Rest
+	module: dojox/form/RadioStack
+	module: dojox/gauges/GlossySemiCircularGauge
+	module: dojox/atom/widget/nls/pl/PeopleEditor
+	module: dojox/socket
+	module: dojox/gauges/BarGauge
+	module: dojox/gfx3d
+	module: dojox/storage
+	module: dojox/grid/enhanced/nls/hu/Filter
+	module: dojox/dtl/Context
+	module: dojox/grid/enhanced/nls/pl/EnhancedGrid
+	module: dojox/form/nls/pt-pt/PasswordValidator
+	module: dojox/fx/ext-dojo/reverse
+	module: dojox/jsonPath
+	module: dojox/charting/themes/Julie
+	module: dojox/grid/enhanced/nls/el/Pagination
+	module: dojox/grid/enhanced/nls/tr/Pagination
+	module: dojox/widget/nls/kk/FilePicker
+	module: dojox/grid/enhanced/plugins/Printer
+	module: dojox/widget/nls/kk/Wizard
+	module: dojox/gauges/AnalogLineIndicator
+	module: dojox/layout/ScrollPane
+	module: dojox/layout/FloatingPane
+	module: dojox/atom/widget/nls/el/FeedEntryViewer
+	module: dojox/atom/widget/nls/sl/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/fi/Pagination
+	module: dojox/widget/nls/FilePicker
+	module: dojox/encoding/_base
+	module: dojox/grid/enhanced/nls/pt-pt/Filter
+	module: dojox/widget/nls/ko/ColorPicker
+	module: dojox/widget/Wizard
+	module: dojox/charting/plot2d/StackedBars
+	module: dojox/widget/DynamicTooltip
+	module: dojox/validate
+	module: dojox/data/FlickrStore
+	module: dojox/grid/enhanced/nls/Pagination
+	module: dojox/form/nls/pl/CheckedMultiSelect
+	module: dojox/form/manager/_EnableMixin
+	module: dojox/widget/nls/hu/ColorPicker
+	module: dojox/widget/AnalogGauge
+	module: dojox/widget/nls/pt/Wizard
+	module: dojox/charting/themes/Midwest
+	module: dojox/widget/Loader
+	module: dojox/charting/action2d/Base
+	module: dojox/charting/themes/Grasshopper
+	module: dojox/gauges/GlossyCircularGaugeNeedle
+	module: dojox/json/ref
+	module: dojox/widget/nls/fi/ColorPicker
+	module: dojox/storage/AirFileStorageProvider
+	module: dojox/charting/themes/Grasslands
+	module: dojox/grid/enhanced/nls/he/Pagination
+	module: dojox/form/nls/nb/CheckedMultiSelect
+	module: dojox/gesture/tap
+	module: dojox/atom/widget/nls/hu/FeedEntryEditor
+	module: dojox/html/ellipsis
+	module: dojox/grid/enhanced/nls/ar/EnhancedGrid
+	module: dojox/dtl/filter/htmlstrings
+	module: dojox/lang/aspect/memoizerGuard
+	module: dojox/rpc/Client
+	module: dojox/widget/nls/zh/ColorPicker
+	module: dojox/charting/action2d/MouseZoomAndPan
+	module: dojox/widget/gauge/AnalogArrowIndicator
+	module: dojox/date/buddhist/locale
+	module: dojox/charting/plot2d/Areas
+	module: dojox/json/schema
+	module: dojox/validate/br
+	module: dojox/widget/nls/he/Wizard
+	module: dojox/charting/themes/PlotKit/purple
+	module: dojox/widget/rotator/ThumbnailController
+	module: dojox/atom/widget/nls/sl/PeopleEditor
+	module: dojox/dtl/contrib/objects
+	module: dojox/validate/ca
+	module: dojox/charting/themes/Ireland
+	module: dojox/gfx3d/lighting
+	module: dojox/atom/widget/nls/pt/FeedViewerEntry
+	module: dojox/widget/nls/ja/ColorPicker
+	module: dojox/atom/widget/nls/sk/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/sl/EnhancedGrid
+	module: dojox/form/nls/ja/PasswordValidator
+	module: dojox/atom/widget/nls/de/FeedEntryViewer
+	module: dojox/atom/widget/nls/ja/FeedViewerEntry
+	module: dojox/form/nls/ja/CheckedMultiSelect
+	module: dojox/form/RangeSlider
+	module: dojox/grid/enhanced/nls/zh-tw/Pagination
+	module: dojox/grid/enhanced/plugins/Search
+	module: dojox/grid/enhanced/plugins/_SelectionPreserver
+	module: dojox/form/nls/hr/Uploader
+	module: dojox/grid/enhanced/nls/sv/Pagination
+	module: dojox/grid/enhanced/plugins/exporter/_ExportWriter
+	module: dojox/form/FileInputAuto
+	module: dojox/form/_HasDropDown
+	module: dojox/gauges/GlossyHorizontalGaugeMarker
+	module: dojox/grid/enhanced/nls/pt-pt/Pagination
+	module: dojox/data/restListener
+	module: dojox/atom/widget/nls/ko/FeedEntryViewer
+	module: dojox/charting/action2d/Tooltip
+	module: dojox/widget/nls/ru/ColorPicker
+	module: dojox/form/nls/cs/CheckedMultiSelect
+	module: dojox/storage/CookieStorageProvider
+	module: dojox/charting/plot2d/Bars
+	module: dojox/charting/themes/Distinctive
+	module: dojox/form/FilePickerTextBox
+	module: dojox/gfx/utils
+	module: dojox/lang/oo/mixin
+	module: dojox/atom/widget/nls/el/FeedViewerEntry
+	module: dojox/string/sprintf
+	module: dojox/grid/enhanced/nls/sv/Filter
+	module: dojox/charting/plot2d/Base
+	module: dojox/form/nls/sv/PasswordValidator
+	module: dojox/grid/enhanced/nls/it/Pagination
+	module: dojox/charting/plot3d/Bars
+	module: dojox/atom/widget/nls/nl/FeedEntryEditor
+	module: dojox/dtl/DomInline
+	module: dojox/charting/action2d/Shake
+	module: dojox/grid/enhanced/nls/it/Filter
+	module: dojox/grid/enhanced/nls/sl/Pagination
+	module: dojox/charting/plot3d/Base
+	module: dojox/fx/easing
+	module: dojox/atom/widget/nls/de/PeopleEditor
+	module: dojox/form/nls/de/Uploader
+	module: dojox/form/nls/nb/PasswordValidator
+	module: dojox/data/CssClassStore
+	module: dojox/form/nls/kk/PasswordValidator
+	module: dojox/dtl/_DomTemplated
+	module: dojox/grid/_CheckBoxSelector
+	module: dojox/widget/CalendarViews
+	module: dojox/data/PicasaStore
+	module: dojox/grid/enhanced/nls/de/EnhancedGrid
+	module: dojox/data/QueryReadStore
+	module: dojox/data/FlickrRestStore
+	module: dojox/widget/nls/nl/FilePicker
+	module: dojox/gesture/swipe
+	module: dojox/dtl/_Templated
+	module: dojox/widget/nls/hu/Wizard
+	module: dojox/charting/plot2d/ClusteredColumns
+	module: dojox/charting/plot2d/MarkersOnly
+	module: dojox/gfx/arc
+	module: dojox/grid/enhanced/plugins/DnD
+	module: dojox/storage/LocalStorageProvider
+	module: dojox/form/ListInput
+	module: dojox/encoding/compression/splay
+	module: dojox/widget/nls/es/FilePicker
+	module: dojox/gfx/_base
+	module: dojox/grid/_RowSelector
+	module: dojox/storage/GearsStorageProvider
+	module: dojox/data/JsonRestStore
+	module: dojox/grid/enhanced/nls/cs/Filter
+	module: dojox/grid/enhanced/nls/zh/Filter
+	module: dojox/widget/RollingList
+	module: dojox/lang/functional/curry
+	module: dojox/widget/nls/ro/ColorPicker
+	module: dojox/charting/themes/gradientGenerator
+	module: dojox/charting/themes/PlotKit/green
+	module: dojox/atom/widget/nls/sl/FeedEntryEditor
+	module: dojox/data/PersevereStore
+	module: dojox/widget/nls/fi/Wizard
+	module: dojox/form/nls/es/CheckedMultiSelect
+	module: dojox/validate/creditCard
+	module: dojox/charting/widget/BidiSupport
+	module: dojox/form/nls/es/Uploader
+	module: dojox/widget/DialogSimple
+	module: dojox/grid/enhanced/nls/kk/Pagination
+	module: dojox/grid/LazyTreeGridStoreModel
+	module: dojox/encoding/crypto/RSAKey
+	module: dojox/atom/widget/nls/de/FeedViewerEntry
+	module: dojox/charting/themes/Desert
+	module: dojox/charting/action2d/_IndicatorElement
+	module: dojox/widget/MultiSelectCalendar
+	module: dojox/gauges/_Indicator
+	module: dojox/charting/Theme
+	module: dojox/widget/nls/nb/FilePicker
+	module: dojox/dtl/Inline
+	module: dojox/grid/DataSelection
+	module: dojox/lang/functional/zip
+	module: dojox/widget/rotator/Wipe
+	module: dojox/gauges/AnalogGauge
+	module: dojox/widget/ColorPicker
+	module: dojox/atom/widget/nls/da/FeedEntryViewer
+	module: dojox/encoding/ascii85
+	module: dojox/string/Builder
+	module: dojox/grid/enhanced/plugins/Selector
+	module: dojox/form/nls/hu/Uploader
+	module: dojox/widget/nls/de/FilePicker
+	module: dojox/widget/nls/sk/FilePicker
+	module: dojox/charting/action2d/Magnify
+	module: dojox/lang/functional/lambda
+	module: dojox/data/CssRuleStore
+	module: dojox/atom/widget/nls/zh-tw/PeopleEditor
+	module: dojox/embed/flashVars
+	module: dojox/grid/enhanced/nls/kk/Filter
+	module: dojox/form/nls/ar/CheckedMultiSelect
+	module: dojox/charting/plot2d/StackedAreas
+	module: dojox/atom/widget/nls/ko/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/ru/Pagination
+	module: dojox/form/nls/az/PasswordValidator
+	module: dojox/form/nls/ro/Uploader
+	module: dojox/date/buddhist
+	module: dojox/atom/widget/nls/kk/FeedEntryViewer
+	module: dojox/atom/widget/nls/nb/FeedEntryViewer
+	module: dojox/dtl/filter/dates
+	module: dojox/widget/Toaster
+	module: dojox/lang/aspect
+	module: dojox/validate/web
+	module: dojox/charting/themes/ThreeD
+	module: dojox/color/_base
+	module: dojox/widget/nls/zh-tw/Wizard
+	module: dojox/grid/enhanced/nls/zh-tw/EnhancedGrid
+	module: dojox/grid/_FocusManager
+	module: dojox/atom/widget/nls/ja/FeedEntryEditor
+	module: dojox/atom/widget/nls/cs/FeedEntryViewer
+	module: dojox/lang/aspect/cflow
+	module: dojox/lang/oo/aop
+	module: dojox/atom/widget/FeedEntryEditor
+	module: dojox/grid/enhanced/nls/pt/Filter
+	module: dojox/gauges/AnalogIndicatorBase
+	module: dojox/encoding/crypto/_base
+	module: dojox/dtl/render/dom
+	module: dojox/gfx/attach
+	module: dojox/atom/widget/nls/ru/FeedEntryViewer
+	module: dojox/gfx3d/object
+	module: dojox/form/Rating
+	module: dojox/color/Palette
+	module: dojox/form/nls/cs/PasswordValidator
+	module: dojox/widget/nls/ar/Wizard
+	module: dojox/grid/enhanced/nls/fr/Filter
+	module: dojox/charting/themes/PlotKit/blue
+	module: dojox/charting/widget/Chart
+	module: dojox/grid/enhanced/plugins/IndirectSelection
+	module: dojox/charting/plot2d/Scatter
+	module: dojox/sql
+	module: dojox/charting/action2d/TouchZoomAndPan
+	module: dojox/grid/enhanced/nls/pt-br/EnhancedGrid
+	module: dojox/widget/nls/zh-tw/FilePicker
+	module: dojox/widget/nls/tr/Wizard
+	module: dojox/widget/nls/de/ColorPicker
+	module: dojox/grid/enhanced/plugins/filter/FilterDefDialog
+	module: dojox/grid/enhanced/nls/el/Filter
+	module: dojox/atom/widget/nls/ko/PeopleEditor
+	module: dojox/charting/Element
+	module: dojox/socket/Reconnect
+	module: dojox/gfx3d/vector
+	module: dojox/atom/widget/nls/tr/FeedEntryViewer
+	module: dojox/grid/cells/tree
+	module: dojox/storage/AirDBStorageProvider
+	module: dojox/widget/nls/es/Wizard
+	module: dojox/widget/Portlet
+	module: dojox/grid/enhanced/nls/ko/EnhancedGrid
+	module: dojox/storage/Provider
+	module: dojox/widget/nls/pt-pt/FilePicker
+	module: dojox/widget/nls/sl/Wizard
+	module: dojox/data/GoogleFeedStore
+	module: dojox/lang/aspect/counter
+	module: dojox/embed/Quicktime
+	module: dojox/data/ItemExplorer
+	module: dojox/form/Manager
+	module: dojox/layout/GridContainerLite
+	module: dojox/form/nls/el/PasswordValidator
+	module: dojox/atom/widget/nls/da/FeedViewerEntry
+	module: dojox/dtl/filter/misc
+	module: dojox/form/nls/ro/PasswordValidator
+	module: dojox/validate/us
+	module: dojox/lang/functional/listcomp
+	module: dojox/charting/scaler/common
+	module: dojox/widget/nls/sk/ColorPicker
+	module: dojox/data/GoogleSearchStore
+	module: dojox/grid/enhanced/plugins/filter/FilterBuilder
+	module: dojox/form/uploader/plugins/HTML5
+	module: dojox/color
+	module: dojox/grid/_RowManager
+	module: dojox/grid/Selection
+	module: dojox/form/nls/zh/CheckedMultiSelect
+	module: dojox/date/hebrew
+	module: dojox/atom/widget/nls/kk/FeedViewerEntry
+	module: dojox/atom/widget/nls/nb/FeedViewerEntry
+	module: dojox/atom/widget/nls/ar/FeedEntryViewer
+	module: dojox/data/StoreExplorer
+	module: dojox/form/nls/fi/Uploader
+	module: dojox/widget/AutoRotator
+	module: dojox/grid/enhanced/plugins/Cookie
+	module: dojox/form/nls/ko/CheckedMultiSelect
+	module: dojox/lang/functional
+	module: dojox/lang/async/event
+	module: dojox/string/BidiComplex
+	module: dojox/gauges/AnalogArcIndicator
+	module: dojox/grid/enhanced/nls/zh/Pagination
+	module: dojox/charting/themes/GreySkies
+	module: dojox/atom/widget/nls/sk/FeedEntryViewer
+	module: dojox/form/nls/it/PasswordValidator
+	module: dojox/fx/ext-dojo/NodeList-style
+	module: dojox/form/nls/th/PasswordValidator
+	module: dojox/atom/widget/nls/cs/FeedViewerEntry
+	module: dojox/charting/themes/Claro
+	module: dojox/gauges/GlossyCircularGauge
+	module: dojox/html
+	module: dojox/dtl/tag/loader
+	module: dojox/widget/nls/ar/ColorPicker
+	module: dojox/atom/widget/nls/ru/FeedViewerEntry
+	module: dojox/grid/_Layout
+	module: dojox/widget/nls/kk/ColorPicker
+	module: dojox/atom/io/model
+	module: dojox/gfx/vml_attach
+	module: dojox/widget/Pager
+	module: dojox/atom/widget/nls/zh-tw/FeedEntryViewer
+	module: dojox/grid/_View
+	module: dojox/charting/widget/Sparkline
+	module: dojox/gfx/gradient
+	module: dojox/widget/nls/hr/Wizard
+	module: dojox/fx/scroll
+	module: dojox/form/uploader/plugins/Flash
+	module: dojox/widget/BarGauge
+	module: dojox/data/HtmlTableStore
+	module: dojox/atom/widget/nls/ko/FeedEntryEditor
+	module: dojox/form/nls/nl/PasswordValidator
+	module: dojox/layout/GridContainer
+	module: dojox/charting/DataSeries
+	module: dojox/atom/widget/nls/fr/FeedEntryViewer
+	module: dojox/lang/docs
+	module: dojox/atom/widget/nls/tr/FeedViewerEntry
+	module: dojox/grid/enhanced/plugins/filter/ClearFilterConfirm
+	module: dojox/lang/async/timeout
+	module: dojox/fx/_base
+	module: dojox/grid/enhanced/nls/fi/Filter
+	module: dojox/grid/enhanced/nls/sk/Pagination
+	module: dojox/widget/nls/fr/ColorPicker
+	module: dojox/grid/enhanced/nls/ca/Pagination
+	module: dojox/grid/enhanced/plugins/_RowMapLayer
+	module: dojox/gfx/silverlight
+	module: dojox/charting/themes/CubanShirts
+	module: dojox/dtl/tag/misc
+	module: dojox/form/DateTextBox
+	module: dojox/lang/functional/fold
+	module: dojox/form/nls/pl/PasswordValidator
+	module: dojox/dtl/render/html
+	module: dojox/validate/isbn
+	module: dojox/grid/enhanced/nls/th/Pagination
+	module: dojox/date/islamic/Date
+	module: dojox/atom/widget/nls/zh/FeedEntryViewer
+	module: dojox/grid/enhanced/plugins/_StoreLayer
+	module: dojox/widget/nls/nl/ColorPicker
+	module: dojox/gauges/GlossyCircularGaugeBase
+	module: dojox/data/ServiceStore
+	module: dojox/grid/_EditManager
+	module: dojox/grid/enhanced/nls/ko/Pagination
+	module: dojox/widget/nls/pl/FilePicker
+	module: dojox/widget/nls/fr/Wizard
+	module: dojox/charting/plot2d/Default
+	module: dojox/form/nls/el/Uploader
+	module: dojox/widget/nls/ko/Wizard
+	module: dojox/grid/enhanced/nls/ar/Pagination
+	module: dojox/widget/nls/hu/FilePicker
+	module: dojox/charting/themes/IndigoNation
+	module: dojox/widget/nls/el/Wizard
+	module: dojox/gfx
+	module: dojox/atom/widget/nls/ar/FeedViewerEntry
+	module: dojox/widget/gauge/_Gauge
+	module: dojox/atom/widget/nls/ja/PeopleEditor
+	module: dojox/charting/themes/Adobebricks
+	module: dojox/data/AppStore
+	module: dojox/charting/action2d/ChartAction
+	module: dojox/grid/enhanced/nls/cs/Pagination
+	module: dojox/xml/widgetParser
+	module: dojox/charting/DataChart
+	module: dojox/widget/nls/sl/ColorPicker
+	module: dojox/charting/themes/BlueDusk
+	module: dojox/grid/enhanced/nls/ja/EnhancedGrid
+	module: dojox/atom/io/Connection
+	module: dojox/dtl/contrib/data
+	module: dojox/charting/themes/Renkoo
+	module: dojox/grid/enhanced/nls/ja/Pagination
+	module: dojox/xml/DomParser
+	module: dojox/lang/functional/util
+	module: dojox/gauges/TextIndicator
+	module: dojox/form/nls/ca/CheckedMultiSelect
+	module: dojox/atom/widget/nls/da/FeedEntryEditor
+	module: dojox/layout/BorderContainer
+	module: dojox/atom/widget/nls/ca/FeedEntryViewer
+	module: dojox/grid/enhanced/nls/ar/Filter
+	module: dojox/flash/_base
+	module: dojox/lang/oo/Decorator
+	module: dojox/grid/enhanced/nls/da/Filter
+	module: dojox/atom/widget/nls/az/FeedEntryViewer
+	module: dojox/grid/enhanced/nls/pt-br/Pagination
+	module: dojox/atom/widget/nls/zh-tw/FeedViewerEntry
+	module: dojox/atom/widget/nls/pl/FeedEntryEditor
+	module: dojox/rpc/OfflineRest
+	module: dojox/layout/RadioGroup
+	module: dojox/fx/_core
+	module: dojox/grid/enhanced/nls/tr/Filter
+	module: dojox/form/nls/de/PasswordValidator
+	module: dojox/charting/widget/Legend
+	module: dojox/atom/widget/nls/fr/FeedViewerEntry
+	module: dojox/form/nls/pt/Uploader
+	module: dojox/grid/enhanced/nls/es/Filter
+	module: dojox/data/util/JsonQuery
+	module: dojox/form/nls/th/CheckedMultiSelect
+	module: dojox/grid/enhanced/nls/ro/Pagination
+	module: dojox/atom/widget/FeedViewer
+	module: dojox/form/nls/da/Uploader
+	module: dojox/mdnd/adapter/DndFromDojo
+	module: dojox/widget/nls/nl/Wizard
+	module: dojox/grid/enhanced/nls/sl/Filter
+	module: dojox/atom/widget/nls/kk/FeedEntryEditor
+	module: dojox/charting/themes/RoyalPurples
+	module: dojox/gauges/BarCircleIndicator
+	module: dojox/atom/widget/nls/nb/FeedEntryEditor
+	module: dojox/charting/plot2d/common
+	module: dojox/gfx/fx
+	module: dojox/layout/DragPane
+	module: dojox/charting/themes/PlotKit/red
+	module: dojox/grid/enhanced/nls/hr/Pagination
+	module: dojox/atom/widget/nls/FeedEntryViewer
+	module: dojox/form/nls/tr/Uploader
+	module: dojox/layout/dnd/PlottedDnd
+	module: dojox/charting/themes/Harmony
+	module: dojox/form/nls/sv/Uploader
+	module: dojox/widget/nls/hr/ColorPicker
+	module: dojox/date/islamic
+	module: dojox/atom/widget/nls/cs/FeedEntryEditor
+	module: dojox/form/nls/ja/Uploader
+	module: dojox/grid/_TreeView
+	module: dojox/validate/regexp
+	module: dojox/widget/rotator/PanFade
+	module: dojox/form/nls/Uploader
+	module: dojox/layout/ExpandoPane
+	module: dojox/atom/widget/nls/ru/FeedEntryEditor
+	module: dojox/atom/widget/nls/sv/PeopleEditor
+	module: dojox/dtl/filter/lists
+	module: dojox/atom/widget/nls/zh/FeedViewerEntry
+	module: dojox/main
+	module: dojox/lang/functional/array
+	module: dojox/widget/gauge/AnalogNeedleIndicator
+	module: dojox/grid/enhanced/nls/sv/EnhancedGrid
+	module: dojox/grid/enhanced/nls/da/Pagination
+	module: dojox/encoding/compression/lzw
+	module: dojox/widget/nls/pl/ColorPicker
+	module: dojox/form/nls/kk/Uploader
+	module: dojox/gauges/Range
+	module: dojox/rpc/JsonRPC
+	module: dojox/storage/BehaviorStorageProvider
+	module: dojox/widget/nls/ro/Wizard
+	module: dojox/grid/cells/_base
+	module: dojox/gfx/path
+	module: dojox/atom/widget/nls/hu/PeopleEditor
+	module: dojox/encoding/crypto/Blowfish
+	module: dojox/atom/widget/nls/tr/FeedEntryEditor
+	module: dojox/gesture/Base
+	module: dojox/grid/enhanced/nls/hu/EnhancedGrid
+	module: dojox/widget/Iterator
+	module: dojox/form/nls/ru/CheckedMultiSelect
+	module: dojox/form/nls/ko/Uploader
+	module: dojox/widget/nls/fr/FilePicker
+	module: dojox/widget/nls/az/ColorPicker
+	module: dojox/grid/enhanced/plugins/NestedSorting
+	module: dojox/atom/widget/nls/fr/PeopleEditor
+	module: dojox/data/AndOrReadStore
+	module: dojox/grid/_Builder
+	module: dojox/form/nls/fi/CheckedMultiSelect
+	module: dojox/fx/Shadow
+	module: dojox/grid/enhanced/nls/fr/EnhancedGrid
+	module: dojox/form/nls/hu/CheckedMultiSelect
+	module: dojox/dtl/tag/loop
+	module: dojox/form/manager/_DisplayMixin
+	module: dojox/encoding/base64
+	module: dojox/atom/widget/nls/ca/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/hr/Filter
+	module: dojox/atom/widget/nls/az/FeedViewerEntry
+	module: dojox/charting/themes/Tufte
+	module: dojox/form/nls/tr/PasswordValidator
+	module: dojox/widget/SortList
+	module: dojox/widget/nls/it/ColorPicker
+	module: dojox/atom/widget/nls/es/FeedEntryViewer
+	module: dojox/encoding/crypto/RSAKey-ext
+	module: dojox/data/KeyValueStore
+	module: dojox/gfx/renderer
+	module: dojox/lang/functional/tailrec
+	module: dojox/rpc/ProxiedPath
+	module: dojox/xml/parser
+	module: dojox/widget/nls/th/ColorPicker
+	module: dojox/form/FileInput
+	module: dojox/gfx/decompose
+	module: dojox/jsonPath/query
+	module: dojox/atom/widget/nls/ar/FeedEntryEditor
+	module: dojox/widget/nls/cs/ColorPicker
+	module: dojox/data/WikipediaStore
+	module: dojox/charting/themes/Charged
+	module: dojox/lang/functional/numrec
+	module: dojox/grid/enhanced/plugins/Pagination
+	module: dojox/widget/nls/da/ColorPicker
+	module: dojox/atom/widget/nls/pt/FeedEntryEditor
+	module: dojox/atom/widget/nls/FeedViewerEntry
+	module: dojox/atom/widget/nls/sk/FeedEntryEditor
+	module: dojox/data/OpmlStore
+	module: dojox/form/nls/zh-tw/PasswordValidator
+	module: dojox/grid/_Events
+	module: dojox/form/nls/fr/PasswordValidator
+	module: dojox/grid/enhanced/nls/hu/Pagination
+	module: dojox/charting/themes/Dollar
+	module: dojox/dtl/dom
+	module: dojox/charting/axis2d/common
+	module: dojox/charting/Chart2D
+	module: dojox/atom/widget/nls/he/PeopleEditor
+	module: dojox/charting/themes/Minty
+	module: dojox/grid/enhanced/plugins/CellMerge
+	module: dojox/date/hebrew/locale
+	module: dojox/widget/nls/da/Wizard
+	module: dojox/charting/Chart3D
+	module: dojox/grid/enhanced/nls/ko/Filter
+	module: dojox/grid/enhanced/plugins/filter/_FilterExpr
+	module: dojox/atom/widget/nls/th/FeedEntryViewer
+	module: dojox/lang/oo/Filter
+	module: dojox/widget/nls/th/Wizard
+	module: dojox/atom/widget/nls/sk/PeopleEditor
+	module: dojox/form/nls/nl/Uploader
+	module: dojox/fx/_arg
+	module: dojox/widget/nls/pt-pt/Wizard
+	module: dojox/form/nls/el/CheckedMultiSelect
+	module: dojox/dtl/utils/date
+	module: dojox/math/random/Secure
+	module: dojox/form/nls/fr/CheckedMultiSelect
+	module: dojox/form/nls/hr/PasswordValidator
+	module: dojox/atom/widget/nls/fr/FeedEntryEditor
+	module: dojox/dtl/tag/date
+	module: dojox/grid/enhanced/nls/sk/EnhancedGrid
+	module: dojox/atom/widget/nls/el/FeedEntryEditor
+	module: dojox/gfx3d/scheduler
+	module: dojox/form/nls/pt/CheckedMultiSelect
+	module: dojox/data/CdfStore
+	module: dojox/grid/enhanced/nls/pt-br/Filter
+	module: dojox/storage/WhatWGStorageProvider
+	module: dojox/form/TriStateCheckBox
+	module: dojox/gauges/_Gauge
+	module: dojox/form/nls/zh-tw/Uploader
+	module: dojox/dtl/filter/integers
+	module: dojox/html/ext-dojo/style
+	module: dojox/gauges/BarIndicator
+	module: dojox/charting/themes/Algae
+	module: dojox/date/php
+	module: dojox/lang/functional/sequence
+	module: dojox/dtl/filter/strings
+	module: dojox/grid/_Scroller
+	module: dojox/lang/functional/multirec
+	module: dojox/atom/widget/nls/fi/FeedEntryViewer
+	module: dojox/fx/text
+	module: dojox/atom/widget/nls/zh/FeedEntryEditor
+	module: dojox/lang/aspect/memoizer
+	module: dojox/widget/rotator/Slide
+	module: dojox/date/timezone
+	module: dojox/form/CheckedMultiSelect
+	module: dojox/atom/widget/nls/ru/PeopleEditor
+	module: dojox/dtl
+	module: dojox/grid/enhanced/_FocusManager
+	module: dojox/form/Uploader
+	module: dojox/widget/nls/de/Wizard
+	module: dojox/grid/enhanced/_Plugin
+	module: dojox/data/CouchDBRestStore
+	module: dojox/atom/widget/nls/es/FeedViewerEntry
+	module: dojox/widget/nls/tr/FilePicker
+	module: dojox/atom/widget/nls/el/PeopleEditor
+	module: dojox/grid/enhanced/_Events
+	module: dojox/grid/enhanced/nls/ru/EnhancedGrid
+	module: dojox/grid/enhanced/nls/nl/Filter
+	module: dojox/data/RailsStore
+	module: dojox/grid/enhanced/nls/el/EnhancedGrid
+	module: dojox/grid/TreeSelection
+	module: dojox/charting/plot2d/Lines
+	module: dojox/grid/enhanced/plugins/exporter/TableWriter
+	module: dojox/grid/enhanced/nls/nl/Pagination
+	module: dojox/widget/CalendarFx
+	module: dojox/widget/nls/fi/FilePicker
+	module: dojox/lang/functional/scan
+	module: dojox/form/nls/hr/CheckedMultiSelect
+	module: dojox/validate/_base
+	module: dojox/charting/themes/Tom
+	module: dojox/atom/widget/nls/de/FeedEntryEditor
+	module: dojox/grid/enhanced/nls/es/Pagination
+	module: dojox/data/SnapLogicStore
+	module: dojox/mdnd/dropMode/VerticalDropMode
+	module: dojox/atom/widget/nls/hr/FeedEntryViewer
+	module: dojox/form/DropDownSelect
+	module: dojox/charting/scaler/primitive
+	module: dojox/grid/enhanced/plugins/Exporter
+	module: dojox/atom/widget/nls/nb/PeopleEditor
+	module: dojox/charting/themes/PrimaryColors
+	module: dojox/grid/enhanced/_PluginManager
+	module: dojox/widget/nls/pt/ColorPicker
+	module: dojox/atom/widget/nls/az/FeedEntryEditor
+	module: dojox/form/nls/da/PasswordValidator
+	module: dojox/data/XmlItem
+	module: dojox/grid/enhanced/nls/nb/EnhancedGrid
+	module: dojox/atom/widget/nls/th/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/ro/Filter
+	module: dojox/html/styles
+	module: dojox/widget/nls/he/FilePicker
+	module: dojox/grid/enhanced/nls/nb/Pagination
+	module: dojox/encoding/crypto/SimpleAES
+	module: dojox/lang/async/topic
+	module: dojox/charting/plot2d/StackedColumns
+	module: dojox/mdnd/Moveable
+	module: dojox/atom/widget/nls/ca/PeopleEditor
+	module: dojox/grid/enhanced/nls/de/Pagination
+	module: dojox/html/metrics
+	module: dojox/form/nls/sl/CheckedMultiSelect
+	module: dojox/form/nls/sk/PasswordValidator
+	module: dojox/grid/enhanced/nls/ca/EnhancedGrid
+	module: dojox/sql/_base
+	module: dojox/atom/widget/nls/he/FeedEntryViewer
+	module: dojox/form/nls/tr/CheckedMultiSelect
+	module: dojox/form/nls/pt/PasswordValidator
+	module: dojox/charting/plot2d/Stacked
+	module: dojox/grid/enhanced/plugins/GridSource
+	module: dojox/lang/observable
+	module: dojox/charting/themes/MiamiNice
+	module: dojox/form/nls/pt-pt/CheckedMultiSelect
+	module: dojox/widget/FilePicker
+	module: dojox/charting/plot2d/Markers
+	module: dojox/atom/widget/nls/FeedEntryEditor
+	module: dojox/widget/rotator/Fade
+	module: dojox/atom/widget/nls/zh/PeopleEditor
+	module: dojox/math/BigInteger-ext
+	module: dojox/charting/themes/Electric
+	module: dojox/data/FileStore
+	module: dojox/gfx/silverlight_attach
+	module: dojox/json/query
+	module: dojox/atom/widget/nls/fi/FeedViewerEntry
+	module: dojox/atom/widget/nls/da/PeopleEditor
+	module: dojox/grid/enhanced/nls/zh/EnhancedGrid
+	module: dojox/atom/widget/nls/cs/PeopleEditor
+	module: dojox/widget/nls/sv/FilePicker
+	module: dojox/grid/_Grid
+	module: dojox/mdnd/dropMode/DefaultDropMode
+	module: dojox/grid/enhanced/nls/da/EnhancedGrid
+	module: dojox/gauges/AnalogNeedleIndicator
+	module: dojox/data/CsvStore
+	module: dojox/grid/enhanced/nls/cs/EnhancedGrid
+	module: dojox/lang/async
+	module: dojox/form/nls/ar/Uploader
+	module: dojox/atom/widget/nls/sv/FeedEntryViewer
+	module: dojox/embed/Flash
+	module: dojox/layout/RotatorContainer
+	module: dojox/dtl/_base
+	module: dojox/charting/axis2d/Default
+	module: dojox/widget/nls/pl/Wizard
+	module: dojox/charting/plot2d/ClusteredBars
+	module: dojox/gfx/canvas
+	module: dojox/atom/widget/nls/nl/PeopleEditor
+	module: dojox/form/nls/de/CheckedMultiSelect
+	module: dojox/rpc/Service
+	module: dojox/dtl/contrib/dom
+	module: dojox/gfx/vml
+	module: dojox/gfx/canvas_attach
+	module: dojox/grid/enhanced/nls/nl/EnhancedGrid
+	module: dojox/form/nls/it/Uploader
+	module: dojox/widget/nls/it/FilePicker
+	module: dojox/atom/widget/nls/pt/PeopleEditor
+	module: dojox/gfx/Mover
+	module: dojox/charting/themes/common
+	module: dojox/date/posix
+	module: dojox/charting/Chart
+	module: dojox/date/hebrew/Date
+	module: dojox/atom/widget/nls/hr/FeedViewerEntry
+	module: dojox/grid/enhanced/nls/pt/EnhancedGrid
+	module: dojox/charting/action2d/MouseIndicator
+	module: dojox/atom/widget/nls/it/FeedEntryViewer
+	module: dojox/encoding/digests/_base
+	module: dojox/lang/functional/linrec
+	module: dojox/grid/enhanced/nls/Filter
+	module: dojox/grid/cells/dijit
+	module: dojox/form/nls/ca/Uploader
+	module: dojox/lang/oo/rearrange
+	module: dojox/charting/themes/Shrooms
+	module: dojox/charting/plot2d/StackedLines
+	module: dojox/lang/typed
+	module: dojox/grid/enhanced/nls/th/Filter
+	module: dojox/atom/widget/nls/es/FeedEntryEditor
+	module: dojox/charting/themes/SageToLime
+	module: dojox/grid/enhanced/plugins/filter/FilterStatusTip
+	module: dojox/rpc/JsonRest
+	module: dojox/storage/manager
+	module: dojox/charting/plot2d/Spider
+	module: dojox/charting/plot2d/Pie
+	module: dojox/widget/nls/nb/Wizard
+	module: dojox/data/css
+	module: dojox/widget/Rotator
+	module: dojox/grid/enhanced/plugins/Menu
+	module: dojox/charting/axis2d/Base
+	module: dojox/gfx/svg_attach
+	module: dojox/charting/plot2d/Columns
+	module: dojox/atom/widget/nls/ro/FeedEntryViewer
+	module: dojox/widget/FisheyeList
+	module: dojox/widget/nls/Wizard
+	module: dojox/grid/enhanced/nls/zh-tw/Filter
+	module: dojox/data/S3Store
+	module: dojox/widget/PlaceholderMenuItem
+	module: dojox/atom/widget/nls/he/FeedViewerEntry
+	module: dojox/widget/FisheyeLite
+	module: dojox/lang/aspect/profiler
+	module: dojox/widget/nls/he/ColorPicker
+	module: dojox/charting/plot2d/Bubble
+	module: dojox/form/nls/pt-pt/Uploader
+	module: dojox/widget/DataPresentation
+	module: dojox/gauges/BarLineIndicator
+	module: dojox/gfx3d/_base
+	module: dojox/grid/cells
+	module: dojox/charting/themes/Chris
+	module: dojox/math/random/prng4
+	module: dojox/form/manager/_Mixin
+	module: dojox/form/nls/cs/Uploader
+	module: dojox/atom/widget/nls/az/PeopleEditor
+	module: dojox/grid/enhanced/plugins/filter/FilterBar
+	module: dojox/widget/nls/pt/FilePicker
+	module: dojox/form/_SelectStackMixin
+	module: dojox/form/nls/hu/PasswordValidator
+	module: dojox/widget/nls/sk/Wizard
+	module: dojox/mdnd/LazyManager
+	module: dojox/grid/enhanced/nls/de/Filter
+	module: dojox/grid/enhanced/plugins/exporter/CSVWriter
+	module: dojox/widget/Calendar
+	module: dojox/atom/widget/nls/sv/FeedViewerEntry
+	module: dojox/atom/widget/nls/th/FeedEntryEditor
+	module: dojox/form/manager/_ValueMixin
+	module: dojox/widget/nls/ru/FilePicker
+	module: dojox/form/nls/ca/PasswordValidator
+	module: dojox/gfx/move
+	module: dojox/xml/Script
+	module: dojox/lang/oo/general
+	module: dojox/widget/Standby
+	module: dojox/atom/widget/nls/kk/PeopleEditor
+	module: dojox/grid/enhanced/nls/kk/EnhancedGrid
+	module: dojox/widget/nls/sv/ColorPicker
+	module: dojox/atom/widget/nls/ar/PeopleEditor
+	module: dojox/form/uploader/FileList
+	module: dojox/form/nls/CheckedMultiSelect
+	module: dojox/fx
+	module: dojox/charting/themes/PlotKit/base
+	module: dojox/data/HtmlStore
+	module: dojox/charting/scaler/linear
+	module: dojox/form/nls/sk/CheckedMultiSelect
+	module: dojox/charting/StoreSeries
+	module: dojox/gfx/Moveable
+	module: dojox/dtl/filter/logic
+	module: dojox/grid/enhanced/nls/ca/Filter
+	module: dojox/atom/widget/nls/pt-pt/FeedEntryViewer
+	module: dojox/charting/action2d/MoveSlice
+	module: dojox/grid/TreeGrid
+	module: dojox/form/nls/zh/PasswordValidator
+	module: dojox/mdnd/dropMode/OverDropMode
+	module: dojox/gfx/_gfxBidiSupport
+	module: dojox/atom/widget/nls/it/FeedViewerEntry
+	module: dojox/atom/widget/nls/fi/FeedEntryEditor
+	module: dojox/form/nls/ru/Uploader
+	module: dojox/date/relative
+	module: dojox/color/Colorspace
+	module: dojox/dtl/contrib/dijit
+	module: dojox/charting/themes/Bahamation
+	module: dojox/layout/TableContainer
+	module: dojox/validate/check
+	module: dojox/gfx3d/gradient
+	module: dojox/html/entities
+	module: dojox/widget/Roller
+	module: dojox/html/_base
+	module: dojox/lang/functional/binrec
+	module: dojox/widget/nls/pt-pt/ColorPicker
+	module: dojox/fx/flip
+	module: dojox/gfx/shape
+	module: dojox/atom/widget/nls/ro/FeedViewerEntry
+	module: dojox/charting/themes/PlotKit/cyan
+	module: dojox/gfx3d/matrix
+	module: dojox/lang/utils
+	module: dojox/grid/enhanced/nls/EnhancedGrid
+	module: dojox/grid/enhanced/nls/pl/Pagination
+	module: dojox/atom/widget/nls/pt-pt/PeopleEditor
+	module: dojox/gfx/VectorText
+	module: dojox/math/random/Simple
+	module: dojox/charting/plot3d/Cylinders
+	module: dojox/atom/widget/nls/hr/FeedEntryEditor
+	module: dojox/form/DropDownStack
+	module: dojox/atom/widget/nls/hr/PeopleEditor
+	module: dojox/mdnd/AreaManager
+	module: dojox/widget/nls/ru/Wizard
+	module: dojox/form/TimeSpinner
+	module: dojox/grid/enhanced/nls/hr/EnhancedGrid
+	module: dojox/atom/widget/nls/PeopleEditor
+	module: dojox/embed/Object
+	module: dojox/gfx/svg
+	module: dojox/lang/aspect/timer
+	module: dojox/grid/enhanced/nls/he/EnhancedGrid
+	module: dojox/atom/widget/nls/zh-tw/FeedEntryEditor
+	module: dojox/layout/ext-dijit/layout/StackContainer-touch
+	module: dojox/fx/Timeline
+	module: dojox/charting/BidiSupport
+	module: dojox/form/nls/th/Uploader
+	module: dojox/form/nls/sl/Uploader
+	module: dojox/grid/enhanced/nls/pl/Filter
+	module: dojox/grid/enhanced/nls/pt-pt/EnhancedGrid
+	module: dojox/math/BigInteger
+	module: dojox/gfx/canvasWithEvents
+	module: dojox/grid/_Selector
+	module: dojox/fx/ext-dojo/NodeList
+	module: dojox/widget/UpgradeBar
+	module: dojox/gauges/GlossyHorizontalGauge
+	module: dojox/form/nls/kk/CheckedMultiSelect
+	module: dojox/mdnd/PureSource
+	module: dojox/widget/nls/el/ColorPicker
+	module: dojox/charting/plot2d/Grid
+	module: dojox/layout/ToggleSplitter
+	module: dojox/charting/action2d/Highlight
+	module: dojox/form/nls/zh/Uploader
+	module: dojox/grid/_RadioSelector
+	module: dojox/encoding/digests/SHA1
+	module: dojox/charting/plot2d/Candlesticks
+	module: dojox/form/nls/it/CheckedMultiSelect
+	module: dojox/charting/plot2d/_PlotEvents
+	module: dojox/atom/widget/nls/he/FeedEntryEditor
+	module: dojox/fx/style
+	module: dojox/layout/dnd/Avatar
+	module: dojox/widget/nls/zh/FilePicker
+	module: dojox/math/_base
+	module: dojox/math/matrix
+	module: dojox/string/BidiEngine
+	module: dojox/grid/enhanced/plugins/filter/FilterLayer
+	module: dojox/atom/widget/nls/hu/FeedEntryViewer
+	module: dojox/layout/ResizeHandle
+	module: dojox/form/nls/sv/CheckedMultiSelect
+	module: dojox/atom/widget/nls/pt-pt/FeedViewerEntry
+	module: dojox/form/nls/he/PasswordValidator
+	module: dojox/grid/enhanced/nls/ja/Filter
+	module: dojox/grid/EnhancedGrid
+	module: dojox/charting/themes/Wetland
+	module: dojox/data/JsonQueryRestStore
+	module: dojox/widget/rotator/Pan
+	module: dojox/layout/ContentPane
+	module: dojox/mdnd/DropIndicator
+	module: dojox/widget/nls/el/FilePicker
+	module: dojox/encoding/bits
+	module: dojox/atom/widget/nls/sv/FeedEntryEditor
+	module: dojox/grid/enhanced/nls/nb/Filter
+	module: dojox/grid/enhanced/plugins/AutoScroll
+	module: dojox/grid/enhanced/plugins/filter/_DataExprs
+	module: dojox/form/nls/zh-tw/CheckedMultiSelect
+	module: dojox/widget/nls/tr/ColorPicker
+	module: dojox/charting/action2d/PlotAction
+	module: dojox/grid/util
+	module: dojox/grid/enhanced/nls/pt/Pagination
+	module: dojox/widget/nls/ca/FilePicker
+	module: dojox/grid/enhanced/plugins/Filter
+	module: dojox/atom/widget/nls/pl/FeedEntryViewer
+	module: dojox/encoding/digests/MD5
+	module: dojox/widget/nls/es/ColorPicker
+	module: dojox/form/PasswordValidator
+	module: dojox/data/OpenSearchStore
+	module: dojox/data/AtomReadStore
+	module: dojox/grid/enhanced/plugins/Rearrange
+	module: dojox/date/islamic/locale
+	module: dojox/charting/themes/PlotKit/orange
+	module: dojox/form/nls/sk/Uploader
+	module: dojox/form/manager/_NodeMixin
+	module: dojox/gfx/matrix
+	module: dojox/widget/nls/ca/Wizard
+	module: dojox/grid/enhanced/nls/sk/Filter
+	module: dojox/widget/nls/th/FilePicker
+	module: dojox/atom/widget/nls/it/FeedEntryEditor
+	module: dojox/atom/widget/nls/ca/FeedEntryEditor
+	module: dojox/data/XmlStore
+	module: dojox/form/nls/ar/PasswordValidator
+	module: dojox/form/uploader/Base
+	module: dojox/charting/widget/Chart2D
+	module: dojox/form/BusyButton
+	module: dojox/math/round
+	module: dojox/gauges/AnalogCircleIndicator
+	module: dojox/grid/enhanced/nls/fr/Pagination
+	module: dojox/gauges/AnalogArrowIndicator
+	module: dojox/widget/nls/az/Wizard
+	module: dojox/widget/nls/ko/FilePicker
+	module: dojox/atom/widget/nls/nl/FeedEntryViewer
+	module: dojox/html/format
+	module: dojox/grid/LazyTreeGrid
+	module: dojox/charting/themes/WatersEdge
+	module: dojox/charting/widget/SelectableLegend
+	module: dojox/atom/widget/nls/th/PeopleEditor
+	module: dojox/date/buddhist/Date
+	module: dojox/lang/aspect/tracer
+	module: dojox/grid/_SelectionPreserver
+	module: dojox/charting/themes/PurpleRain
+	module: dojox/gfx/gradutils
+	module: dojox/form/nls/da/CheckedMultiSelect
+	module: dojox/widget/nls/ar/FilePicker
+	module: dojox/grid/enhanced/nls/th/EnhancedGrid
+	module: dojox/date/hebrew/numerals
+	module: dojox/mdnd/AutoScroll
+	module: dojox/data/ClientFilter
+	module: dojox/form/nls/fi/PasswordValidator
+	module: dojox/math/curves
+	module: dojox/atom/widget/nls/ro/FeedEntryEditor
+	module: dojox/atom/widget/nls/it/PeopleEditor
+	module: dojox/form/FileUploader
+	module: dojox/math
+	module: dojox/form/nls/ko/PasswordValidator
+	module: dojox/widget/FeedPortlet
+	module: dojox/form/manager/_FormMixin
+	module: dojox/form/nls/sl/PasswordValidator
+	module: dojox/widget/nls/cs/FilePicker
+	module: dojox/grid/enhanced/nls/it/EnhancedGrid
+	module: dojox/grid/enhanced/plugins/Dialog
+	module: dojox/form/nls/nb/Uploader
+	module: dojox/widget/nls/zh-tw/ColorPicker
+	module: dojox/atom/widget/nls/hu/FeedViewerEntry
+	module: dojox/storage/FlashStorageProvider
+	module: dojox/widget/gauge/AnalogArcIndicator
+	module: dojox/math/stats
+	module: dojox/widget/nls/ja/FilePicker
+	module: dojox/flash
+	module: dojox/sql/_crypto
+	module: dojox/grid/enhanced/nls/he/Filter
+	module: dojox/dtl/tag/logic
+	module: dojox/string/tokenize
+	module: dojox/atom/widget/nls/sl/FeedEntryViewer
+	module: dojox/fx/split
+	module: dojox/widget/rotator/Controller
+	module: dojox/form/nls/PasswordValidator
+	module: dojox/widget/nls/sv/Wizard
+	module: dojox/form/nls/es/PasswordValidator
+	module: dojox/form/nls/fr/Uploader
+	module: dojox/grid/_ViewManager
+	module: dojox/form/nls/ru/PasswordValidator
+	module: dojox/atom/widget/nls/fi/PeopleEditor
+	module: dojox/widget/Dialog
+	module: dojox/form/FileInputBlind
+	module: dojox/storage/AirEncryptedLocalStorageProvider
+	module: dojox/widget/nls/ca/ColorPicker
+	module: dojox/dtl/ext-dojo/NodeList
+	module: dojox/grid/enhanced/nls/fi/EnhancedGrid
+	module: dojox/widget/nls/it/Wizard
+	module: dojox/widget/nls/ro/FilePicker
+	module: dojox/form/nls/pl/Uploader
+	module: dojox/storage/_common
+	module: dojox/widget/nls/nb/ColorPicker
+	module: dojox/lang/functional/reversed
+	module: dojox/atom/widget/nls/pl/FeedViewerEntry
+	module: dojox/atom/widget/nls/tr/PeopleEditor
+	module: dojox/widget/nls/hr/FilePicker
+	module: dojox/widget/TitleGroup
+	module: dojox/data/dom
+	module: dojox/mdnd/adapter/DndToDojo
+	module: dojox/grid/enhanced/nls/ru/Filter
+	module: dojox/grid/DataGrid
+	module: dojox/widget/nls/sl/FilePicker
+	module: dojox/grid/enhanced/nls/tr/EnhancedGrid
+	module: dojox/widget/nls/ColorPicker
+	module: dojox/form/_FormSelectWidget
+	module: dojox/atom/widget/nls/pt-pt/FeedEntryEditor
+	module: dojox/charting/Series
+	module: dojox/widget/nls/ja/Wizard
+	module: dojox/form/nls/ro/CheckedMultiSelect
+	module: dojox/form/nls/nl/CheckedMultiSelect
+	module: dojox/charting/action2d/TouchIndicator
+	module: dojox/data/AndOrWriteStore
+	module: dojox/widget/nls/cs/Wizard
+	module: dojox/atom/widget/nls/ro/PeopleEditor
+	module: dojox/widget/nls/zh/Wizard
+	module: dojox/atom/widget/nls/es/PeopleEditor
+	module: dojox/widget/gauge/BarIndicator
+	module: dojox/charting/axis2d/Invisible
+	module: dojox/encoding/easy64
+	module: dojox/widget/nls/da/FilePicker
+	module: dojox/atom/widget/nls/nl/FeedViewerEntry
+	module: dojox/grid/enhanced/plugins/filter/_ConditionExpr
+	module: dojox/atom/widget/nls/pt/FeedEntryViewer
+	module: dojox/grid/enhanced/nls/ro/EnhancedGrid
+	module: dojox/widget/nls/az/FilePicker
+	module: dojox/lang/functional/object
+	module: dojox/grid/enhanced/nls/es/EnhancedGrid
+	module: dojox/atom/widget/nls/ja/FeedEntryViewer
+	module: dojox/charting/plot2d/OHLC
+	module: dojox/atom/widget/FeedEntryViewer
+	module: dojox/fx/ext-dojo/complex
+	module: dgrid/Selection
+	module: dgrid/ColumnSet
+	module: dgrid/extensions/ColumnHider
+	module: dgrid/extensions/nls/pagination
+	module: dgrid/TouchScroll
+	module: dgrid/GridFromHtml
+	module: dgrid/extensions/ColumnReorder
+	module: dgrid/OnDemandGrid
+	module: dgrid/extensions/DijitRegistry
+	module: dgrid/Grid
+	module: dgrid/_StoreMixin
+	module: dgrid/CellSelection
+	module: dgrid/OnDemandList
+	module: dgrid/Selector
+	module: dgrid/Keyboard
+	module: dgrid/List
+	module: dgrid/extensions/DnD
+	module: dgrid/util/misc
+	module: dgrid/util/mouse
+	module: dgrid/GridWithColumnSetsFromHtml
+	module: dgrid/Editor
+	module: dgrid/extensions/Pagination
+	module: dgrid/extensions/nls/es/pagination
+	module: dgrid/Tree
+	module: dgrid/util/touch
+	module: dgrid/extensions/nls/ja/pagination
+	module: dgrid/extensions/ColumnResizer
+	module: dijit/_editor/nls/sk/FontChoice
+	module: dijit/form/nls/it/validate
+	module: dijit/form/nls/da/Textarea
+	module: dijit/nls/pt-pt/common
+	module: dijit/form/nls/hr/ComboBox
+	module: dijit/MenuBar
+	module: dijit/nls/pt-pt/loading
+	module: dijit/_editor/nls/pl/LinkDialog
+	module: dijit/form/nls/ca/ComboBox
+	module: dijit/form/nls/sv/ComboBox
+	module: dijit/_editor/nls/es/commands
+	module: dijit/_editor/range
+	module: dijit/form/nls/sl/Textarea
+	module: dijit/Dialog
+	module: dijit/nls/fi/common
+	module: dijit/_editor/nls/ja/LinkDialog
+	module: dijit/form/nls/da/ComboBox
+	module: dijit/form/Slider
+	module: dijit/_Templated
+	module: dijit/_editor/nls/az/commands
+	module: dijit/_editor/RichText
+	module: dijit/ToolbarSeparator
+	module: dijit/form/RadioButton
+	module: dijit/MenuSeparator
+	module: dijit/nls/ko/common
+	module: dijit/form/ToggleButton
+	module: dijit/CheckedMenuItem
+	module: dijit/form/nls/nl/ComboBox
+	module: dijit/_tree/dndSource
+	module: dijit/nls/zh/common
+	module: dijit/_editor/nls/FontChoice
+	module: dijit/form/nls/nb/Textarea
+	module: dijit/form/nls/el/Textarea
+	module: dijit/form/nls/de/ComboBox
+	module: dijit/form/nls/he/ComboBox
+	module: dijit/_DialogMixin
+	module: dijit/_Widget
+	module: dijit/layout/AccordionContainer
+	module: dijit/form/nls/hu/validate
+	module: dijit/_editor/nls/ko/FontChoice
+	module: dijit/form/SimpleTextarea
+	module: dijit/form/nls/fi/Textarea
+	module: dijit/form/nls/tr/validate
+	module: dijit/_editor/nls/hu/FontChoice
+	module: dijit/form/nls/cs/ComboBox
+	module: dijit/form/MultiSelect
+	module: dijit/form/nls/zh/validate
+	module: dijit/tree/model
+	module: dijit/nls/pt/common
+	module: dijit/form/nls/fr/validate
+	module: dijit/form/nls/it/Textarea
+	module: dijit/tree/ForestStoreModel
+	module: dijit/form/nls/ro/validate
+	module: dijit/nls/sv/common
+	module: dijit/_Calendar
+	module: dijit/form/TimeTextBox
+	module: dijit/layout/SplitContainer
+	module: dijit/Menu
+	module: dijit/dijit-all
+	module: dijit/_base/window
+	module: dijit/_editor/nls/ru/FontChoice
+	module: dijit/_editor/nls/pt-pt/LinkDialog
+	module: dijit/form/nls/pt-pt/ComboBox
+	module: dijit/form/MappedTextBox
+	module: dijit/_editor/nls/sv/LinkDialog
+	module: dijit/form/nls/ko/validate
+	module: dijit/nls/sl/common
+	module: dijit/form/nls/pt/ComboBox
+	module: dijit/form/CheckBox
+	module: dijit/nls/common
+	module: dijit/form/Textarea
+	module: dijit/form/DropDownButton
+	module: dijit/_base/scroll
+	module: dijit/nls/sl/loading
+	module: dijit/nls/az/common
+	module: dijit/nls/ro/loading
+	module: dijit/form/nls/it/ComboBox
+	module: dijit/_TimePicker
+	module: dijit/form/nls/pl/validate
+	module: dijit/form/nls/zh-tw/validate
+	module: dijit/_editor/nls/cs/FontChoice
+	module: dijit/nls/zh/loading
+	module: dijit/nls/kk/common
+	module: dijit/_editor/nls/sk/commands
+	module: dijit/_Contained
+	module: dijit/form/nls/el/validate
+	module: dijit/InlineEditBox
+	module: dijit/nls/ja/loading
+	module: dijit/_editor/nls/az/LinkDialog
+	module: dijit/_Container
+	module: dijit/layout/BorderContainer
+	module: dijit/_editor/nls/it/LinkDialog
+	module: dijit/_base/wai
+	module: dijit/_editor/nls/sl/LinkDialog
+	module: dijit/form/nls/es/validate
+	module: dijit/form/nls/hu/Textarea
+	module: dijit/_editor/nls/th/FontChoice
+	module: dijit/form/nls/tr/Textarea
+	module: dijit/form/ComboBoxMixin
+	module: dijit/form/Select
+	module: dijit/Calendar
+	module: dijit/form/nls/ru/ComboBox
+	module: dijit/_editor/nls/it/FontChoice
+	module: dijit/_editor/nls/hr/commands
+	module: dijit/_editor/nls/da/LinkDialog
+	module: dijit/_base/manager
+	module: dijit/_editor/plugins/AlwaysShowToolbar
+	module: dijit/nls/es/loading
+	module: dijit/form/ComboButton
+	module: dijit/form/nls/zh/Textarea
+	module: dijit/_editor/nls/ro/LinkDialog
+	module: dijit/_editor/nls/sv/commands
+	module: dijit/WidgetSet
+	module: dijit/form/RangeBoundTextBox
+	module: dijit/_editor/nls/ar/commands
+	module: dijit/nls/az/loading
+	module: dijit/form/nls/kk/Textarea
+	module: dijit/nls/hr/loading
+	module: dijit/form/nls/fr/Textarea
+	module: dijit/_editor/nls/da/commands
+	module: dijit/DialogUnderlay
+	module: dijit/nls/th/loading
+	module: dijit/form/nls/ro/Textarea
+	module: dijit/_editor/nls/hr/LinkDialog
+	module: dijit/form/_ToggleButtonMixin
+	module: dijit/form/nls/tr/ComboBox
+	module: dijit/form/VerticalSlider
+	module: dijit/_TemplatedMixin
+	module: dijit/_editor/nls/nl/commands
+	module: dijit/form/nls/ko/Textarea
+	module: dijit/nls/da/loading
+	module: dijit/nls/de/common
+	module: dijit/form/nls/ar/ComboBox
+	module: dijit/form/HorizontalSlider
+	module: dijit/_editor/nls/de/commands
+	module: dijit/_editor/nls/hr/FontChoice
+	module: dijit/_editor/nls/he/commands
+	module: dijit/nls/he/common
+	module: dijit/nls/de/loading
+	module: dijit/_editor/plugins/ToggleDir
+	module: dijit/_editor/nls/pl/FontChoice
+	module: dijit/form/_TextBoxMixin
+	module: dijit/form/nls/pl/Textarea
+	module: dijit/form/nls/zh-tw/Textarea
+	module: dijit/a11y
+	module: dijit/nls/ru/loading
+	module: dijit/form/nls/ro/ComboBox
+	module: dijit/form/TextBox
+	module: dijit/_editor/nls/es/LinkDialog
+	module: dijit/_editor/nls/ja/FontChoice
+	module: dijit/form/_DateTimeTextBox
+	module: dijit/_editor/nls/cs/commands
+	module: dijit/nls/sv/loading
+	module: dijit/layout/StackContainer
+	module: dijit/form/_RadioButtonMixin
+	module: dijit/nls/he/loading
+	module: dijit/nls/fr/common
+	module: dijit/form/Form
+	module: dijit/nls/it/common
+	module: dijit/form/nls/sl/ComboBox
+	module: dijit/form/_FormWidgetMixin
+	module: dijit/main
+	module: dijit/_editor/nls/kk/LinkDialog
+	module: dijit/_base/place
+	module: dijit/form/nls/es/Textarea
+	module: dijit/nls/cs/loading
+	module: dijit/nls/fr/loading
+	module: dijit/nls/zh-tw/loading
+	module: dijit/form/nls/el/ComboBox
+	module: dijit/form/nls/nb/ComboBox
+	module: dijit/form/nls/az/Textarea
+	module: dijit/nls/pl/common
+	module: dijit/_base/sniff
+	module: dijit/_editor/nls/pt/commands
+	module: dijit/nls/es/common
+	module: dijit/form/nls/kk/validate
+	module: dijit/form/nls/sk/validate
+	module: dijit/nls/hu/common
+	module: dijit/_editor/nls/it/commands
+	module: dijit/_base/popup
+	module: dijit/form/nls/fi/ComboBox
+	module: dijit/form/nls/th/validate
+	module: dijit/_editor/plugins/NewPage
+	module: dijit/nls/da/common
+	module: dijit/registry
+	module: dijit/form/nls/ja/validate
+	module: dijit/_base/focus
+	module: dijit/PopupMenuBarItem
+	module: dijit/form/_FormMixin
+	module: dijit/BackgroundIframe
+	module: dijit/layout/TabController
+	module: dijit/_MenuBase
+	module: dijit/_editor/nls/fi/LinkDialog
+	module: dijit/_editor/nls/pt-pt/FontChoice
+	module: dijit/_editor/_Plugin
+	module: dijit/layout/ScrollingTabController
+	module: dijit/_editor/nls/sv/FontChoice
+	module: dijit/form/_ListMouseMixin
+	module: dijit/form/nls/ca/validate
+	module: dijit/form/nls/sv/validate
+	module: dijit/_OnDijitClickMixin
+	module: dijit/tree/_dndSelector
+	module: dijit/form/VerticalRuleLabels
+	module: dijit/_editor/nls/fr/LinkDialog
+	module: dijit/_editor/nls/ru/commands
+	module: dijit/nls/fi/loading
+	module: dijit/layout/StackController
+	module: dijit/nls/el/loading
+	module: dijit/_editor/nls/ca/LinkDialog
+	module: dijit/_editor/nls/el/LinkDialog
+	module: dijit/_editor/nls/nl/LinkDialog
+	module: dijit/form/DateTextBox
+	module: dijit/form/_FormValueMixin
+	module: dijit/nls/sk/common
+	module: dijit/layout/AccordionPane
+	module: dijit/nls/hr/common
+	module: dijit/nls/nb/loading
+	module: dijit/form/_AutoCompleterMixin
+	module: dijit/TitlePane
+	module: dijit/form/CurrencyTextBox
+	module: dijit/place
+	module: dijit/form/ComboBox
+	module: dijit/layout/_LayoutWidget
+	module: dijit/_editor/nls/tr/LinkDialog
+	module: dijit/form/nls/nl/validate
+	module: dijit/_editor/nls/commands
+	module: dijit/_editor/nls/el/FontChoice
+	module: dijit/layout/_ContentPaneResizeMixin
+	module: dijit/_editor/nls/az/FontChoice
+	module: dijit/form/_ButtonMixin
+	module: dijit/form/nls/de/validate
+	module: dijit/_editor/nls/hu/commands
+	module: dijit/tree/TreeStoreModel
+	module: dijit/_editor/nls/tr/commands
+	module: dijit/_editor/nls/sl/FontChoice
+	module: dijit/nls/nl/common
+	module: dijit/form/nls/az/validate
+	module: dijit/nls/cs/common
+	module: dijit/nls/it/loading
+	module: dijit/_editor/plugins/Print
+	module: dijit/form/HorizontalRule
+	module: dijit/nls/pl/loading
+	module: dijit/hccss
+	module: dijit/_editor/nls/zh/commands
+	module: dijit/form/HorizontalRuleLabels
+	module: dijit/Editor
+	module: dijit/_editor/nls/da/FontChoice
+	module: dijit/nls/nb/common
+	module: dijit/form/nls/sk/Textarea
+	module: dijit/popup
+	module: dijit/_editor/nls/zh-tw/LinkDialog
+	module: dijit/layout/TabContainer
+	module: dijit/_base
+	module: dijit/_editor/nls/nb/LinkDialog
+	module: dijit/form/nls/hu/ComboBox
+	module: dijit/_editor/nls/ro/FontChoice
+	module: dijit/nls/sk/loading
+	module: dijit/_editor/plugins/EnterKeyHandling
+	module: dijit/_editor/nls/he/LinkDialog
+	module: dijit/layout/LinkPane
+	module: dijit/form/_FormValueWidget
+	module: dijit/_editor/nls/ro/commands
+	module: dijit/_BidiSupport
+	module: dijit/tree/_dndContainer
+	module: dijit/form/nls/th/Textarea
+	module: dijit/focus
+	module: dijit/_editor/nls/de/LinkDialog
+	module: dijit/form/nls/zh/ComboBox
+	module: dijit/form/nls/ja/Textarea
+	module: dijit/_editor/nls/ko/commands
+	module: dijit/nls/ja/common
+	module: dijit/_editor/nls/sl/commands
+	module: dijit/form/nls/pt-pt/validate
+	module: dijit/ColorPalette
+	module: dijit/form/nls/kk/ComboBox
+	module: dijit/form/nls/fr/ComboBox
+	module: dijit/form/nls/ca/Textarea
+	module: dijit/form/nls/sv/Textarea
+	module: dijit/_CssStateMixin
+	module: dijit/_editor/nls/pl/commands
+	module: dijit/nls/el/common
+	module: dijit/form/FilteringSelect
+	module: dijit/_WidgetBase
+	module: dijit/form/nls/th/ComboBox
+	module: dijit/MenuBarItem
+	module: dijit/form/nls/ko/ComboBox
+	module: dijit/_editor/nls/el/commands
+	module: dijit/_editor/nls/nb/commands
+	module: dijit/_editor/nls/es/FontChoice
+	module: dijit/_editor/html
+	module: dijit/form/nls/ja/ComboBox
+	module: dijit/_editor/nls/zh/LinkDialog
+	module: dijit/form/nls/validate
+	module: dijit/form/nls/nl/Textarea
+	module: dijit/form/_FormWidget
+	module: dijit/form/nls/pl/ComboBox
+	module: dijit/form/nls/zh-tw/ComboBox
+	module: dijit/form/nls/de/Textarea
+	module: dijit/_editor/nls/fi/commands
+	module: dijit/form/nls/he/Textarea
+	module: dijit/nls/nl/loading
+	module: dijit/_editor/nls/zh/FontChoice
+	module: dijit/_editor/nls/kk/FontChoice
+	module: dijit/nls/hu/loading
+	module: dijit/dijit
+	module: dijit/form/NumberSpinner
+	module: dijit/MenuItem
+	module: dijit/_editor/nls/LinkDialog
+	module: dijit/form/nls/ru/validate
+	module: dijit/_editor/nls/pt/LinkDialog
+	module: dijit/DropDownMenu
+	module: dijit/form/nls/cs/Textarea
+	module: dijit/_base/typematic
+	module: dijit/form/nls/es/ComboBox
+	module: dijit/_editor/nls/ko/LinkDialog
+	module: dijit/_editor/nls/zh-tw/commands
+	module: dijit/_editor/plugins/LinkDialog
+	module: dijit/_editor/nls/pt/FontChoice
+	module: dijit/_editor/nls/hu/LinkDialog
+	module: dijit/nls/ar/common
+	module: dijit/form/_ListBase
+	module: dijit/nls/tr/loading
+	module: dijit/form/nls/az/ComboBox
+	module: dijit/form/nls/hr/validate
+	module: dijit/_editor/nls/ar/LinkDialog
+	module: dijit/typematic
+	module: dijit/_editor/plugins/FontChoice
+	module: dijit/nls/ro/common
+	module: dijit/form/nls/pt-pt/Textarea
+	module: dijit/_editor/plugins/ViewSource
+	module: dijit/form/nls/ar/validate
+	module: dijit/form/nls/pt/Textarea
+	module: dijit/_editor/nls/ar/FontChoice
+	module: dijit/_editor/nls/fi/FontChoice
+	module: dijit/form/_FormSelectWidget
+	module: dijit/form/_ComboBoxMenu
+	module: dijit/layout/_TabContainerBase
+	module: dijit/form/nls/da/validate
+	module: dijit/nls/zh-tw/common
+	module: dijit/_KeyNavContainer
+	module: dijit/_editor/nls/ru/LinkDialog
+	module: dijit/form/DataList
+	module: dijit/Tooltip
+	module: dijit/PopupMenuItem
+	module: dijit/nls/kk/loading
+	module: dijit/_editor/nls/fr/FontChoice
+	module: dijit/layout/ContentPane
+	module: dijit/_editor/nls/ca/FontChoice
+	module: dijit/_WidgetsInTemplateMixin
+	module: dijit/_editor/nls/nl/FontChoice
+	module: dijit/form/nls/Textarea
+	module: dijit/form/VerticalRule
+	module: dijit/nls/ko/loading
+	module: dijit/_HasDropDown
+	module: dijit/form/nls/he/validate
+	module: dijit/_editor/nls/tr/FontChoice
+	module: dijit/form/nls/sl/validate
+	module: dijit/_editor/nls/cs/LinkDialog
+	module: dijit/nls/tr/common
+	module: dijit/tree/dndSource
+	module: dijit/form/_CheckBoxMixin
+	module: dijit/_editor/plugins/FullScreen
+	module: dijit/nls/ca/loading
+	module: dijit/nls/ca/common
+	module: dijit/layout/LayoutContainer
+	module: dijit/nls/th/common
+	module: dijit/form/nls/cs/validate
+	module: dijit/form/nls/ru/Textarea
+	module: dijit/layout/utils
+	module: dijit/ProgressBar
+	module: dijit/_PaletteMixin
+	module: dijit/_editor/nls/kk/commands
+	module: dijit/form/nls/ComboBox
+	module: dijit/Declaration
+	module: dijit/_editor/selection
+	module: dijit/nls/pt/loading
+	module: dijit/_editor/nls/fr/commands
+	module: dijit/form/nls/nb/validate
+	module: dijit/_editor/nls/pt-pt/commands
+	module: dijit/_editor/plugins/TextColor
+	module: dijit/_FocusMixin
+	module: dijit/_editor/nls/th/LinkDialog
+	module: dijit/_editor/nls/zh-tw/FontChoice
+	module: dijit/form/ValidationTextBox
+	module: dijit/nls/ru/common
+	module: dijit/_editor/nls/nb/FontChoice
+	module: dijit/form/NumberTextBox
+	module: dijit/_editor/nls/th/commands
+	module: dijit/_editor/nls/he/FontChoice
+	module: dijit/form/_ComboBoxMenuMixin
+	module: dijit/Tree
+	module: dijit/form/nls/fi/validate
+	module: dijit/form/Button
+	module: dijit/form/_ExpandingTextAreaMixin
+	module: dijit/form/nls/hr/Textarea
+	module: dijit/_editor/nls/ja/commands
+	module: dijit/CalendarLite
+	module: dijit/form/nls/sk/ComboBox
+	module: dijit/_editor/nls/sk/LinkDialog
+	module: dijit/Toolbar
+	module: dijit/nls/ar/loading
+	module: dijit/_editor/nls/de/FontChoice
+	module: dijit/form/nls/pt/validate
+	module: dijit/form/_Spinner
+	module: dijit/nls/loading
+	module: dijit/form/nls/ar/Textarea
+	module: dijit/_editor/nls/ca/commands
+	module: dijit/_editor/plugins/TabIndent
+	module: dijit/TooltipDialog
+	module: xstyle/jss
+	module: xstyle/load-imports
+	module: xstyle/elemental
+	module: xstyle/shim/boxOffsets
+	module: xstyle/shim/gradient
+	module: xstyle/has-class
+	module: xstyle/load-css
+	module: xstyle/css-builder
+	module: xstyle/shim/pseudo
+	module: xstyle/css
+	module: xstyle/ext/scrollbar
+	module: xstyle/shim/transition
+	module: xstyle/generate
+	module: xstyle/shim/inlineBlock
+	module: xstyle/ext/variables
+	module: xstyle/shim/ie-filter
+	module: xstyle/xstyle
+	module: xstyle/ext/supported
+	module: xstyle/ext/widget
+	module: epi/packaging/InstalledSection
+	module: epi/packaging/PackagesGrid
+	module: epi/packaging/ModuleSummary
+	module: epi/packaging/AntiForgeryData
+	module: epi/packaging/StatusMessageList
+	module: epi/packaging/RestartSite
+	module: epi/packaging/RootContainer
+	module: epi/packaging/packaging.profile
+	module: epi/packaging/main
+	module: epi/packaging/UploadSection
+	module: epi/packaging/ModulesList
+	module: epi/packaging/UploadResults
+	module: epi/packaging/SectionHeader
+	module: epi/packaging/LinkButton
+	module: epi/packaging/Toolbar
+	module: epi/packaging/PackageUpload
+	module: epi/packaging/buildProfiles/packaging.layers.profile
+	module: epi/packaging/DependenciesGrid
+	module: epi/packaging/GallerySection
+	module: epi/packaging/NavigationMenu
+	module: epi/packaging/UpdateableSection
+	module: epi/packaging/DetailedView
+	module: epi/packaging/SelectedFiles
+	module: epi/packaging/packaging
+	module: epi/packaging/SiteRestartWarning
+	module: dojo/jaxer
+	module: dojo/cldr/nls/it/buddhist
+	module: dojo/nls/pt/colors
+	module: dojo/data/api/Request
+	module: dojo/date
+	module: dojo/_base/array
+	module: dojo/cldr/nls/sv/gregorian
+	module: dojo/currency
+	module: dojo/cldr/nls/en-au/currency
+	module: dojo/nls/sv/colors
+	module: dojo/_firebug/firebug
+	module: dojo/cldr/nls/en/gregorian
+	module: dojo/dom-form
+	module: dojo/cldr/nls/zh-hant/islamic
+	module: dojo/cldr/nls/sk/gregorian
+	module: dojo/nls/sl/colors
+	module: dojo/_base/query
+	module: dojo/cldr/nls/en-gb/gregorian
+	module: dojo/cldr/nls/ja/gregorian
+	module: dojo/NodeList-html
+	module: dojo/nls/az/colors
+	module: dojo/cldr/nls/de/number
+	module: dojo/dom-construct
+	module: dojo/date/locale
+	module: dojo/cldr/nls/ru/buddhist
+	module: dojo/cldr/nls/fi/number
+	module: dojo/nls/kk/colors
+	module: dojo/require
+	module: dojo/cldr/nls/he/number
+	module: dojo/cldr/nls/en-au/gregorian
+	module: dojo/dom-prop
+	module: dojo/data/api/Write
+	module: dojo/cldr/nls/zh-hk/gregorian
+	module: dojo/cldr/nls/zh-tw/number
+	module: dojo/cldr/nls/en/buddhist
+	module: dojo/cldr/nls/pt/persian
+	module: dojo/cldr/nls/fr/number
+	module: dojo/cldr/nls/hu/buddhist
+	module: dojo/_base/browser
+	module: dojo/rpc/RpcService
+	module: dojo/cldr/nls/tr/buddhist
+	module: dojo/cldr/nls/fr-ch/number
+	module: dojo/cldr/nls/it/number
+	module: dojo/_base/Deferred
+	module: dojo/keys
+	module: dojo/NodeList-traverse
+	module: dojo/cldr/nls/fr-ch/gregorian
+	module: dojo/cldr/nls/zh/buddhist
+	module: dojo/cldr/nls/en-gb/buddhist
+	module: dojo/cldr/nls/fr/islamic
+	module: dojo/NodeList-data
+	module: dojo/cldr/nls/ar/persian
+	module: dojo/cldr/nls/sk/currency
+	module: dojo/cldr/nls/nl/hebrew
+	module: dojo/dojo
+	module: dojo/cldr/nls/zh-hk/currency
+	module: dojo/cldr/nls/fr/buddhist
+	module: dojo/data/util/filter
+	module: dojo/dnd/common
+	module: dojo/cldr/nls/ro/buddhist
+	module: dojo/cldr/nls/cs/gregorian
+	module: dojo/cldr/nls/he/gregorian
+	module: dojo/store/api/Store
+	module: dojo/dom-attr
+	module: dojo/cldr/nls/hu/number
+	module: dojo/data/ObjectStore
+	module: dojo/store/Observable
+	module: dojo/cldr/nls/th/currency
+	module: dojo/cldr/nls/ko/buddhist
+	module: dojo/cldr/nls/pt-pt/islamic
+	module: dojo/nls/de/colors
+	module: dojo/cldr/nls/zh-tw/gregorian
+	module: dojo/cldr/nls/ja/currency
+	module: dojo/dnd/Moveable
+	module: dojo/cldr/nls/zh/gregorian
+	module: dojo/AdapterRegistry
+	module: dojo/store/util/QueryResults
+	module: dojo/nls/he/colors
+	module: dojo/cldr/nls/da/number
+	module: dojo/cldr/nls/ca/gregorian
+	module: dojo/cldr/nls/ro/islamic
+	module: dojo/regexp
+	module: dojo/_base/config
+	module: dojo/io/script
+	module: dojo/cldr/nls/ca/currency
+	module: dojo/cldr/nls/pl/buddhist
+	module: dojo/cldr/nls/sv/currency
+	module: dojo/cldr/nls/he/hebrew
+	module: dojo/cldr/nls/ja/hebrew
+	module: dojo/Evented
+	module: dojo/cldr/nls/zh/islamic
+	module: dojo/cldr/nls/buddhist
+	module: dojo/dnd/Avatar
+	module: dojo/string
+	module: dojo/cldr/nls/el/buddhist
+	module: dojo/nls/fr/colors
+	module: dojo/cldr/nls/hebrew
+	module: dojo/cldr/nls/el/hebrew
+	module: dojo/nls/it/colors
+	module: dojo/cldr/nls/zh-hant/buddhist
+	module: dojo/dnd/Mover
+	module: dojo/cldr/nls/nl/currency
+	module: dojo/cldr/nls/en-au/number
+	module: dojo/cldr/nls/sk/number
+	module: dojo/cldr/nls/es/buddhist
+	module: dojo/nls/pt-pt/colors
+	module: dojo/cldr/nls/de/currency
+	module: dojo/topic
+	module: dojo/data/ItemFileReadStore
+	module: dojo/cldr/nls/es/islamic
+	module: dojo/nls/pl/colors
+	module: dojo/nls/es/colors
+	module: dojo/dom-class
+	module: dojo/cldr/nls/zh-hant/gregorian
+	module: dojo/cldr/nls/nl/number
+	module: dojo/touch
+	module: dojo/cache
+	module: dojo/cldr/nls/cs/number
+	module: dojo/cldr/nls/pl/hebrew
+	module: dojo/nls/hu/colors
+	module: dojo/_base/xhr
+	module: dojo/cldr/nls/th/islamic
+	module: dojo/cldr/nls/hu/hebrew
+	module: dojo/cldr/nls/gregorian
+	module: dojo/cldr/nls/nb/number
+	module: dojo/hash
+	module: dojo/store/util/SimpleQueryEngine
+	module: dojo/nls/da/colors
+	module: dojo/store/JsonRest
+	module: dojo/cldr/nls/da/islamic
+	module: dojo/dnd/AutoSource
+	module: dojo/cldr/nls/es/gregorian
+	module: dojo/cldr/nls/zh-hant/hebrew
+	module: dojo/dnd/Manager
+	module: dojo/cldr/nls/sl/gregorian
+	module: dojo/cldr/nls/de/islamic
+	module: dojo/cldr/nls/ar/hebrew
+	module: dojo/nls/ro/colors
+	module: dojo/cldr/nls/el/gregorian
+	module: dojo/cldr/nls/ja/number
+	module: dojo/cldr/nls/ru/islamic
+	module: dojo/cldr/nls/ro/hebrew
+	module: dojo/cldr/nls/sv/islamic
+	module: dojo/cldr/nls/he/islamic
+	module: dojo/cldr/nls/ru/gregorian
+	module: dojo/_base/window
+	module: dojo/cldr/nls/nl/gregorian
+	module: dojo/nls/sk/colors
+	module: dojo/nls/hr/colors
+	module: dojo/_base/json
+	module: dojo/cldr/nls/number
+	module: dojo/cldr/nls/el/number
+	module: dojo/cldr/nls/en-ca/currency
+	module: dojo/cldr/nls/pt-pt/currency
+	module: dojo/cldr/nls/en-gb/number
+	module: dojo/json
+	module: dojo/cldr/nls/ja/persian
+	module: dojo/cldr/nls/cs/islamic
+	module: dojo/dnd/Selector
+	module: dojo/cldr/nls/en-gb/islamic
+	module: dojo/nls/nl/colors
+	module: dojo/nls/cs/colors
+	module: dojo/_base/Color
+	module: dojo/fx
+	module: dojo/cldr/nls/tr/hebrew
+	module: dojo/nls/nb/colors
+	module: dojo/cldr/nls/pl/number
+	module: dojo/data/util/sorter
+	module: dojo/data/api/Notification
+	module: dojo/cldr/nls/es/number
+	module: dojo/dom
+	module: dojo/cldr/nls/th/hebrew
+	module: dojo/window
+	module: dojo/cldr/nls/hu/gregorian
+	module: dojo/store/DataStore
+	module: dojo/_base/lang
+	module: dojo/DeferredList
+	module: dojo/cldr/nls/th/buddhist
+	module: dojo/cldr/nls/ja/buddhist
+	module: dojo/cldr/nls/zh-hant/persian
+	module: dojo/cldr/nls/zh-hk/number
+	module: dojo/cldr/nls/zh-hant/number
+	module: dojo/nls/ja/colors
+	module: dojo/cldr/nls/ru/hebrew
+	module: dojo/cldr/nls/ar/number
+	module: dojo/cldr/nls/sv/buddhist
+	module: dojo/io-query
+	module: dojo/cldr/monetary
+	module: dojo/cldr/nls/ar/currency
+	module: dojo/nls/el/colors
+	module: dojo/cldr/nls/ro/number
+	module: dojo/cldr/nls/fi/islamic
+	module: dojo/cldr/nls/da/currency
+	module: dojo/dom-geometry
+	module: dojo/cldr/nls/ru/persian
+	module: dojo/date/stamp
+	module: dojo/cldr/nls/nb/islamic
+	module: dojo/dnd/Container
+	module: dojo/cldr/nls/pt-pt/number
+	module: dojo/cldr/nls/nl/buddhist
+	module: dojo/cldr/nls/sv/persian
+	module: dojo/colors
+	module: dojo/cldr/supplemental
+	module: dojo/number
+	module: dojo/cldr/nls/he/currency
+	module: dojo/cldr/nls/de/buddhist
+	module: dojo/cldr/nls/pl/gregorian
+	module: dojo/dnd/TimedMoveable
+	module: dojo/main
+	module: dojo/cldr/nls/ko/gregorian
+	module: dojo/cldr/nls/tr/gregorian
+	module: dojo/cldr/nls/it/islamic
+	module: dojo/cldr/nls/pl/islamic
+	module: dojo/cldr/nls/tr/number
+	module: dojo/cldr/nls/cs/currency
+	module: dojo/behavior
+	module: dojo/cldr/nls/fr/gregorian
+	module: dojo/fx/Toggler
+	module: dojo/data/ItemFileWriteStore
+	module: dojo/cldr/nls/th/number
+	module: dojo/cldr/nls/nb/currency
+	module: dojo/cldr/nls/zh/hebrew
+	module: dojo/back
+	module: dojo/_base/declare
+	module: dojo/cldr/nls/en-ca/gregorian
+	module: dojo/nls/ar/colors
+	module: dojo/domReady
+	module: dojo/dnd/Target
+	module: dojo/text
+	module: dojo/cldr/nls/fi/currency
+	module: dojo/i18n
+	module: dojo/cldr/nls/ar/gregorian
+	module: dojo/cldr/nls/ru/number
+	module: dojo/store/Cache
+	module: dojo/data/util/simpleFetch
+	module: dojo/cldr/nls/pt/currency
+	module: dojo/dnd/Source
+	module: dojo/NodeList-dom
+	module: dojo/cookie
+	module: dojo/cldr/nls/it/currency
+	module: dojo/cldr/nls/en/islamic
+	module: dojo/NodeList-fx
+	module: dojo/_base/fx
+	module: dojo/cldr/nls/pt-pt/buddhist
+	module: dojo/uacss
+	module: dojo/cldr/nls/pt/hebrew
+	module: dojo/_base/NodeList
+	module: dojo/cldr/nls/sv/hebrew
+	module: dojo/query
+	module: dojo/rpc/JsonService
+	module: dojo/fx/easing
+	module: dojo/cldr/nls/nl/islamic
+	module: dojo/nls/tr/colors
+	module: dojo/cldr/nls/it/gregorian
+	module: dojo/cldr/nls/ro/gregorian
+	module: dojo/cldr/nls/nb/gregorian
+	module: dojo/cldr/nls/hu/islamic
+	module: dojo/cldr/nls/islamic
+	module: dojo/nls/ca/colors
+	module: dojo/nls/th/colors
+	module: dojo/cldr/nls/ru/currency
+	module: dojo/ready
+	module: dojo/mouse
+	module: dojo/cldr/nls/pl/persian
+	module: dojo/cldr/nls/ko/number
+	module: dojo/aspect
+	module: dojo/_base/sniff
+	module: dojo/cldr/nls/en/currency
+	module: dojo/store/Memory
+	module: dojo/cldr/nls/zh/number
+	module: dojo/nls/ru/colors
+	module: dojo/cldr/nls/da/gregorian
+	module: dojo/cldr/nls/de/gregorian
+	module: dojo/on
+	module: dojo/cldr/nls/hu/currency
+	module: dojo/nls/zh-tw/colors
+	module: dojo/cldr/nls/pt-pt/gregorian
+	module: dojo/cldr/nls/tr/islamic
+	module: dojo/cldr/nls/tr/currency
+	module: dojo/data/api/Read
+	module: dojo/dnd/move
+	module: dojo/data/api/Identity
+	module: dojo/cldr/nls/ar/buddhist
+	module: dojo/loadInit
+	module: dojo/_base/connect
+	module: dojo/cldr/nls/zh/currency
+	module: dojo/io/iframe
+	module: dojo/cldr/nls/da/buddhist
+	module: dojo/cldr/nls/fr/currency
+	module: dojo/selector/acme
+	module: dojo/cldr/nls/ro/currency
+	module: dojo/rpc/JsonpService
+	module: dojo/gears
+	module: dojo/cldr/nls/pt/number
+	module: dojo/_base/event
+	module: dojo/cldr/nls/sv/number
+	module: dojo/cldr/nls/ko/currency
+	module: dojo/cldr/nls/pt/gregorian
+	module: dojo/NodeList-manipulate
+	module: dojo/_base/html
+	module: dojo/_base/kernel
+	module: dojo/cldr/nls/sl/currency
+	module: dojo/nls/colors
+	module: dojo/nls/fi/colors
+	module: dojo/cldr/nls/sl/number
+	module: dojo/html
+	module: dojo/_base/loader
+	module: dojo/dom-style
+	module: dojo/Stateful
+	module: dojo/selector/lite
+	module: dojo/cldr/nls/pl/currency
+	module: dojo/cldr/nls/fi/hebrew
+	module: dojo/cldr/nls/cs/buddhist
+	module: dojo/dnd/autoscroll
+	module: dojo/cldr/nls/hu/persian
+	module: dojo/nls/ko/colors
+	module: dojo/cldr/nls/currency
+	module: dojo/has
+	module: dojo/cldr/nls/ca/number
+	module: dojo/cldr/nls/el/currency
+	module: dojo/nls/zh/colors
+	module: dojo/cldr/nls/nb/buddhist
+	module: dojo/cldr/nls/pt/islamic
+	module: dojo/cldr/nls/ja/islamic
+	module: dojo/cldr/nls/th/gregorian
+	module: dojo/cldr/nls/zh-hant/currency
+	module: dojo/cldr/nls/fr/hebrew
+	module: dojo/cldr/nls/zh-tw/currency
+	module: dojo/cldr/nls/fi/buddhist
+	module: dojo/_base/url
+	module: dojo/cldr/nls/es/currency
+	module: dojo/selector/_loader
+	module: dojo/_base/unload
+	module: dojo/parser
+	module: dojo/cldr/nls/en/number
+	module: dojo/cldr/nls/pt/buddhist
+	module: dojo/cldr/nls/ar/islamic
+	module: dojo/cldr/nls/tr/persian
+	module: dojo/cldr/nls/fi/gregorian
+	module: put-selector/put
+	module: epi/patch/dijit/form/_FormMixin
+	module: epi/shell/PropertyMetadata
+	module: epi/shell/command/builder/_Builder
+	module: epi/shell/widget/ComponentSelector
+	module: epi/shell/widget/dialog/Confirmation
+	module: epi/shell/store/Patchable
+	module: epi/shell/widget/dialog/Alert
+	module: epi/shell/dnd/Avatar
+	module: epi/shell/widget/layout/_ComponentWrapper
+	module: epi/shell/widget/dialog/Dialog
+	module: epi/shell/widget/ExpandoButton
+	module: epi/shell/MetadataTransformer
+	module: epi/shell/Error
+	module: epi/shell/dgrid/TemplateColumn
+	module: epi/routes
+	module: epi/shell/widget/overlay/OverlayItemInfo
+	module: epi/shell/widget/TimeSpinner
+	module: epi/shell/widget/overlay/Item
+	module: epi/shell/command/_WidgetCommandConsumerMixin
+	module: epi/shell/selection
+	module: epi/shell/customFocusIndicator
+	module: epi/shell/Profile
+	module: epi/shell/widget/dialog/LightWeight
+	module: epi/layers/visitorgroup-widgets
+	module: epi/shell/widget/DateRangePicker
+	module: epi/shell/command/_CommandModelBindingMixin
+	module: epi/shell/StatefulArray
+	module: epi/epi.profile
+	module: epi/shell/command/_CommandConsumerMixin
+	module: epi/shell/widget/DateTimeSelector
+	module: epi/shell/widget/_ActionConsumer
+	module: epi/shell/widget/ListItem
+	module: epi/shell/widget/overlay/_Base
+	module: epi/shell/ContextHistory
+	module: epi/shell/widget/ContainerLayoutTab
+	module: epi/shell/command/_WidgetCommandProviderMixin
+	module: epi/patch/dijit/_HasDropDown
+	module: epi/shell/dnd/Source
+	module: epi/dependency
+	module: epi/shell/widget/dialog/_DialogBase
+	module: epi/shell/widget/LabeledInput
+	module: epi/shell/MetadataManager
+	module: epi/dnd/Source
+	module: epi/shell/command/_CommandProviderMixin
+	module: epi/shell/widget/GlobalMenu
+	module: epi/shell/dnd/Target
+	module: epi/shell/widget/ComponentSelectorDialog
+	module: epi/shell/command/builder/MenuAssembler
+	module: epi/shell/widget/ToolbarDropDownButton
+	module: epi/shell/clipboard
+	module: epi/_Module
+	module: epi/dnd/Target
+	module: epi/shell/widget/_AddByDefinition
+	module: epi/shell/widget/Application
+	module: epi/shell/widget/TabController
+	module: epi/shell/widget/_ValueRequiredMixin
+	module: epi/shell/UndoManager
+	module: epi/shell/HashWrapper
+	module: epi/shell/component/IFrameContextComponent
+	module: epi/shell/widget/_DynamicStyleSheetIframeMixin
+	module: epi/shell/widget/command/CommandToolbar
+	module: epi/shell/command/builder/MenuBuilder
+	module: epi/shell/SearchManager
+	module: epi/shell/widget/ComponentChrome
+	module: epi/shell/widget/HelpButton
+	module: epi/i18n
+	module: epi/shell/widget/_AutoResizingIframeMixin
+	module: epi/shell/command/_Command
+	module: epi/shell/widget/ParentContainerLayout
+	module: epi/shell/conversion/ObjectConverterRegistry
+	module: epi/shell/ContextService
+	module: epi/ModuleManager
+	module: epi/shell/widget/ViewController
+	module: epi/shell/store/Throttle
+	module: epi/shell/diagnostics/MemoryLogger
+	module: epi/shell/Stateful
+	module: epi/shell/XhrWrapper
+	module: epi/shell/command/_SelectionCommandMixin
+	module: epi/shell/widget/WidgetSwitcher
+	module: epi/layers/epi-widgets
+	module: epi/shell/dgrid/Formatter
+	module: epi/shell/ClipboardManager
+	module: epi/shell/widget/ListContainer
+	module: epi/shell/widget/MenuGroup
+	module: epi/shell/widget/layout/_ComponentTabController
+	module: epi/shell/layout/PositioningUtility
+	module: epi/shell/widget/_ModelBindingMixin
+	module: epi/shell/widget/Iframe
+	module: epi/shell/widget/PopupMenuItem
+	module: epi/UriParser
+	module: epi/shell/dnd/_MarkerSource
+	module: epi/shell/dgrid/util/misc
+	module: epi/shell/widget/ValidationTextarea
+	module: epi/shell/command/CommandRegistryItem
+	module: epi/shell/widget/GadgetWrapper
+	module: epi/shell/command/GlobalCommandRegistry
+	module: epi/shell/layout/PinnablePane
+	module: epi/shell/widget/layout/ComponentPaneContainer
+	module: epi/shell/store/JsonRest
+	module: epi/shell/widget/_ActionConsumerWidget
+	module: epi/shell/Bootstrapper
+	module: epi/shell/layout/_LayoutWidget
+	module: epi/shell/widget/_ActionProviderWidget
+	module: epi/shell/widget/overlay/OverlayContainer
+	module: epi/shell/DynamicStyleSheet
+	module: epi/shell/widget/command/RemoveGadget
+	module: epi/shell/widget/ContainerLayout
+	module: epi/patch/dojox/form/uploader/plugins/HTML5
+	module: epi/shell/widget/DateTimeSelectorDropDown
+	module: epi/shell/widget/command/GadgetAction
+	module: epi/patch/dijit/form/NumberSpinner
+	module: epi/shell/nls/widgets_ar
+	module: epi/shell/nls/widgets_ca
+	module: epi/shell/nls/widgets_cs
+	module: epi/shell/nls/widgets_da
+	module: epi/shell/nls/widgets_de-de
+	module: epi/shell/nls/widgets_el
+	module: epi/shell/nls/widgets_en-gb
+	module: epi/shell/nls/widgets_en-us
+	module: epi/shell/nls/widgets_es-es
+	module: epi/shell/nls/widgets_fi-fi
+	module: epi/shell/nls/widgets_fr-fr
+	module: epi/shell/nls/widgets_he-il
+	module: epi/shell/nls/widgets_hu
+	module: epi/shell/nls/widgets_it-it
+	module: epi/shell/nls/widgets_ja-jp
+	module: epi/shell/nls/widgets_ko-kr
+	module: epi/shell/nls/widgets_nl-nl
+	module: epi/shell/nls/widgets_nb
+	module: epi/shell/nls/widgets_pl
+	module: epi/shell/nls/widgets_pt-br
+	module: epi/shell/nls/widgets_pt-pt
+	module: epi/shell/nls/widgets_ru
+	module: epi/shell/nls/widgets_sk
+	module: epi/shell/nls/widgets_sl
+	module: epi/shell/nls/widgets_sv
+	module: epi/shell/nls/widgets_th
+	module: epi/shell/nls/widgets_tr
+	module: epi/shell/nls/widgets_zh-tw
+	module: epi/shell/nls/widgets_zh-cn
+	module: epi/shell/nls/widgets_ROOT
+	module: epi/shell/widgets
+	module: epi/shell/widget/ComponentController
+	module: epi/shell/command/builder/DropDownButtonBuilder
+	module: epi/shell/widget/SpaceToolbarSeparator
+	module: epi/shell/widget/_TabButton
+	module: epi/epi
+	module: epi/shell/_StatefulGetterSetterMixin
+	module: epi/shell/command/ToggleCommand
+	module: epi/Url
+	module: epi/shell/command/_GlobalCommandProviderMixin
+	module: epi/shell/widget/layout/ComponentTabContainer
+	module: epi/shell/widget/DelayableStandby
+	module: epi/datetime
+	module: epi/shell/MessageService
+	module: epi/shell/widget/FormContainer
+	module: epi/shell/widget/layout/ComponentContainer
+	module: epi/shell/widget/layout/_ComponentResizeMixin
+	module: epi/shell/widget/_FocusableMixin
+	module: epi/shell/widget/SearchBox
+	module: epi/username
+	module: epi/shell/widget/WidgetFactory
+	module: epi/shell/widget/dialog/_DialogContentMixin
+	module: epi/shell/widget/ToolbarGroup
+	module: epi/shell/command/builder/ButtonBuilder
+	module: epi/shell/widget/SuggestionBox
+	module: epi/shell/messaging
+	module: epi/shell/widget/CheckBox
+	module: epi/shell/widget/layout/_ComponentSplitter
+	module: epi/shell/widget/Tooltip
+	module: epi/shell/widget/TextWithActionLinks
+	module: epi/shell/_HierarchicalModelMixin
+	module: epi/main
+	module: epi/shell/diagnostics/Snapshot
+	module: epi/shell/ShellModule
+	module: epi/shell/widget/dialog/_DialogMixin
+	module: epi/shell/layout/PinnablePaneSplitter
+	module: epi/clientResourcesLoader
+	module: epi/shell/widget/_ScrollbarMeasurementMixin
+	module: epi/shell/command/builder/GroupedButtonBuilder
+	module: epi/shell/store/Registry
+	module: epi/shell/command/withConfirmation
+	module: epi/shell/_ContextMixin
+	module: epi/shell/command/OptionCommand
+	module: epi/shell/widget/Tree
+	module: epi/shell/widget/_ActionProvider
+	module: epi/shell/widget/TabContainer
+	module: epi/shell/widget/PropagatingContainer
+	module: epi/shell/widget/ToolbarLabel
+	module: epi/shell/widget/RadioMenuItem
+	module: epi/shell/command/_ClipboardCommandMixin
+	module: epi/shell/widget/GroupContainerLayout
+	module: epi/shell/dnd/tree/dndSource
+	module: epi/shell/widget/_ActionProviderBase
+	module: epi/nls/patches_ar
+	module: epi/nls/patches_ca
+	module: epi/nls/patches_cs
+	module: epi/nls/patches_da
+	module: epi/nls/patches_de-de
+	module: epi/nls/patches_el
+	module: epi/nls/patches_en-gb
+	module: epi/nls/patches_en-us
+	module: epi/nls/patches_es-es
+	module: epi/nls/patches_fi-fi
+	module: epi/nls/patches_fr-fr
+	module: epi/nls/patches_he-il
+	module: epi/nls/patches_hu
+	module: epi/nls/patches_it-it
+	module: epi/nls/patches_ja-jp
+	module: epi/nls/patches_ko-kr
+	module: epi/nls/patches_nl-nl
+	module: epi/nls/patches_nb
+	module: epi/nls/patches_pl
+	module: epi/nls/patches_pt-br
+	module: epi/nls/patches_pt-pt
+	module: epi/nls/patches_ru
+	module: epi/nls/patches_sk
+	module: epi/nls/patches_sl
+	module: epi/nls/patches_sv
+	module: epi/nls/patches_th
+	module: epi/nls/patches_tr
+	module: epi/nls/patches_zh-tw
+	module: epi/nls/patches_zh-cn
+	module: epi/nls/patches_ROOT
+	module: epi/patches
+	module: epi/shell/widget/Toolbar
+	module: epi/string
+	module: epi/patch/patches
+	module: epi/shell/widget/DateRange
+	module: epi/shell/widget/LoginForm
+	module: epi/shell/widget/DropDownMenu
+	module: epi/shell/ResourceBundle
+	module: epi/shell/widget/IframeWithOverlay
+	module: epi/nls/visitorgroup-widgets_ar
+	module: epi/nls/visitorgroup-widgets_ca
+	module: epi/nls/visitorgroup-widgets_cs
+	module: epi/nls/visitorgroup-widgets_da
+	module: epi/nls/visitorgroup-widgets_de-de
+	module: epi/nls/visitorgroup-widgets_el
+	module: epi/nls/visitorgroup-widgets_en-gb
+	module: epi/nls/visitorgroup-widgets_en-us
+	module: epi/nls/visitorgroup-widgets_es-es
+	module: epi/nls/visitorgroup-widgets_fi-fi
+	module: epi/nls/visitorgroup-widgets_fr-fr
+	module: epi/nls/visitorgroup-widgets_he-il
+	module: epi/nls/visitorgroup-widgets_hu
+	module: epi/nls/visitorgroup-widgets_it-it
+	module: epi/nls/visitorgroup-widgets_ja-jp
+	module: epi/nls/visitorgroup-widgets_ko-kr
+	module: epi/nls/visitorgroup-widgets_nl-nl
+	module: epi/nls/visitorgroup-widgets_nb
+	module: epi/nls/visitorgroup-widgets_pl
+	module: epi/nls/visitorgroup-widgets_pt-br
+	module: epi/nls/visitorgroup-widgets_pt-pt
+	module: epi/nls/visitorgroup-widgets_ru
+	module: epi/nls/visitorgroup-widgets_sk
+	module: epi/nls/visitorgroup-widgets_sl
+	module: epi/nls/visitorgroup-widgets_sv
+	module: epi/nls/visitorgroup-widgets_th
+	module: epi/nls/visitorgroup-widgets_tr
+	module: epi/nls/visitorgroup-widgets_zh-tw
+	module: epi/nls/visitorgroup-widgets_zh-cn
+	module: epi/nls/visitorgroup-widgets_ROOT
+	module: epi/visitorgroup-widgets
+info(106) Optimizing CSS.
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/FileUploader.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/ListInput.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/EnhancedGrid_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/charting/resources/Legend.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Pagination_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Toaster/Toaster.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/TriStateCheckBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Pagination.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/DnD_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/Grid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Wizard/Wizard.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/tundraGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/claro/Filter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/HtmlFeedViewerGrouping.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Dialog/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/FilePickerTextBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/Grid_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/claroEnhancedGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/nihiloGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/FilePicker/FilePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/BusyButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/SortList/SortList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/DndGridContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/HtmlFeedEntryViewer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/ColorPicker/ColorPicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/FloatingPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/HtmlFeedViewerEntry.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Filter_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/GridContainer.css; non-relative URLs skipped: data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,../../mdnd/resources/dnd.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Portlet/Portlet.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Calendar/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/mdnd/resources/dnd.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/HtmlFeedEntryEditor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Filter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/UploaderFileList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Pager/Pager.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/DnD.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/claro/EnhancedGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Sorter_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/tundra/Filter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/soriaGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/Rating.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/tundraEnhancedGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/RadioGroup.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/claro/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/ExpandoPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/tundra/EnhancedGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/html/resources/ellipsis.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/EntryHeader.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/FisheyeList/FisheyeList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/FileInput.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/RollingList/RollingList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/ToggleSplitter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/CheckedMultiSelect.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/UpgradeBar/UpgradeBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Sorter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/EnhancedGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/resources/claroGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/ResizeHandle.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/tundra/Sorter.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/TitleGroup/TitleGroup.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/form/resources/RangeSlider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/ScrollPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/tundra/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/gauges/_Gauge.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/atom/widget/templates/css/HtmlFeedViewer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/layout/resources/RotatorContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/widget/Loader/Loader.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojox/grid/enhanced/resources/Common_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/soria.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/claro.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/squid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/dgrid_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/sage.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/tundra.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/extensions/ColumnReorder.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/nihilo.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/slate.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/columnset.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/skins/cactus.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/extensions/ColumnResizer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/extensions/ColumnHider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/extensions/Pagination.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/dgrid/css/dgrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Dialog_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/TabContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/layout/AccordionContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/AccordionContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Slider_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Slider_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/TimeTextBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/AccordionContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/soria.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/nihilo.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Select_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/ColorPalette.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Editor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Common_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Checkbox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/TabContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/TimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/icons/editorIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Slider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Calendar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Slider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Tree.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/tundra.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/TitlePane_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Checkbox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Slider_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/ColorPalette.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Editor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/claro_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Menu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/icons/editorIcons_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Menu_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/TitlePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Calendar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/TitlePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/AccordionContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Menu_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Editor_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Toolbar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Menu_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/TitlePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/ColorPalette.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Tree.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/soria_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Menu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/TabContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/TimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Button_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/TimeTextBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/ColorPalette.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/TitlePane_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/claro.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/ProgressBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Button_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/layout/TabContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/TabContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/InlineEditBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Menu_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Dialog_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Editor_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/SplitContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Select.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Editor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/BorderContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/TabContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Checkbox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/layout/ContentPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/AccordionContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/ContentPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Tree_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/layout/TabContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/dijit_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/TimePicker_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/BorderContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/TitlePane_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/ProgressBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/ProgressBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Editor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Button_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/icons/commonIcons_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/icons/commonIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/TimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/document.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/tundra_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Tree.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/TimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Dialog_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/TabContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Menu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/ContentPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Tree_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/ProgressBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Tree.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Slider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Menu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Editor_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Tree_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/Editor_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/TimePicker_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/dijit.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/layout/BorderContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/AccordionContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/TitlePane_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/NumberSpinner.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/form/Select.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Checkbox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Select.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/BorderContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/Select.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Calendar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/nihilo_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/layout/SplitContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/Slider_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/TitlePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/claro/form/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/TimePicker_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/TimePicker_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/layout/SplitContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/Slider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/form/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/form/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Dialog_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/soria/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/nihilo/Calendar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dijit/themes/tundra/layout/ContentPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/xstyle/shims.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/lib/xstyle/ext.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojo/_firebug/firebug.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojo/resources/dojo.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/DtkBinaries/dojo-release-1.7.3-src/dojo/resources/dnd.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Tree.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/GridContainer.css; non-relative URLs skipped: data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,../../../patch/dojox/layout/resources/GridContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojo/resources/dojo.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Select_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/PinnablePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/dateTimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Pager/Pager.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/ContentPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/TabContainer_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/claro/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/GlobalNavigation/GlobalNavigation.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/IframeWithOverlay.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Dialog/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellCoreLightTheme.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/CollapsiblePanel/CollapsiblePanel.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/InlineEditBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Views/Search/Search.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Menu_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Editor.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellCoreLightTheme-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/TitlePane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Gadget/Light/Gadget.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/LocalNavigation/LocalNavigation-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/form.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Gadget.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/TooltipDialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/dojox.css; non-relative URLs skipped: data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,../../../patch/dojox/layout/resources/GridContainer.css,data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,GridContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojox/grid/resources/claroGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Shell.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Animations.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/FoldOutPanel/Light/FoldOutPanel.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Listings.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/ProgressBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/sleekGrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Button/Light/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ItemList/ItemList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/ShellLegacy.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Checkbox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Select.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellWidgets-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/CommonIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/DatePicker/ui.datepicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/ColorPalette.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/DijitWidgets.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/dijit.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Sleek_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Shell-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellCore.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/ellipsis.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Light/Shell.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/IconToolbar/Light/IconToolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojo_epi.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/StatusBar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/IconToolbar/IconToolbar-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/TabView/TabView.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/ResourcePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Sleek.css; non-relative URLs skipped: data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,../../../patch/dojox/layout/resources/GridContainer.css,data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,GridContainer.css,data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D,dojox/dojox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/DojoDashboardCompatibility.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Forms.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/LocalNavigation/LocalNavigation.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Slider_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/NumberSpinner.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/icons/commonIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/epi.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojox/layout/resources/GridContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Common_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/icons/commonIcons_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Slider.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ContextMenu/Light/ContextMenu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/claro/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Gadget/Gadget-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/AccordionContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/FlagIcons/FlagIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/TimePicker.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/Grid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/FoldOutPanel/FoldOutPanel.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/SearchBox.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Calendar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Light/Forms.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/claro/claro_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/Shell.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Toolbar_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Statuses.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Pager/Light/Pager.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Toolbar/Toolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/general.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/FileManager.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojo_epi.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Button/ComboButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/TabView/Light/TabView.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Gadget/Gadget.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Common.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Button/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Dgrid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ItemList/Light/ItemList.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/icons/editorIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Dialog/Dialog-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/jQueryUITheme/ui.theme.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojox/grid/resources/Grid.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/shell/Light/ShellLegacy.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/ObjectIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/GlobalNavigation/GlobalNavigation-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/dijit_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/LocalNavigation/Light/LocalNavigation-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/ExpandoPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Dialog/Light/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Misc.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellWidgets.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellLightTheme.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/dojox/ResizeHandle.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/ResourceIcons/ResourceIcons-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Overlay.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Button_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/TabContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/Shell-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/document.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Dialog.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojox/layout/resources/ExpandoPane.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Button/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/BorderContainer.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ContextMenu/ContextMenu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/FoldOutPanel/FoldOutPanel-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/IconToolbar/IconToolbar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/icons/editorIcons_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/DojoDashboardCompatibility-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Dialog_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Menu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/TimePicker_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/UploadMultipleFiles.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/Button.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/Button/Button-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/form/RadioButton.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dojox/widget/Portlet/Portlet.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Notification.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellWidgetsLightTheme.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellLightTheme-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/TabView/TabView-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/legacy/ShellCore-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Editor_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/ContextMenu.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Error/Error.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ItemList/ItemList-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ContextMenu/ContextMenu-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/ResourceIcons/RecourceIcons.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/patch/dijit/themes/claro/claro.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/layout/layout.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/ToolTip/ToolTip.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/Calendar.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/LocalNavigation/Light/LocalNavigation.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Views/Search/Search-rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Views/Search/Light/Search.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/TitlePane_rtl.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/themes/sleek/epi/Breadcrumb.css
+	file: D:/Builds/128/Falcon/RTM.Framework.Build/Sources/EPiServer.Shell.UI/UI/ClientResources/epi/Widgets/DropDownMenu/dropdownmenu.css
+info(107) Package Version:
+	package: dojox; version: 1.7.3
+	package: dijit; version: 1.7.3
+	package: epi/packaging; version: 1.0.0
+	package: dojo; version: 1.7.3
+	package: put-selector; version: 0.2.0
+	package: epi; version: 1.0.0
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+	plugin resource id: touch?./util/touch; reference module id: dgrid/Selection
+	plugin resource id: touch?./TouchScroll; reference module id: dgrid/List
+	plugin resource id: touch?./util/touch; reference module id: dgrid/Tree
+	plugin resource id: dojo-firebug?./_firebug/firebug; reference module id: dojo/main
+	plugin resource id: dom-addeventlistener?:./aspect; reference module id: dojo/on
+warn(224) A plugin dependency was encountered but there was not build-time plugin resolver.
+	module: dgrid/ColumnSet; plugin: xstyle/css
+	module: dgrid/extensions/ColumnHider; plugin: xstyle/css
+	module: dgrid/extensions/ColumnReorder; plugin: xstyle/css
+	module: dgrid/List; plugin: xstyle/css
+	module: dgrid/extensions/DnD; plugin: xstyle/css
+	module: dgrid/extensions/Pagination; plugin: xstyle/css
+	module: dgrid/extensions/ColumnResizer; plugin: xstyle/css
+error(332) Invalid message identifier.
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+	id: undefined; undefined
+Layer Contents:
+dojo/dojo:
+	dojo/_base/fx
+	dojo/dom-form
+	dojo/_base/html
+	dojo/_base/kernel
+	dojo/io-query
+	dojo/_base/Deferred
+	dojo/NodeList-dom
+	dojo/query
+	dojo/has
+	dojo/_base/loader
+	dojo/json
+	dojo/_base/declare
+	dojo/dom
+	dojo/_base/browser
+	dojo/selector/acme
+	dojo/dom-style
+	dojo/dom-geometry
+	dojo/dom-prop
+	dojo/dom-attr
+	dojo/dom-construct
+	dojo/keys
+	dojo/domReady
+	dojo/_base/lang
+	dojo/Evented
+	dojo/mouse
+	dojo/topic
+	dojo/_base/xhr
+	dojo/_base/unload
+	dojo/dojo
+	dojo/_base/NodeList
+	dojo/_base/Color
+	dojo/selector/_loader
+	dojo/on
+	dojo/_base/sniff
+	dojo/_base/array
+	dojo/_base/json
+	dojo/dom-class
+	dojo/_base/window
+	dojo/_base/config
+	dojo/_base/event
+	dojo/main
+	dojo/ready
+	dojo/aspect
+	dojo/_base/connect
+
+epi/epi:
+	epi/routes
+	epi/shell/Bootstrapper
+	dojo/Stateful
+	epi/dependency
+	epi/main
+	epi/clientResourcesLoader
+	epi/_Module
+	epi/i18n
+	epi/shell/widget/ViewController
+	dojo/DeferredList
+	epi/shell/Stateful
+	epi/ModuleManager
+	epi/epi
+
+epi/shell/widgets:
+	epi/shell/widget/dialog/_DialogMixin
+	dojox/mdnd/dropMode/OverDropMode
+	dojo/date
+	epi/shell/widget/templates/IframeWithOverlay.html
+	epi/shell/XhrWrapper
+	epi/shell/command/GlobalCommandRegistry
+	dojox/grid/DataGrid
+	epi/shell/widget/CheckBox
+	epi/shell/widget/_TabButton
+	dijit/Dialog
+	dojox/html/metrics
+	epi/shell/widget/MenuGroup
+	dojo/date/locale
+	epi/shell/layout/_LayoutWidget
+	epi/UriParser
+	dijit/_Templated
+	epi/shell/MessageService
+	dijit/ToolbarSeparator
+	dijit/form/RadioButton
+	dijit/MenuSeparator
+	epi/shell/component/IFrameContextComponent
+	dijit/form/ToggleButton
+	dijit/CheckedMenuItem
+	dojox/html/_base
+	epi/shell/widget/WidgetFactory
+	epi/shell/widget/templates/HelpButton.htm
+	epi/shell/widget/overlay/Item
+	dijit/_DialogMixin
+	epi/shell/Error
+	epi/shell/store/Patchable
+	dijit/form/templates/CheckBox.html
+	epi/shell/PropertyMetadata
+	dijit/form/SimpleTextarea
+	epi/shell/widget/layout/_ComponentTabController
+	epi/shell/widget/TimeSpinner
+	dojox/grid/_RowSelector
+	dojo/NodeList-traverse
+	epi/shell/ContextService
+	epi/shell/widget/layout/ComponentContainer
+	epi/shell/command/_Command
+	epi/shell/widget/ComponentSelectorDialog
+	epi/shell/HashWrapper
+	epi/shell/widget/templates/DateTimeSelector.html
+	epi/shell/widget/_ActionProviderBase
+	dojox/grid/_Layout
+	dojo/dnd/common
+	epi/shell/widget/templates/ListContainer.html
+	epi/shell/widget/TabController
+	epi/shell/widget/ComponentChrome
+	epi/shell/command/builder/MenuAssembler
+	dijit/Menu
+	dojo/data/ObjectStore
+	dojo/store/Observable
+	dojox/layout/GridContainerLite
+	dojox/grid/util
+	dojox/layout/ContentPane
+	dojox/grid/_RowManager
+	epi/string
+	dojo/dnd/Moveable
+	epi/shell/widget/HelpButton
+	dojo/store/util/QueryResults
+	dojox/mdnd/AutoScroll
+	dijit/layout/templates/_ScrollingTabControllerButton.html
+	dijit/form/CheckBox
+	epi/shell/widget/SpaceToolbarSeparator
+	epi/shell/widget/TabContainer
+	dijit/nls/common
+	dijit/form/Textarea
+	dijit/form/DropDownButton
+	dojox/grid/_FocusManager
+	epi/shell/dnd/Target
+	epi/shell/widget/PropagatingContainer
+	dojox/widget/Standby
+	dojo/dnd/Avatar
+	dijit/_Contained
+	epi/shell/widget/ContainerLayout
+	dojox/grid/_Builder
+	epi/shell/widget/DateTimeSelector
+	epi/shell/widget/GadgetWrapper
+	epi/shell/dnd/Source
+	dijit/InlineEditBox
+	epi/shell/widget/command/GadgetAction
+	dijit/_Container
+	dijit/layout/BorderContainer
+	dijit/_base/wai
+	dojox/grid/resources/View.html
+	dojo/dnd/Mover
+	epi/shell/widget/dialog/templates/Dialog.html
+	epi/shell/widget/dialog/Dialog
+	epi/shell/widget/DateRangePicker
+	epi/shell/widget/_FocusableMixin
+	dijit/Calendar
+	epi/shell/widget/DelayableStandby
+	epi/shell/widget/IframeWithOverlay
+	dijit/form/ComboButton
+	dojox/html/entities
+	epi/shell/store/Throttle
+	epi/shell/_StatefulGetterSetterMixin
+	epi/shell/widget/ExpandoButton
+	epi/shell/widget/dialog/Confirmation
+	dijit/DialogUnderlay
+	dojo/cldr/nls/gregorian
+	dijit/form/_ToggleButtonMixin
+	epi/shell/layout/PositioningUtility
+	dojo/hash
+	dojo/store/util/SimpleQueryEngine
+	dojo/store/JsonRest
+	epi/shell/_ContextMixin
+	dojo/dnd/AutoSource
+	dijit/form/templates/ComboButton.html
+	dojo/dnd/Manager
+	epi/shell/widget/templates/_TabController.htm
+	dojox/grid/DataSelection
+	epi/shell/command/builder/_Builder
+	epi/shell/widget/Iframe
+	epi/shell/DynamicStyleSheet
+	dojox/mdnd/DropIndicator
+	dijit/templates/Dialog.html
+	epi/shell/layout/PinnablePane
+	dijit/form/_DateTimeTextBox
+	dijit/form/_RadioButtonMixin
+	dijit/layout/StackContainer
+	epi/shell/widget/LoginForm
+	dijit/form/Form
+	epi/shell/widget/templates/_LabeledInput_Bottom.htm
+	epi/shell/command/_CommandModelBindingMixin
+	epi/shell/widget/templates/GlobalMenu.html
+	epi/layers/epi-widgets
+	dijit/templates/Menu.html
+	epi/shell/widget/GlobalMenu
+	dojox/main
+	dojo/dnd/Selector
+	epi/shell/messaging
+	dijit/templates/Calendar.html
+	dijit/layout/templates/_TabButton.html
+	dojox/grid/_Scroller
+	epi/shell/UndoManager
+	dojo/fx
+	dojox/layout/resources/GridContainer.html
+	dojox/layout/GridContainer
+	epi/shell/widget/layout/ComponentPaneContainer
+	epi/shell/MetadataTransformer
+	epi/shell/widget/ValidationTextarea
+	epi/shell/widget/_DynamicStyleSheetIframeMixin
+	epi/shell/widget/DateRange
+	epi/shell/widget/_ActionConsumerWidget
+	epi/shell/widget/dialog/_DialogBase
+	dijit/_base/focus
+	epi/shell/Profile
+	dijit/_MenuBase
+	dijit/layout/TabController
+	dijit/layout/ScrollingTabController
+	epi/shell/layout/templates/PinnablePane.html
+	epi/datetime
+	epi/shell/widget/WidgetSwitcher
+	epi/shell/widget/command/CommandToolbar
+	epi/shell/widget/_ActionProviderWidget
+	dijit/templates/MenuItem.html
+	dijit/layout/StackController
+	dojox/mdnd/Moveable
+	dijit/form/DateTextBox
+	dijit/layout/AccordionPane
+	dojo/dnd/Container
+	dijit/layout/_LayoutWidget
+	epi/shell/widget/_AddByDefinition
+	epi/shell/StatefulArray
+	dojox/grid/cells/_base
+	dijit/form/templates/DropDownButton.html
+	dojo/cldr/supplemental
+	epi/shell/widget/DateTimeSelectorDropDown
+	epi/shell/store/Registry
+	dijit/layout/_ContentPaneResizeMixin
+	epi/shell/widget/ListItem
+	dijit/templates/TooltipDialog.html
+	dojo/dnd/TimedMoveable
+	epi/shell/widget/templates/ListItem.html
+	epi/shell/widgets
+	dijit/layout/templates/TabContainer.html
+	epi/shell/widget/overlay/OverlayContainer
+	dojox/grid/Selection
+	dojo/fx/Toggler
+	dijit/layout/TabContainer
+	epi/shell/customFocusIndicator
+	epi/shell/widget/ComponentController
+	epi/shell/MetadataManager
+	epi/shell/widget/Application
+	epi/shell/command/builder/ButtonBuilder
+	dojo/dnd/Target
+	epi/shell/widget/ComponentSelector
+	epi/shell/widget/layout/ComponentTabContainer
+	dojo/store/Cache
+	epi/shell/widget/templates/MenuGroup.htm
+	epi/shell/widget/layout/_ComponentResizeMixin
+	dojo/dnd/Source
+	dojo/cookie
+	epi/shell/store/JsonRest
+	epi/shell/widget/layout/_ComponentSplitter
+	epi/shell/widget/LabeledInput
+	epi/shell/widget/layout/templates/_ComponentWrapperHeader.htm
+	epi/shell/widget/ParentContainerLayout
+	epi/shell/widget/templates/LoginForm.htm
+	epi/shell/widget/_ActionConsumer
+	epi/shell/widget/layout/_ComponentWrapper
+	epi/shell/widget/templates/_LabeledInput_Top.htm
+	dojox/form/TimeSpinner
+	epi/shell/widget/templates/_LabeledInput_Left.htm
+	dojo/fx/easing
+	epi/shell/widget/ToolbarGroup
+	epi/shell/widget/overlay/_Base
+	epi/shell/widget/ListContainer
+	epi/shell/ShellModule
+	dijit/MenuItem
+	dojox/grid/_EditManager
+	dojox/grid/_ViewManager
+	epi/shell/layout/PinnablePaneSplitter
+	dijit/DropDownMenu
+	epi/shell/command/builder/MenuBuilder
+	epi/shell/widget/templates/ExpandoButton.html
+	epi/shell/dnd/Avatar
+	dojox/grid/_Grid
+	dojo/store/Memory
+	epi/shell/widget/templates/_TabButton.htm
+	dojox/grid/_Events
+	epi/shell/widget/_ActionProvider
+	epi/shell/widget/command/RemoveGadget
+	epi/shell/command/CommandRegistryItem
+	epi/shell/widget/templates/_LabeledInput_Right.htm
+	dijit/layout/_TabContainerBase
+	epi/shell/widget/ToolbarLabel
+	dijit/_KeyNavContainer
+	dijit/PopupMenuItem
+	dijit/layout/ContentPane
+	epi/shell/widget/PopupMenuItem
+	epi/shell/widget/Toolbar
+	dojox/grid/_SelectionPreserver
+	epi/shell/widget/FormContainer
+	dijit/form/templates/DropDownBox.html
+	epi/Url
+	epi/shell/widget/layout/templates/ComponentTabContainer.htm
+	dijit/form/_CheckBoxMixin
+	dojo/html
+	epi/shell/conversion/ObjectConverterRegistry
+	dojo/dnd/autoscroll
+	epi/shell/widget/ContainerLayoutTab
+	dijit/templates/CheckedMenuItem.html
+	dojox/grid/cells
+	epi/shell/command/builder/DropDownButtonBuilder
+	dijit/layout/utils
+	epi/shell/widget/_ModelBindingMixin
+	dojox/grid/resources/_Grid.html
+	epi/shell/widget/_ValueRequiredMixin
+	dijit/templates/MenuSeparator.html
+	dojox/mdnd/AreaManager
+	dijit/layout/templates/ScrollingTabController.html
+	epi/shell/widget/_ScrollbarMeasurementMixin
+	dijit/form/_ExpandingTextAreaMixin
+	epi/shell/widget/layout/templates/_ComponentTabController.htm
+	dijit/CalendarLite
+	dijit/Toolbar
+	epi/shell/widget/GroupContainerLayout
+	epi/shell/widget/dialog/Alert
+	epi/shell/command/_CommandProviderMixin
+	dijit/nls/loading
+	epi/shell/command/_CommandConsumerMixin
+	epi/shell/ContextHistory
+	epi/shell/widget/_AutoResizingIframeMixin
+	dijit/templates/InlineEditBox.html
+	dojox/grid/_View
+	dijit/TooltipDialog
+
+epi/visitorgroup-widgets:
+	dijit/form/nls/validate
+	dijit/form/TextBox
+	dijit/_base/scroll
+	dijit/_TemplatedMixin
+	dijit/_CssStateMixin
+	dojo/currency
+	dijit/DialogUnderlay
+	dijit/form/templates/ComboButton.html
+	dijit/place
+	dijit/_HasDropDown
+	dojo/dnd/Selector
+	dijit/_MenuBase
+	epi/layers/visitorgroup-widgets
+	dijit/focus
+	dojo/i18n
+	dijit/hccss
+	dijit/PopupMenuBarItem
+	dijit/layout/templates/AccordionButton.html
+	dijit/TitlePane
+	dijit/form/_ComboBoxMenuMixin
+	dojo/parser
+	dojox/form/Uploader
+	dijit/form/templates/DropDownButton.html
+	dojo/dnd/Manager
+	dijit/form/ToggleButton
+	dojo/date/stamp
+	dijit/form/NumberSpinner
+	dijit/form/Textarea
+	dojo/Stateful
+	dijit/form/DateTextBox
+	dijit/form/ComboButton
+	dijit/layout/AccordionContainer
+	dijit/templates/Calendar.html
+	dijit/form/_AutoCompleterMixin
+	dijit/form/MappedTextBox
+	dijit/form/ComboBoxMixin
+	dijit/form/_TextBoxMixin
+	dijit/form/SimpleTextarea
+	dijit/_base/window
+	dijit/PopupMenuItem
+	dijit/form/RadioButton
+	dijit/form/templates/HorizontalSlider.html
+	dijit/main
+	dijit/_OnDijitClickMixin
+	dojo/dnd/autoscroll
+	dijit/form/_RadioButtonMixin
+	dojo/dnd/TimedMoveable
+	dijit/form/_ListMouseMixin
+	dojo/cldr/monetary
+	dojo/cookie
+	dojo/cache
+	dijit/form/templates/DropDownBox.html
+	dijit/ProgressBar
+	dijit/_base/popup
+	dijit/form/NumberTextBox
+	dijit/form/templates/Button.html
+	dijit/form/CurrencyTextBox
+	dojo/_base/url
+	dijit/templates/MenuItem.html
+	dojo/text
+	dijit/form/templates/CheckBox.html
+	dojo/cldr/nls/gregorian
+	dijit/form/templates/VerticalSlider.html
+	dojo/uacss
+	dijit/Tooltip
+	dojo/string
+	dijit/templates/MenuSeparator.html
+	dijit/form/VerticalSlider
+	dijit/dijit
+	dijit/form/_FormValueMixin
+	dijit/form/DropDownButton
+	dijit/form/_FormWidgetMixin
+	dijit/templates/ProgressBar.html
+	dojo/date
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/WidgetSet
+	dijit/form/RangeBoundTextBox
+	dijit/nls/loading
+	dojo/dnd/Moveable
+	dijit/TooltipDialog
+	dojo/store/util/SimpleQueryEngine
+	dojo/cldr/nls/number
+	dijit/form/_ExpandingTextAreaMixin
+	dijit/typematic
+	dijit/MenuItem
+	dijit/MenuBarItem
+	dojo/cldr/supplemental
+	dijit/MenuBar
+	dijit/layout/_LayoutWidget
+	epi/visitorgroup-widgets
+	dijit/popup
+	dijit/_base/manager
+	dijit/templates/TooltipDialog.html
+	dojo/dnd/Mover
+	dijit/form/HorizontalRule
+	dijit/BackgroundIframe
+	dijit/templates/Menu.html
+	dojo/dnd/Avatar
+	dijit/form/_Spinner
+	dijit/form/Button
+	dojo/dnd/move
+	dijit/_WidgetBase
+	dijit/form/Form
+	dojo/store/Memory
+	dijit/templates/Tooltip.html
+	dijit/_base/sniff
+	dojo/cldr/nls/currency
+	dojox/form/uploader/plugins/HTML5
+	dijit/Toolbar
+	dijit/layout/StackContainer
+	dojo/regexp
+	dijit/form/ComboBox
+	dijit/DropDownMenu
+	dijit/form/_FormMixin
+	dijit/Menu
+	dijit/form/_CheckBoxMixin
+	dijit/layout/ContentPane
+	dijit/form/templates/ValidationTextBox.html
+	dijit/_KeyNavContainer
+	dijit/layout/utils
+	dijit/_Contained
+	dijit/form/templates/TextBox.html
+	dijit/form/DataList
+	dijit/templates/Dialog.html
+	dijit/form/CheckBox
+	dijit/templates/MenuBar.html
+	dijit/_Container
+	dojo/dnd/Source
+	dojo/html
+	dijit/templates/TitlePane.html
+	dijit/form/ValidationTextBox
+	dijit/_base/typematic
+	dijit/_base
+	dijit/layout/BorderContainer
+	dojo/window
+	dojo/number
+	dijit/_FocusMixin
+	dijit/_WidgetsInTemplateMixin
+	dojo/data/util/filter
+	dijit/form/HorizontalRuleLabels
+	dijit/templates/MenuBarItem.html
+	dijit/form/FilteringSelect
+	dojo/data/util/sorter
+	dijit/form/_ButtonMixin
+	dijit/form/templates/Spinner.html
+	dijit/registry
+	dojo/date/locale
+	dijit/_base/wai
+	dijit/form/VerticalRule
+	dijit/form/_FormSelectWidget
+	dijit/form/Select
+	dojox/html/entities
+	dojo/store/util/QueryResults
+	dijit/form/_ListBase
+	dijit/form/_FormWidget
+	dojo/dnd/common
+	dijit/CalendarLite
+	dojox/form/nls/Uploader
+	dojo/io/iframe
+	dijit/form/VerticalRuleLabels
+	dojox/form/uploader/plugins/IFrame
+	dijit/Declaration
+	dijit/_base/place
+	dijit/MenuSeparator
+	dijit/form/_ComboBoxMenu
+	dijit/Dialog
+	dijit/form/MultiSelect
+	dijit/form/_DateTimeTextBox
+	dijit/_base/focus
+	dijit/a11y
+	dijit/form/_ToggleButtonMixin
+	dijit/Calendar
+	dojo/dnd/Container
+	dijit/_Widget
+	dojo/touch
+	dijit/form/templates/Select.html
+	dojo/fx
+	dijit/form/nls/ComboBox
+	dojox/form/uploader/Base
+	dojox/form/resources/Uploader.html
+	dijit/_DialogMixin
+	dijit/nls/common
+	dijit/form/HorizontalSlider
+	dijit/form/_FormValueWidget
+
+epi/packaging/packaging:
+	dojox/string/tokenize
+	epi/packaging/AntiForgeryData
+	put-selector/put
+	epi/packaging/StatusMessageList
+	epi/packaging/ModulesList
+	epi/packaging/templates/PackageUpload.htm
+	epi/packaging/SiteRestartWarning
+	epi/packaging/UpdateableSection
+	epi/packaging/templates/NavigationMenu.htm
+	epi/packaging/DependenciesGrid
+	epi/packaging/templates/Section.htm
+	epi/packaging/templates/SectionHeader.htm
+	dojox/dtl/_Templated
+	epi/packaging/templates/UploadResults.htm
+	epi/packaging/packaging
+	epi/packaging/templates/SiteRestartWarning.htm
+	epi/packaging/UploadSection
+	epi/packaging/GallerySection
+	epi/packaging/PackagesGrid
+	xstyle/has-class
+	epi/packaging/RestartSite
+	epi/packaging/SelectedFiles
+	epi/packaging/templates/DetailedView.htm
+	dgrid/Grid
+	dgrid/util/misc
+	epi/packaging/UploadResults
+	epi/packaging/main
+	epi/packaging/templates/SelectedFiles.htm
+	epi/packaging/Toolbar
+	dojox/dtl/_base
+	dgrid/List
+	dojox/form/uploader/FileList
+	dojox/dtl/tag/logic
+	epi/packaging/RootContainer
+	epi/packaging/DetailedView
+	epi/packaging/ModuleSummary
+	dgrid/OnDemandGrid
+	dgrid/Selection
+	dgrid/_StoreMixin
+	epi/packaging/PackageUpload
+	epi/packaging/InstalledSection
+	epi/packaging/templates/ModuleSummary.htm
+	epi/packaging/templates/RestartSite.htm
+	epi/packaging/NavigationMenu
+	dojo/io/iframe
+	dojox/form/uploader/plugins/IFrame
+	dojox/string/Builder
+	xstyle/css
+	dgrid/OnDemandList
+	epi/packaging/SectionHeader
+	epi/packaging/LinkButton
+	dgrid/Keyboard
+
+epi/patches:
+	dojo/uacss
+	dijit/form/RangeBoundTextBox
+	dojo/text
+	dojo/cldr/nls/number
+	dijit/hccss
+	dijit/form/_TextBoxMixin
+	epi/patch/dojox/form/uploader/plugins/HTML5
+	dojox/form/uploader/Base
+	dojo/parser
+	dijit/form/_FormMixin
+	epi/patch/dijit/_HasDropDown
+	epi/patches
+	epi/patch/dijit/form/_FormMixin
+	dojox/form/nls/Uploader
+	epi/patch/patches
+	dijit/form/TextBox
+	dijit/form/templates/Spinner.html
+	dijit/form/_FormWidgetMixin
+	dojo/i18n
+	dijit/form/ValidationTextBox
+	dijit/BackgroundIframe
+	dijit/_WidgetsInTemplateMixin
+	dijit/form/_FormValueMixin
+	dijit/form/templates/ValidationTextBox.html
+	dijit/form/nls/validate
+	dojo/Stateful
+	dojo/touch
+	dijit/_CssStateMixin
+	dojo/_base/url
+	dijit/form/_FormValueWidget
+	dojo/string
+	dijit/form/Button
+	dijit/registry
+	dijit/_base/manager
+	dojox/form/Uploader
+	epi/patch/dijit/form/NumberSpinner
+	dijit/a11y
+	dijit/templates/Tooltip.html
+	dijit/form/templates/Button.html
+	dijit/typematic
+	dojo/regexp
+	dijit/place
+	dijit/form/NumberTextBox
+	dijit/_Widget
+	dojo/cache
+	dijit/_FocusMixin
+	dijit/_OnDijitClickMixin
+	dijit/focus
+	dojox/form/uploader/plugins/HTML5
+	dijit/main
+	dojo/date/stamp
+	dojo/number
+	dojox/form/resources/Uploader.html
+	dijit/form/MappedTextBox
+	dijit/form/_Spinner
+	dijit/form/_ButtonMixin
+	dijit/form/_FormWidget
+	dijit/form/NumberSpinner
+	dijit/_TemplatedMixin
+	dojo/window
+	dijit/_HasDropDown
+	dijit/Tooltip
+	dijit/form/templates/TextBox.html
+	dijit/popup
+	dijit/_WidgetBase
+
+
+
+Process finished normally
+	errors: 0
+	warnings: 12
+	build time: 46.732 seconds

@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/widget/CreateContentFormLayout",["epi","dojo","dijit","epi/shell/widget/ContainerLayout","dijit/_WidgetsInTemplateMixin"],function(_1,_2,_3,_4,_5){return _2.declare("epi.cms.widget.CreateContentFormLayout",[_4,_5],{layout:function(){this.inherited(arguments);var _6=this.getChildren();_2.forEach(this.formsRowContainer.childNodes,_2.hitch(this,function(_7,_8){var _9=(_6[_8]?_6[_8].label:undefined);if(_9){var _a=_2.create("div",{innerHTML:"<h2>"+_9+"</h2>","class":"epi-formsHeaderContainer"});_2.place(_a,_7,"first");}}));}});});

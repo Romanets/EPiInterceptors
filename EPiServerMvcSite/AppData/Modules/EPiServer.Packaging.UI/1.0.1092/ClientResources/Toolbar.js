@@ -1,0 +1,2 @@
+//>>built
+define("epi/packaging/Toolbar",["dojo","epi/shell/widget/Toolbar","epi/i18n!epi/packaging/nls/EPiServer.Packaging.UI.Toolbar"],function(_1,_2,_3){return _1.declare("epi.packaging.Toolbar",[_2],{res:_3,constructor:function(){},postCreate:function(){this.add([{name:"upload",label:this.res.uploadbuttonlabel,action:function(){_1.publish("/epi/shell/action/changeview",["epi/packaging/UploadSection"]);}},{name:"restartWarning",widgetType:"epi.packaging.SiteRestartWarning"}]);this.inherited(arguments);},destroy:function(){this.inherited(arguments);}});});

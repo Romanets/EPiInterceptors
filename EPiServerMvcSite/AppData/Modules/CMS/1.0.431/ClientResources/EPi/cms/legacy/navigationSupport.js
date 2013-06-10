@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/legacy/navigationSupport",[],function(){return {registerFor:function(_1){_1.navigateEvent=function(_2,_3){contextParameters={uri:"epi.cms.contentdata:///"+_3};dojo.publish("/epi/shell/context/request",[contextParameters]);};}};});

@@ -1,0 +1,178 @@
+﻿@import "variables.less";
+
+.Sleek {
+    /***************************************/
+    /* Shared Block container */
+    .epi-sharedBlockContainer {
+        min-height: 360px;
+        width: 100% !important;
+
+        .dijitSplitter {
+            left: 0px;
+            width: 100%;
+            margin-bottom: -2px;
+        }
+    }
+
+    .epi-sharedBlockToolbar {
+        background-color: @unselected-background-color;
+        border-top: 1px solid @border-color;
+        height: 30px;
+        padding-left: 3px;
+        overflow: hidden;
+    }
+
+    .epi-separatorVertical {
+        height: 30px;
+        width: 1px; 
+        border-right: 1px solid @border-color;
+    }
+
+    .epi-sharedBlock-resizeHandler {
+        background-color: @unselected-background-color;
+        height: 5px;
+        .dojoxResizeHandle {
+            left: 0px;
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+
+    .epi-sharedBlock-resizeHandler:hover {
+        background-color: @hovered-background-color;
+    }
+
+    .epi-opacity50 {
+        opacity:0.5;
+        filter:alpha(opacity=50); /* For IE8 and earlier */
+    }
+
+    /***************************************/
+    /* Block list */
+
+
+	.epi-sharedBlockContainer {
+		.epi-blockContainer.dijitSplitContainer-dijitContentPane, .epi-blockContainer.dijitBorderContainer-dijitContentPane {
+			background-color: @epi-gadget-background;
+		}
+	}
+
+    .epi-blockContainer {
+        height: 200px;
+        overflow-y: auto;
+        position: relative;
+
+        .dgrid-no-data{
+            padding: 24px;
+            text-align: center;
+        }
+        
+        .dgrid {
+            /* Auto height of dgrid */ 
+            height: auto;
+			width: auto;
+            
+            // Hide header scroller
+            .dgrid-header-scroll {
+                display: none;
+            }
+
+            .dgrid-scroller {
+                position: relative;
+                overflow: hidden;
+                overflow-y: auto;
+                
+                // Make dgrid row have better viewport
+                .dgrid-cell {
+                    line-height: 18px;
+                    padding: 2px;
+                }
+            }
+        }
+        
+        // TODO: Move it to common place later.
+        // Block row icon on Block list
+        .dgrid-column-icon {
+            width: 25px;
+            
+            .epi-iconObjectSharedBlock {
+                margin: 3px 3px 3px 5px;
+            }
+        }
+
+        .dgrid-column-contextmenu {
+            width: 25px;
+
+            .epi-blockListEditAction {
+                margin: 0 24px 0 5px;
+                display: none;
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .dgrid-selected,
+        .epi-dgrid-mouseover{
+             .epi-blockListEditAction {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .epi-blockContainer.epi-widgetResizeContent {
+        padding-bottom: 13px;
+    }
+
+    .epi-blockGridHeader {
+        display: block;
+        height: 22px;
+        line-height: 22px;
+        padding-left: 32px;        
+        border: 1px solid @epi-grid-header-border;
+        border-left: none;
+        border-right: none;
+        .svgBackground(#e4e4e4,0px,-2300px,'images/gradients/grid_header.svg');
+    }
+    .epi-blockGrid {
+        .dojoxGridHeader {
+            display:none;
+        }
+    }
+
+    .epi-widgetResizeContent {
+        position: relative;
+        overflow-x: hidden;
+        width: 100% !important;
+
+        .dijitTree {
+            overflow: hidden;
+            width: 100% !important;
+            margin-bottom: 13px;
+        }
+    }
+
+    .epi-folderTreeNode {
+        .dijitTreeContent {
+            margin-left: 6px;
+        }
+    }
+
+    .epi-createBlock {
+		cursor: pointer;
+        background-color: #e1e9eb;
+        border-radius: 6px;
+        padding: 8px 10px;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .epi-editor-createBlock {
+        display: block;
+        text-align: center;
+    }
+    .epi-editor-createBlock:hover {
+        text-decoration: underline;
+    }
+}

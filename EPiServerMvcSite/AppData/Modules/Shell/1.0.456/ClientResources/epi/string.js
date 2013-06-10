@@ -1,0 +1,2 @@
+//>>built
+define("epi/string",[],function(){return {pascalToCamel:function(_1){var _2=_1.split(".");var _3=_2[0].replace(/^(.)/g,function(c){return (c||"").toLowerCase();});for(i=1;i<_2.length;i++){_3=_3+"."+_2[i].replace(/^(.)/g,function(c){return (c||"").toLowerCase();});}return _3;},toHTML:function(_4){if(!_4){return "";}return _4.replace(/\\n/gim,"<br/>");},toTooltipText:function(_5){if(!_5){return "";}return _5.replace(/\\n/gim,"\n");},slashName:function(_6){return _6.replace(/\./g,"/");}};});

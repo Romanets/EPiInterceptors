@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/ContentModel",["epi","dojo","epi/shell/Stateful"],function(_1,_2,_3){return _2.declare("epi.cms.contentediting.ContentModel",_3,{_validState:null,constructor:function(){this._validState=new _3();},setValidState:function(_4,_5){if(_5&&_5.isValid){this._validState.set(_4,null);}else{this._validState.set(_4,_5.message);}},watchValidState:function(_6,_7){this._validState.watch(_6,_7);}});});

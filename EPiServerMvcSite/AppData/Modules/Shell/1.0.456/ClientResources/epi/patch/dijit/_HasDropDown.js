@@ -1,0 +1,2 @@
+//>>built
+define("epi/patch/dijit/_HasDropDown",["dojo/_base/array","dojo/_base/lang","dijit/_HasDropDown"],function(_1,_2,_3){_2.mixin(_3.prototype,{_onBlur:function(){var _4=focus.curNode&&this.dropDown&&dom.isDescendant(focus.curNode,this.dropDown.domNode);this.inherited(arguments);this.closeDropDown(_4);}});_3.prototype._onBlur.nom="_onBlur";});

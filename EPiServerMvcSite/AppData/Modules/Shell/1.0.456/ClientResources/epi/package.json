@@ -1,0 +1,15 @@
+﻿{
+	"name": "epi",
+	"version":"1.0.0",
+	"main":"main",
+	"dependencies": {
+		"dojo": "current",
+		"dijit": "current"
+	},
+	"description": "",
+	"licenses": [],
+	"bugs": "",
+	"keywords": [],
+	"homepage": "",
+	"dojoBuild": "epi.profile.js"
+}

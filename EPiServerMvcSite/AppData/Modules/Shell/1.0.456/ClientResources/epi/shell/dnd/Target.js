@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/dnd/Target",["epi","dojo","dijit","dojo/on","./Source"],function(_1,_2,_3,on,_4){return _2.declare("epi.shell.dnd.Target",[_4],{constructor:function(_5,_6){this.isSource=false;_2.removeClass(this.node,"dojoDndSource");}});});

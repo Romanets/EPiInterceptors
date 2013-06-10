@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/command/builder/MenuWithSeparatorBuilder",["dojo/_base/array","dojo/_base/declare","dojo/_base/lang","dojo/on","dijit/MenuSeparator","epi/shell/command/builder/MenuBuilder"],function(_1,_2,_3,on,_4,_5){return _2([_5],{_addToContainer:function(_6,_7){var _8=new _4();_7.addChild(_6);_7.addChild(_8);}});});

@@ -1,0 +1,48 @@
+﻿@import "variables.less";
+
+.Sleek {
+    // Enable auto resize in search result list
+    .epi-searchResultList {
+        background-color: @epi-content-list-background-color;
+        
+        // Set minimum height to show fully standby
+        min-height: 29px;
+        padding: 5px 0;
+
+        .dgrid {
+            height: auto; // Reset default height
+
+            // Hide header scroller
+            .dgrid-header-scroll {
+                display: none;
+            }
+
+            .dgrid-scroller {
+                position: static; // Reset default position
+                max-height: 300px;
+                overflow: hidden;
+                overflow-y: auto;
+
+                .dgrid-content {
+                    height: auto; // Reset default height
+
+                    // Make row have better viewport
+                    .dgrid-cell {
+                        line-height: 24px;
+                        padding: 3px 10px;
+                    }
+                }
+            }
+        }
+
+        .epi-searchResultListEmptyMessage {
+            text-align: center;
+            line-height: 24px;
+            display: none;
+        }
+
+        .epi-searchResultListNavigation {
+            display: none;
+        }
+    }
+}

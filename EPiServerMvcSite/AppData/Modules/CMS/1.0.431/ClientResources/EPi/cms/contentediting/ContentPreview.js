@@ -1,0 +1,2 @@
+//>>built
+define("epi/cms/contentediting/ContentPreview",["dojo/_base/declare","epi/cms/contentediting/_View"],function(_1,_2){return _1("epi.cms.contentediting.ContentPreview",[_2],{isSticky:true,noPreview:true,constructor:function(){this.defaultQueryParameters={};},startup:function(){this.inherited(arguments);this.overlay.set("enabled",true);}});});

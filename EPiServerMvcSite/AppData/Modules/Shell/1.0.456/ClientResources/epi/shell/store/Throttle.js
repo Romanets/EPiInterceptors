@@ -1,0 +1,2 @@
+//>>built
+define("epi/shell/store/Throttle",["dojo","dojo/_base/lang"],function(_1,_2){return function(_3){var _4=[];var _5=function(_6){for(var i=0;i<_4.length;i++){if(_4[i].deferred===_6){return _4.splice(i,1);}}return null;};var _7=function(_8){for(var i=0;i<_4.length;i++){if(_4[i].args===_8){return _4[i];}}return null;};return _2.delegate(_3,{get:function(){var _9=_1.toJson(arguments);var _a=_7(_9);if(_a){return _a.deferred;}var _b=_3.get.apply(_3,arguments);_4.push({deferred:_b,args:_9});_1.when(_b,function(){_5(_b);},function(){_5(_b);});return _b;}});};});

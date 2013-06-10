@@ -1,0 +1,82 @@
+<div>
+    <div class="epi-paddingVertical-small">
+        <table class="epi-default" dojoAttachPoint="installedTable">
+            <thead>
+                <tr>
+                    <th>
+                        ${res.headerindex}
+                    </th>
+                    <th>
+                        ${res.headerfile}
+                    </th>
+                    <th>
+                        ${res.headersize}
+                    </th>
+                    <th>
+                        ${res.headerid}
+                    </th>
+                    <th>
+                        ${res.headertitle}
+                    </th>
+                    <th>
+                        ${res.headersummary}
+                    </th>
+                    <th>
+                        ${res.headerdescription}
+                    </th>
+                    <th>
+                        ${res.headerstatus}
+                    </th>
+                </tr>
+            </thead>
+            {% for uploadedFile in files %}
+            <tr>
+                <td>
+                    {{ uploadedFile.index }}
+                </td>
+                <td>
+                    {{ uploadedFile.packageFileName|safe }}
+                </td>
+                <td class="sizeColumn">
+                    {{ uploadedFile.sizeStr }}
+                </td>
+
+                {% if uploadedFile.packageInfo.isInstalled %}
+                <td>
+                    {{ uploadedFile.packageInfo.id|safe }}
+                </td>
+                <td>
+                    {{ uploadedFile.packageInfo.title|safe }}
+                </td>
+                <td>
+                    {{ uploadedFile.packageInfo.summary|safe }}
+                </td>
+                <td>
+                    {{ uploadedFile.packageInfo.description|safe }}
+                </td>
+                <td class="installedIcon">
+                </td>
+                {% else %}
+                <td colspan="4">
+                    <span class="error">
+                        <ul>
+                            {% for error in uploadedFile.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+
+                        <ul>
+                            {% for error in uploadedFile.packageInfo.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    </span>
+                </td>
+                <td class="failureIcon">
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>

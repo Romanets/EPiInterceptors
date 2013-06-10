@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="System.Web.Mvc.Html" %>
+<%@ Import Namespace="EPiServer.Framework.Web.Mvc.Html"%>
+<%@ Import Namespace="EPiServer.Framework.Web.Resources"%>
+<%@ Import Namespace="EPiServer.Cms.Shell" %>
+<%@ Import Namespace="EPiServer.Shell" %>
+<%@ Import Namespace="EPiServer.Shell.Navigation" %>
+<%@ Import Namespace="EPiServer.Shell.Web.Mvc.Html"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="overflow: auto;" >
+    <head runat="server">
+        <title runat="server"><%= Html.Translate("/shell/cms/visitorgroups/index/name")%></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />        
+
+        <%= Page.DojoConfig(true, true, false) %>
+        
+        <script type="text/javascript" src="<%= Paths.ToShellClientResource("ClientResources/dtk/dojo/dojo.js") %>"></script>
+        <%= Page.ClientResources("ShellCore") %>
+        <%= Page.ClientResources("ShellWidgets") %>
+        <%= Page.ClientResources("ShellCoreLightTheme") %>
+        <%= Page.ClientResources("ShellWidgetsLightTheme")%>
+        <%= Page.ClientResources("Navigation") %>
+        <%= Page.ClientResources("DijitWidgets", new[] { ClientResourceType.Style })%>
+        <%= Html.CssLink(EPiServer.Web.PageExtensions.ThemeUtility.GetCssThemeUrl(Page, "system.css")) %>
+        <%= Html.CssLink(EPiServer.Web.PageExtensions.ThemeUtility.GetCssThemeUrl(Page, "ToolButton.css"))%>
+        <%= Html.CssLink(EPiServer.Shell.Paths.ToClientResource("CMS", "ClientResources/Epi/Base/CMS.css"))%>
+        
+        <!-- Shell init script -->
+
+        <%= Html.ShellAsyncInitializationScript() %>
+        
+<!--[if IE 6]>
+        <%= Html.CssLink(EPiServer.Web.PageExtensions.ThemeUtility.GetCssThemeUrl(Page, "IE6.css"))%>
+        <%= Html.CssLink(EPiServer.Web.PageExtensions.ThemeUtility.GetCssThemeUrl(Page, "IE.css"))%>
+<![endif]-->
+        <%= Html.ScriptResource(EPiServer.UriSupport.ResolveUrlFromUtilBySettings("javascript/episerverscriptmanager.js"))%>
+        <%= Html.ScriptResource(EPiServer.UriSupport.ResolveUrlFromUtilBySettings("javascript/system.js")) %>
+        <%= Html.ScriptResource(EPiServer.UriSupport.ResolveUrlFromUtilBySettings("javascript/dialog.js")) %>
+        <%= Html.ScriptResource(EPiServer.UriSupport.ResolveUrlFromUtilBySettings("javascript/system.aspx")) %>
+        
+        <asp:ContentPlaceHolder runat="server" id="HeaderContentRegion" /> 
+        
+        <%-- 
+            The script below handles a bug/feature in IE6  
+            with background images in elements being fetched from the server.
+            This happens when hovering, loading other frames and such if other style properties like 
+            background-position, background-repeat, background-color... of the element is set to other than default.
+            The script sets BackGroundImageCache to true which for some reason is set to false by default.
+            Other browsers (IE7, Firefox) does not implement BackgroundImageCache hence the try/catch.
+        --%>
+        <script type="text/javascript">
+            try {
+                document.execCommand("BackgroundImageCache", false, true);
+            } catch(err) {}
+        
+        </script>
+    </head>
+    <body class="claro epi-visitorgroup-admin-ui">
+        <form id="aspnetForm" runat="server">
+            <%= Html.AntiForgeryToken()%>
+            <asp:ContentPlaceHolder ID="FullRegion" runat="server">
+                <%= Html.GlobalMenu() %>
+                <div class="epi-padding">
+                    <div class="epi-contentArea">
+                        <asp:ValidationSummary ID="ValidationSummary" runat="server" CssClass="EP-validationSummary" ForeColor="Black" />
+                    </div>          
+                    <asp:ContentPlaceHolder ID="MainRegion" runat="server"/>
+                </div>
+            </asp:ContentPlaceHolder>
+        </form>
+    </body>
+</html>

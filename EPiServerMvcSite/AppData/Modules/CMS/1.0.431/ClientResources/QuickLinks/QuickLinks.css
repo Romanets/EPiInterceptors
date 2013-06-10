@@ -1,0 +1,63 @@
+﻿.epi-quickLinks, .epi-quickLinksEdit {
+}
+
+.epi-quickLinksEdit h3 {
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+    border-bottom: 1px solid #9ab3c9;
+    padding: 0.2em 0.2em 0.2em 0;
+    display: block;
+    color: #384B5E;
+}
+
+.epi-quickLinks ul {
+    margin-bottom: 1em;
+}
+
+.epi-quickLinks ul li {
+    padding: 0.2em;
+}
+
+.epi-quickLinksRow {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Add links section */
+.epi-quickLinksEdit table {
+    width: 100%;
+}
+
+.epi-quickLinksEdit table thead tr th {
+    font-weight: bold;
+}
+
+.epi-quickLinksEdit tr td, .epi-quickLinksEdit tr th {
+   padding: 0.2em 0;
+}
+
+.epi-quickLinksEdit input[type="text"] {
+    width: 95%;
+}
+
+.epi-quickLinksEdit input[type="text"][readonly] {
+    border: 1px solid #9AB3C9;
+} 
+
+input.error {
+    border: 1px solid red !important;
+}
+
+input.epi-quickLinksActiveInput, input.epi-quickLinksHoverInput {
+    border: 1px solid #3875d7;
+}
+
+/* Delete button */
+
+a.epi-quickLinksDelete span {
+    display: none;
+}
+
+a.epi-quickLinksDelete:hover {
+    background-position: -16px -150px;
+}

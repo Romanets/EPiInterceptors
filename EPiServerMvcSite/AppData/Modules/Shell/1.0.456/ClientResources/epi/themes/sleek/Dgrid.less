@@ -1,0 +1,80 @@
+﻿@import "variables";
+
+.Sleek {
+    .dojoxExpandoRight .dojoxGridHeader .dojoxGridCell {
+        border-top: none;
+    }
+    .dgrid { 
+        border: none; 
+        
+        .epi-timestamp {
+            .epi-timestampReset;
+        }
+    }
+    .dgrid-scroller {
+        overflow: auto;
+    }
+    .ui-widget-header.dgrid-header-scroll {
+        display: none;    
+    }
+    .dgrid-header { background: #e4e4e4; right: 0; }
+    .dgrid-header .dgrid-cell,
+    .ui-widget-header.dgrid-header-scroll {
+        border: 1px solid @epi-grid-header-border;
+        border-right: none;
+	    .svgBackground(#e4e4e4,0px,-2300px,'images/gradients/grid_header.svg');
+	    font-weight: normal;
+    }
+    
+    .dgrid-header .dgrid-cell:first-child,
+    .ui-widget-header.dgrid-header-scroll  {
+        border-left: none;
+    }
+    .dgrid-cell {
+        border: none;
+    }
+    .ui-widget-content {
+        background: #fafafa;
+        border: none;
+    }
+    .ui-widget-header {
+        border: none;
+        font-weight: normal;
+    }
+    .ui-state-default, 
+    .ui-widget-content .ui-state-default {
+        background: #fafafa;
+        background-image: none;
+        border: none;
+    }
+    .dgrid-row.dgrid-selected.ui-state-active,
+    .dgrid-row.dgrid-row-published.ui-state-active {
+        border: none;
+	    .epi-selectedItemInactiveBackground;
+    }
+    .epi-focused .ui-state-active, 
+    .epi-focused .ui-widget-content .ui-state-active,
+    .epi-focused .dgrid-row.dgrid-selected.ui-state-active,
+    .epi-focused .dgrid-row.dgrid-row-published.ui-state-active {
+        border: none;
+	    .epi-selectedItemBackground;
+    }    
+    .dgrid-row { 
+        background: #fafafa; 
+        background-image: none;
+        padding: 5px;
+		cursor: pointer;
+		
+		.epi-objectIcon {
+		    float: left;
+		    margin-right: 3px;
+        }
+		.dojoxEllipsis { width: auto; } // to keep the label inline
+    }
+    .epi-componentContainer .dgrid-row {
+        padding: 2px;
+    }
+    .dgrid-row.dgrid-row-even { background: @epi-grid-row-even; }
+    .dgrid-row.dgrid-row-odd { background: @epi-grid-row-odd; }
+	.dgrid-no-data {padding: 5px;}
+}
