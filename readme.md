@@ -21,7 +21,7 @@ registry.InterceptWith<DefaultPorpertyValueInterceptor>();
 
 Also you can use abstract class "EPiInterceptors.InterceptionRegistrationModule" to implement you own initializable module for interceptors registration purpose:
 
-'''c#
+```c#
 
 using EPiInterceptors;
 using EPiServer.Framework;
@@ -38,4 +38,4 @@ namespace EPiServerMvcSite.Interception.Sample
     }
 }
 
-'''
+```
