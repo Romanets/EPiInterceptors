@@ -1,12 +1,11 @@
 ﻿using EPiInterceptors;
 using EPiServer.Framework;
 using EPiServer.ServiceLocation;
-using EPiServerMvcSite.Interception.Sample;
 
-namespace EPiServerMvcSite.Interception
+namespace EPiServerMvcSite.Interception.Sample
 {
-    [ModuleDependency(typeof(ServiceContainerInitialization))]
-    public class DefaultInterceptorRegisterModule : ContentInterceptorRegistrationModuleBase
+    [InitializableModule]
+    public class DefaultInterceptorRegisterModule : InterceptionRegistrationModule
     {
         public override void RegisterInterceptors(ContentDataInterceptonRegistry registry)
         {

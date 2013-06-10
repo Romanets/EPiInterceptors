@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using Castle.DynamicProxy;
 
-namespace EPiServerMvcSite.Interception
+namespace EPiServerMvcSite.Interception.Sample
 {
     public class DefaultPorpertyValueInterceptor : IInterceptor
     {

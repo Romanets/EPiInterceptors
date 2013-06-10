@@ -8,7 +8,6 @@ namespace EPiInterceptors
     /// <summary>
     /// Configures EPiServer's DI container to inject extension components of data content interception pipeline.
     /// </summary>
-    [InitializableModule]
     [ModuleDependency(typeof(ServiceContainerInitialization))]
     public class ContentDataInterceptionExtendModule : IConfigurableModule
     {
