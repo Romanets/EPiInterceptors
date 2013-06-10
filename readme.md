@@ -1,7 +1,7 @@
 EPiInterceptors
 ===============
 
-The goal of project is provide easy way for extension EpiServer's content data object's interception pipeline. You can register you own interceptor using "EPiInterceptors.ContentDataInterceptonRegistry" instance provided by EpiSercervers ServiceLocator component, see the following axample:
+The goal of project is provide an easy way to extend EpiServer's content data object's interception pipeline. You can register you own interceptor using "EPiInterceptors.ContentDataInterceptonRegistry" instance provided by EpiSercervers ServiceLocator component, see the following example:
 
 ```c#
 ...
