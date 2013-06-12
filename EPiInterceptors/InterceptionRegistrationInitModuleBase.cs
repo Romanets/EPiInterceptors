@@ -29,7 +29,7 @@ namespace EPiInterceptors
         /// </remarks>
         public virtual void Initialize(InitializationEngine context)
         {
-            RegisterContentDataInterceptors(ServiceLocator.Current.GetInstance<ContentDataInterceptonRegistry>());
+            RegisterContentDataInterceptors(context.Locate.Advanced.GetInstance<ContentDataInterceptonRegistry>());
         }
 
         /// <summary>

@@ -51,7 +51,6 @@ namespace EPiInterceptors
         /// </summary>
         public IList<Type> CustomInterceptorTypes { get; private set; }
 
-
         /// <summary>
         /// Gets the auto property interceptors.
         /// </summary>
