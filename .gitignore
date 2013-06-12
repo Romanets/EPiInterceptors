@@ -5,3 +5,4 @@ Debug/
 packages/
 *.nupkg
 EPiServerMvcSite/EPiServerMvcSite/bin/
+EPiServerMvcSite/AppData/Index/
