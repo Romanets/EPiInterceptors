@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Castle.DynamicProxy;
 using EPiServer.Core;
 using EPiServer.DataAbstraction.RuntimeModel;
@@ -11,7 +13,8 @@ namespace EPiInterceptors
     /// </summary>
     public class ContentDataInterceptorExtender : ContentDataInterceptor
     {
-        private readonly ContentDataInterceptonRegistry _interceptorsRegistry;
+        private readonly IEnumerable<IAutoPropertyInterceptor> _autoPropertyInterceptors;
+        private readonly IEnumerable<IInterceptor> _customInterceptors;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ContentDataInterceptorExtender"/> class.
@@ -19,7 +22,7 @@ namespace EPiInterceptors
         public ContentDataInterceptorExtender()
             : this(
             ServiceLocator.Current.GetInstance<ContentDataInterceptorHandler>(),
-            ServiceLocator.Current.GetInstance<ContentDataInterceptonRegistry>()
+            ServiceLocator.Current.GetInstance<IContentDataInterceptonRegistry>()
             )
         {
         }
@@ -29,18 +32,41 @@ namespace EPiInterceptors
         /// </summary>
         /// <param name="contentDataInterceptorHandler">The content data interceptor handler (The part of EpiServer interception components).</param>
         /// <param name="interceptorsRegistry">The additional interceptors registry.</param>
-        public ContentDataInterceptorExtender(ContentDataInterceptorHandler contentDataInterceptorHandler, ContentDataInterceptonRegistry interceptorsRegistry)
+        public ContentDataInterceptorExtender(ContentDataInterceptorHandler contentDataInterceptorHandler, IContentDataInterceptonRegistry interceptorsRegistry)
             : base(contentDataInterceptorHandler)
         {
-            _interceptorsRegistry = interceptorsRegistry;
+            if (interceptorsRegistry != null)
+            {
+                _customInterceptors = interceptorsRegistry.GetCustomInterceptors();
+                _autoPropertyInterceptors = interceptorsRegistry.GetAutoPropertyInterceptors();
+            }
+            else
+            {
+                _customInterceptors = Enumerable.Empty<IInterceptor>();
+                _autoPropertyInterceptors = Enumerable.Empty<IAutoPropertyInterceptor>();
+            }
         }
 
         /// <summary>
-        /// Gets the interceptors registry.
+        /// Gets the auto property interceptors.
         /// </summary>
-        protected ContentDataInterceptonRegistry InterceptorsRegistry
+        /// <value>
+        /// The auto property interceptors.
+        /// </value>
+        protected IEnumerable<IAutoPropertyInterceptor> AutoPropertyInterceptors
         {
-            get { return _interceptorsRegistry; }
+            get { return _autoPropertyInterceptors; }
+        }
+
+        /// <summary>
+        /// Gets the custom interceptors.
+        /// </summary>
+        /// <value>
+        /// The custom interceptors.
+        /// </value>
+        protected IEnumerable<IInterceptor> CustomInterceptors
+        {
+            get { return _customInterceptors; }
         }
 
         /// <summary>
@@ -51,12 +77,9 @@ namespace EPiInterceptors
         {
             base.Intercept(invocation);
 
-            if (InterceptorsRegistry != null && InterceptorsRegistry.CustomInterceptors != null)
+            foreach (var interceptor in CustomInterceptors)
             {
-                foreach (var interceptor in InterceptorsRegistry.CustomInterceptors)
-                {
-                    interceptor.Intercept(invocation);
-                }
+                interceptor.Intercept(invocation);
             }
         }
 
@@ -89,12 +112,7 @@ namespace EPiInterceptors
         /// <param name="invokeAction">The invoke action.</param>
         private void InvokePropertyInterceptors(Action<IAutoPropertyInterceptor> invokeAction)
         {
-            if (InterceptorsRegistry == null || InterceptorsRegistry.AutoPropertyInterceptors == null)
-            {
-                return;
-            }
-
-            foreach (var interceptor in InterceptorsRegistry.AutoPropertyInterceptors)
+            foreach (var interceptor in AutoPropertyInterceptors)
             {
                 invokeAction(interceptor);
             }

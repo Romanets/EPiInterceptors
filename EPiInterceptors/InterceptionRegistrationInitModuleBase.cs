@@ -8,8 +8,16 @@ namespace EPiInterceptors
     /// Represents the base <see cref="IInitializableModule"/> that can be used to register additional interceptors to EpiServer content data interception pipeline.
     /// <remarks>Attention! Don't forget to add <see cref="InitializableModuleAttribute"/> to derived class.</remarks>
     /// </summary>
-    public abstract class InterceptionRegistrationModule : IInitializableModule
+    public abstract class InterceptionRegistrationInitModuleBase : IConfigurableModule
     {
+        /// <summary>
+        /// Configure the IoC container before initialization.
+        /// </summary>
+        /// <param name="context">The context on which the container can be accessed.</param>
+        public virtual void ConfigureContainer(ServiceConfigurationContext context)
+        {
+        }
+
         /// <summary>
         /// Initializes this instance.
         /// </summary>
@@ -21,14 +29,14 @@ namespace EPiInterceptors
         /// </remarks>
         public virtual void Initialize(InitializationEngine context)
         {
-            RegisterInterceptors(ServiceLocator.Current.GetInstance<ContentDataInterceptonRegistry>());
+            RegisterContentDataInterceptors(ServiceLocator.Current.GetInstance<ContentDataInterceptonRegistry>());
         }
 
         /// <summary>
         /// Performs interceptors registration.
         /// </summary>
         /// <param name="registry">The registry.</param>
-        public abstract void RegisterInterceptors(ContentDataInterceptonRegistry registry);
+        public abstract void RegisterContentDataInterceptors(ContentDataInterceptonRegistry registry);
 
         /// <summary>
         /// Resets the module into an uninitialized state.

@@ -9,15 +9,15 @@ namespace EPiInterceptors
     /// Configures EPiServer's DI container to inject extension components of data content interception pipeline.
     /// </summary>
     [ModuleDependency(typeof(ServiceContainerInitialization))]
-    public class ContentDataInterceptionExtendModule : IConfigurableModule
+    public class ContentDataInterceptionExtendInitModule : IConfigurableModule
     {
         #region Ignored methods
-        
+
         public void Initialize(InitializationEngine context)
         {
         }
 
-       
+
         public void Uninitialize(InitializationEngine context)
         {
         }
@@ -37,6 +37,7 @@ namespace EPiInterceptors
             context.Container.Configure(config =>
                 {
                     config.For<ContentDataInterceptonRegistry>().Singleton().Use<ContentDataInterceptonRegistry>();
+                    config.For<IContentDataInterceptonRegistry>().Use(() => context.Container.GetInstance<ContentDataInterceptonRegistry>());
                     config.For<ContentDataInterceptor>().Use<ContentDataInterceptorExtender>();
                 });
         }

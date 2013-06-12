@@ -146,11 +146,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContentDataInterceptionExtendModule.cs" />
+    <Compile Include="ContentDataInterceptionExtendInitModule.cs" />
     <Compile Include="ContentDataInterceptonRegistry.cs" />
     <Compile Include="ContentDataInterceptorExtender.cs" />
-    <Compile Include="InterceptionRegistrationModule.cs" />
+    <Compile Include="InterceptionRegistrationInitModuleBase.cs" />
     <Compile Include="IAutoPropertyInterceptor.cs" />
+    <Compile Include="InterceptorsTypeList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
