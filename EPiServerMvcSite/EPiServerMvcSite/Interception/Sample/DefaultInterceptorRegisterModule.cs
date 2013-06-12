@@ -8,7 +8,7 @@ namespace EPiServerMvcSite.Interception.Sample
     {
         public override void RegisterContentDataInterceptors(ContentDataInterceptonRegistry registry)
         {
-           registry.InterceptWith<DefaultPorpertyValueInterceptor>();
+           registry.InterceptWith<DefaultPropertyValueInterceptor>();
         }
     }
 }

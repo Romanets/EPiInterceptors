@@ -188,7 +188,7 @@
   <ItemGroup>
     <Compile Include="Business\Initialization\DependencyResolveInitialization.cs" />
     <Compile Include="Interception\Sample\DefaultInterceptorRegisterModule.cs" />
-    <Compile Include="Interception\Sample\DefaultPorpertyValueInterceptor.cs" />
+    <Compile Include="Interception\Sample\DefaultPropertyValueInterceptor.cs" />
     <Compile Include="Controllers\SampleBlockController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Global.asax.cs">

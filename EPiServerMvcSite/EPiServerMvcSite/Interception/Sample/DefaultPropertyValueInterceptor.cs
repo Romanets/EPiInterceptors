@@ -6,7 +6,7 @@ using Castle.DynamicProxy;
 
 namespace EPiServerMvcSite.Interception.Sample
 {
-    public class DefaultPorpertyValueInterceptor : IInterceptor
+    public class DefaultPropertyValueInterceptor : IInterceptor
     {
         private const string PropertyGetMethodPefix = "get_";
 
