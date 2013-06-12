@@ -14,7 +14,7 @@ namespace EPiServerMvcSite.Interception.Sample
         {
             string methodName = invocation.Method.Name;
 
-            // target method is property getter and return value
+            // if target method is property getter and return value is null - do interception.
             if (!methodName.StartsWith(PropertyGetMethodPefix) || invocation.ReturnValue != null)
             {
                 return;
