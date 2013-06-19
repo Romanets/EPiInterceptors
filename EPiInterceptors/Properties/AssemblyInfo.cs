@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("EPiInterceptors")]
 [assembly: AssemblyDescription("Provides an easy way to extend EPiServer data content interception pipeline.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Creuna")]
+[assembly: AssemblyCompany("Roman Mironets, Creuna Kharkiv office")]
 [assembly: AssemblyProduct("EPiInterceptors")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.3")]
-[assembly: AssemblyFileVersion("1.0.3")]
+[assembly: AssemblyVersion("1.0.4")]
+[assembly: AssemblyFileVersion("1.0.4")]
